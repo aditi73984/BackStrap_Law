@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Backstrap Law",
@@ -25,6 +26,10 @@ export default function RootLayout({
           <main className="min-h-screen w-full">
             {children}
           </main>
+
+          <Toaster
+position="top-right"
+/>
 
           <Footer />
 

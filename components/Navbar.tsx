@@ -28,11 +28,15 @@ export default function Navbar() {
        
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logo-small.png"
-            alt="Back Strap Law"
-            width={40}
-            height={40}
-          />
+  src="/images/logo-small.png"
+  alt="Backstrap Law"
+  width={40}
+  height={40}
+  style={{
+    width: "40px",
+    height: "auto",
+  }}
+/>
           <div className="leading-tight">
             <h1 className="font-semibold text-black">
               <span className="text-[#a5880f] font-bold">B</span>ackstrap{" "}

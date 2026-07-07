@@ -3,6 +3,31 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+
+
+const particles = [
+  { top: "5%", left: "10%" },
+  { top: "15%", left: "80%" },
+  { top: "25%", left: "35%" },
+  { top: "40%", left: "70%" },
+  { top: "55%", left: "15%" },
+  { top: "65%", left: "60%" },
+  { top: "80%", left: "25%" },
+  { top: "90%", left: "85%" },
+  { top: "30%", left: "90%" },
+  { top: "75%", left: "45%" },
+  { top: "12%", left: "50%" },
+  { top: "52%", left: "92%" },
+  { top: "67%", left: "8%" },
+  { top: "84%", left: "62%" },
+  { top: "95%", left: "20%" },
+  { top: "22%", left: "5%" },
+  { top: "48%", left: "40%" },
+  { top: "58%", left: "78%" },
+  { top: "7%", left: "65%" },
+  { top: "88%", left: "50%" },
+];
+
 export default function Contact() {
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
@@ -16,16 +41,21 @@ export default function Contact() {
     const form = e.target;
 
     const data = {
-      name: form.name.value,
-      email: form.email.value,
-      message: form.message.value,
-    };
+  name: form.name.value,
+  email: form.email.value,
+  phone: "",
+  subject: "",
+  message: form.message.value,
+};
 
     try {
       const res = await fetch("/api/contact", {
-        method: "POST",
-        body: JSON.stringify(data),
-      });
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(data),
+});
 
       const result = await res.json();
 
@@ -58,17 +88,17 @@ export default function Contact() {
 
       
       <div className="absolute inset-0 pointer-events-none">
-        {[...Array(20)].map((_, i) => (
-          <span
-            key={i}
-            className="absolute w-1 h-1 bg-white/30 rounded-full animate-pulse"
-            style={{
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-            }}
-          />
-        ))}
-      </div>
+  {particles.map((particle, i) => (
+    <span
+      key={i}
+      className="absolute w-1 h-1 bg-white/30 rounded-full animate-pulse"
+      style={{
+        top: particle.top,
+        left: particle.left,
+      }}
+    />
+  ))}
+</div>
 
      
       <motion.div

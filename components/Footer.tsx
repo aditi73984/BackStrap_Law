@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import toast from "react-hot-toast";
+
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -14,19 +16,77 @@ export default function Footer() {
     if (saved) setSubscribed(true);
   }, []);
 
-  const handleSubscribe = () => {
-    setError("");
+//   const handleSubscribe = () => {
+//     setError("");
 
-    if (!email || !email.includes("@")) {
-      setError("Please enter a valid email");
+//     if (!email || !email.includes("@")) {
+//       setError("Please enter a valid email");
+//       return;
+//     }
+
+//     // localStorage.setItem("subscribedEmail", email);
+//     await fetch("/api/subscribe",{
+
+// method:"POST",
+
+// headers:{
+
+// "Content-Type":"application/json"
+
+// },
+
+// body:JSON.stringify({
+
+// email
+
+// })
+
+// });
+//     setSubscribed(true);
+//     setEmail("");
+//   };
+
+     const handleSubscribe = async () => {
+  setError("");
+
+  if (!email.trim()) {
+    setError("Please enter your email.");
+    return;
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailRegex.test(email)) {
+    setError("Please enter a valid email.");
+    return;
+  }
+
+  try {
+    const res = await fetch("/api/subscribe", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      setError(data.message || "Subscription failed.");
       return;
     }
 
     localStorage.setItem("subscribedEmail", email);
-    setSubscribed(true);
-    setEmail("");
-  };
 
+    toast.success("Successfully subscribed!");
+    setEmail("");
+
+  } catch (error) {
+    console.error(error);
+    toast.error("Something went wrong. Please try again.");
+  }
+};
   return (
     <footer className="relative bg-black text-white px-4 sm:px-6 lg:px-8 w-full py-16 overflow-hidden">
 
@@ -41,7 +101,7 @@ export default function Footer() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9"
+        className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9"
       >
 
         
@@ -110,7 +170,7 @@ export default function Footer() {
 
         
         <div>
-          <h3 className="text-sm font-semibold mb-4 text-[#a5880f] \">
+          <h3 className="text-sm font-semibold mb-4 text-[#a5880f]">
             Contact
           </h3>
 
@@ -124,49 +184,6 @@ export default function Footer() {
             <p>📞 +91 9935964832</p>
             <p>✉️contact.backstraplaw@gmail.com</p>
           </div>
-        </div>
-
-        
-        <div>
-          <h3 className="text-sm font-semibold mb-4 text-[#a5880f]">
-            Stay Connected
-          </h3>
-
-          <p className="text-sm text-gray-400 mb-4">
-            Subscribe to receive the latest legal updates, insights, and important notifications directly.
-          </p>
-
-          {!subscribed ? (
-            <>
-              <input
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="w-full mb-3 px-4 py-2 rounded-lg bg-white/10 text-white placeholder-gray-400 border border-white/20 focus:outline-none focus:ring-2 focus:ring-[#a5880f]"
-              />
-
-              {error && (
-                <p className="text-red-400 text-xs mb-2">{error}</p>
-              )}
-
-              <motion.button
-                whileTap={{ scale: 0.95 }}
-                whileHover={{ scale: 1.05 }}
-                onClick={handleSubscribe}
-                className="px-5 py-2 bg-[#a5880f] text-black rounded-full hover:opacity-90 transition shadow-lg"
-              >
-                Subscribe
-              </motion.button>
-            </>
-          ) : (
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="text-green-400 text-sm"
-            >
-              ✅ You are subscribed!
-            </motion.p>
-          )}
         </div>
 
       </motion.div>

@@ -131,11 +131,17 @@ export default function Home() {
           className="flex items-center justify-center lg:justify-end mt-2"
         >
           <Image
-            src="/images/logo-small.png"
-            alt="visual"
-            width={320}
-            height={320}
-          />
+  src="/images/logo-small.png"
+  alt="Backstrap Law"
+  width={320}
+  height={320}
+  priority
+  loading="eager"
+  style={{
+    width: "220px",
+    height: "auto",
+  }}
+/>
         </motion.div>
 
       </div>
