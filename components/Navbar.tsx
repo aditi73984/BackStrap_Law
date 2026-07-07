@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -29,9 +28,10 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/logo-small.png"
-            alt="Back Strap Law"
+            alt="logo"
             width={40}
             height={40}
+            style={{ height: "auto" }}
           />
           <div className="leading-tight">
             <h1 className="font-semibold text-black">
