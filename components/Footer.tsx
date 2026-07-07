@@ -28,7 +28,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-black text-white px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-16 overflow-hidden">
+    <footer className="relative bg-black text-white px-4 sm:px-6 lg:px-8 w-full py-16 overflow-hidden">
 
       
       <div className="absolute inset-0">
@@ -87,7 +87,7 @@ export default function Footer() {
               </Link>
             </motion.li>
 
-            <motion.li whileHover={{ x: 5 }}>
+            {/* <motion.li whileHover={{ x: 5 }}>
               <Link href="/article" className="hover:text-white transition">
                 Articles
               </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
               <Link href="/blog" className="hover:text-white transition">
                 Blog
               </Link>
-            </motion.li>
+            </motion.li> */}
 
             <motion.li whileHover={{ x: 5 }}>
               <Link href="/contact" className="hover:text-white transition">
@@ -122,7 +122,7 @@ export default function Footer() {
             </p>
 
             <p>📞 +91 9935964832</p>
-            <p>✉️ contact@backstraplaw.com</p>
+            <p>✉️contact.backstraplaw@gmail.com</p>
           </div>
         </div>
 

@@ -20,7 +20,7 @@ export default function Home() {
           },
         },
       }}
-      className="min-h-[90vh] bg-[#F8F5F0] flex items-center px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
+      className="min-h-[90vh] bg-[#F8F5F0] flex items-center px-4 sm:px-6 lg:px-8 w-full"
     >
       <div className="grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] w-full mt-2">
 
@@ -72,7 +72,7 @@ export default function Home() {
             className="flex gap-4"
           >
             
-            <button
+            {/* <button
               onClick={() =>
                 document
                   .getElementById("resources")
@@ -97,7 +97,28 @@ export default function Home() {
                         transition-all duration-300"
             >
               View Top Stories
-            </button>
+            </button> */}
+
+            <Link href="/news-update">
+  <button
+    className="px-6 py-3 bg-black text-white rounded-full
+               hover:bg-[#a5880f] hover:text-black
+               transition-all duration-300"
+  >
+    Explore Resources
+  </button>
+</Link>
+
+
+<Link href="/top-stories">
+  <button
+    className="px-6 py-3 border border-[#a5880f] text-[#a5880f] rounded-full
+               hover:bg-[#a5880f] hover:text-black
+               transition-all duration-300"
+  >
+    View Top Stories
+  </button>
+</Link>
           </motion.div>
 
         </div>
@@ -121,7 +142,7 @@ export default function Home() {
     </motion.section>
 
       
-      <section id="updates" className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-20 bg-white text-black">
+      <section id="updates" className="px-4 sm:px-6 lg:px-8 w-full py-20 bg-white text-black">
 
         
         <div className="flex justify-between items-center mb-12">

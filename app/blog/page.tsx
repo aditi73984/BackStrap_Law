@@ -33,7 +33,7 @@ export default function Blog() {
   }, [page]);
 
   return (
-    <main className="relative min-h-screen px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-20 overflow-hidden">
+    <main className="relative min-h-screen px-4 sm:px-6 lg:px-8 w-full py-20 overflow-hidden">
 
       
       <div className="absolute inset-0 -z-10">

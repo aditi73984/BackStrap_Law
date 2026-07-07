@@ -97,7 +97,7 @@ export default function Contact() {
           <div className="space-y-5 text-sm text-gray-300">
             <p>📍 Prayagraj, Uttar Pradesh, India</p>
             <p>📞 +91 9935964832</p>
-            <p>✉️ contact@backstraplaw.com</p>
+            <p>✉️contact.backstraplaw@gmail.com</p>
           </div>
         </motion.div>
 
