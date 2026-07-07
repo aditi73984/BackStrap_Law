@@ -54,6 +54,8 @@ export default async function StoryPage({ params }: StoryPageProps) {
             alt={story.title}
             fill
             className="object-cover"
+            sizes="100vw"
+            priority
           />
 
         </div>
