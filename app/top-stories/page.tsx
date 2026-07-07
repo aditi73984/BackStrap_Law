@@ -1,16 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { stories } from "@/data/stories";
 
 import { motion } from "framer-motion";
 
 export default function TopStories() {
-    const featuredStory = {
-    title: "Featured Story",
-    desc: "Short description for the featured story.",
-    category: "Featured",
-  };
+    const featuredStory = stories.find((story) => story.featured);
 
 
   return (
@@ -23,23 +20,23 @@ export default function TopStories() {
         <div className="absolute w-[300px] h-[300px] bg-[#a5880f]/5 rounded-full blur-2xl animate-bounce top-1/2 left-1/3"></div>
       </div>
 
-      
-      <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="mb-16 text-center"
-      >
-        <h1 className="text-4xl md:text-6xl font-bold text-[#a5880f] mb-6">
-          Top Stories
-        </h1>
+      <Link href={`/stories/${featuredStory?.slug}`}>
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mb-16 text-center"
+        >
+          <h1 className="text-4xl md:text-6xl font-bold text-[#a5880f] mb-6">
+            Top Stories
+          </h1>
 
-        <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
-          Explore the most important legal developments, landmark judgments,
-          and trending stories shaping the legal landscape.
-        </p>
-      </motion.div>
-
+          <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+            Explore the most important legal developments, landmark judgments,
+            and trending stories shaping the legal landscape.
+          </p>
+        </motion.div>
+      </Link>
       
       <div className="grid lg:grid-cols-[2fr_1fr] gap-12">
 
@@ -52,7 +49,15 @@ export default function TopStories() {
             animate={{ opacity: 1, y: 0 }}
             className="relative rounded-3xl overflow-hidden bg-black text-white shadow-xl group cursor-pointer"
           >
-            <div className="h-[350px] bg-gradient-to-br from-black to-gray-800"></div>
+            <div className="relative h-[350px]">
+              <Image
+                src={stories.find((story) => story.featured)?.image || "/images/story1.png"}
+                alt="Featured Story"
+                fill
+                className="object-cover"
+                sizes="100vw"
+              />
+            </div>
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
 
@@ -60,11 +65,11 @@ export default function TopStories() {
               <p className="text-sm text-[#a5880f] mb-2">Featured Story</p>
 
               <h2 className="text-2xl md:text-3xl font-bold mb-2 group-hover:text-[#a5880f] transition">
-                 Redefines Digital Privacy Rights
+                 {featuredStory?.title}
               </h2>
 
               <p className="text-gray-300 max-w-xl">
-                {featuredStory.desc}
+                {featuredStory?.excerpt}
               </p>
             </div>
           </motion.div>
@@ -85,7 +90,15 @@ export default function TopStories() {
                 className="group p-6 bg-white/80 backdrop-blur-lg rounded-2xl border border-gray-100 shadow-md hover:shadow-2xl transition cursor-pointer"
               >
                 
-                <div className="h-40 bg-gradient-to-br from-black to-gray-800 rounded-lg mb-4"></div>
+                <div className="relative h-40 rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src={story.image}
+                    alt={story.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
 
                 
                 <p className="text-xs text-[#a5880f] mb-1 font-medium">
