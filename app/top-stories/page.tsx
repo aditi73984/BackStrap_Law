@@ -1,46 +1,17 @@
 "use client";
 
+import Link from "next/link";
+import { stories } from "@/data/stories";
+
 import { motion } from "framer-motion";
 
 export default function TopStories() {
-  const stories = [
-    {
-      title: "Supreme Court Expands Scope of Article 21",
-      desc: "A landmark ruling strengthening the right to life and personal liberty.",
-      date: "Feb 05, 2026",
-      category: "Constitutional",
-    },
-    {
-      title: "High Court Issues Guidelines on Bail Reform",
-      desc: "New judicial directions aim to streamline bail procedures.",
-      date: "Feb 03, 2026",
-      category: "Criminal",
-    },
-    {
-      title: "Parliament Debates New Data Protection Law",
-      desc: "Lawmakers discuss privacy, data governance, and digital rights.",
-      date: "Feb 01, 2026",
-      category: "Legislation",
-    },
-    {
-      title: "Judicial Appointments Under Scrutiny",
-      desc: "Debate intensifies over transparency in judicial selections.",
-      date: "Jan 29, 2026",
-      category: "Judiciary",
-    },
-    {
-      title: "Landmark Free Speech Judgment Delivered",
-      desc: "Court reinforces protection of dissent and expression.",
-      date: "Jan 27, 2026",
-      category: "Constitutional",
-    },
-    {
-      title: "Environmental Law Gets Stronger Enforcement",
-      desc: "New rulings emphasize sustainability and accountability.",
-      date: "Jan 25, 2026",
-      category: "Environment",
-    },
-  ];
+    const featuredStory = {
+    title: "Featured Story",
+    desc: "Short description for the featured story.",
+    category: "Featured",
+  };
+
 
   return (
     <main className="relative min-h-screen px-4 sm:px-6 lg:px-8 w-full py-20 overflow-hidden">
@@ -89,12 +60,11 @@ export default function TopStories() {
               <p className="text-sm text-[#a5880f] mb-2">Featured Story</p>
 
               <h2 className="text-2xl md:text-3xl font-bold mb-2 group-hover:text-[#a5880f] transition">
-                Supreme Court Redefines Digital Privacy Rights
+                 Redefines Digital Privacy Rights
               </h2>
 
               <p className="text-gray-300 max-w-xl">
-                A historic ruling that strengthens privacy protections in the
-                digital age under Article 21.
+                {featuredStory.desc}
               </p>
             </div>
           </motion.div>
@@ -103,8 +73,11 @@ export default function TopStories() {
           <div className="grid sm:grid-cols-2 gap-8">
 
             {stories.map((story, index) => (
+              <Link
+                key={story.slug}
+                href={`/stories/${story.slug}`}
+              >
               <motion.div
-                key={index}
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
@@ -131,15 +104,16 @@ export default function TopStories() {
 
                 
                 <p className="text-sm text-gray-600">
-                  {story.desc}
+                  {story.excerpt}
                 </p>
 
                 
                 <div className="mt-3 text-sm text-[#a5880f] font-medium">
                   Read Story →
                 </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              </Link>
+              ))}
 
           </div>
 

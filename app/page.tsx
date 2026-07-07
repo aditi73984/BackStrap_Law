@@ -1,10 +1,14 @@
 "use client";
 
+import { stories } from "@/data/stories";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
+  
+  const featuredStory = stories.find((story) => story.featured);
+
   return (
     <main>
 
@@ -165,51 +169,57 @@ export default function Home() {
         
         <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-12">
 
-          
-          <div className="relative rounded-2xl overflow-hidden bg-black text-white shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300">
+          <Link href={`/stories/${featuredStory?.slug}`}>
+            <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 
-            
-            <div className="h-[420px] bg-gradient-to-br from-black to-gray-800"></div>
+              <Image
+                src={featuredStory?.image || "/images/placeholder.jpg"}
+                alt={featuredStory?.title || "Featured Story"}
+                fill
+                className="object-cover"
+              />
 
-            
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
 
-            
-            <div className="absolute bottom-0 p-6">
-              <p className="text-sm text-[#a5880f] mb-2">Featured</p>
+              <div className="absolute bottom-0 p-6">
+                <p className="text-sm text-[#a5880f] mb-2">
+                  {featuredStory?.category}
+                </p>
 
-              <h3 className="text-xl font-semibold leading-snug">
-                Complete Supreme Court Annual Digest 2025
-              </h3>
+                <h3 className="text-xl font-semibold leading-snug text-white">
+                  {featuredStory?.title}
+                </h3>
 
-              <p className="text-sm text-gray-300 mt-2">
-                Legal Services Authorities Act explained for wider accessibility.
-              </p>
-            </div>
-
-          </div>
-
-          
-          <div className="flex flex-col gap-6">
-
-            {[
-              "Supreme Court Issues Notice To 51 Delhi Hospitals",
-              "Supreme Court Rejects Ex-CM Secretary's Plea",
-              "Judges Should Not Hesitate – Justice",
-              "Monthly Digest: January 2026",
-            ].map((text, i) => (
-              <div
-                key={i}
-                className="flex gap-4 items-start p-4 rounded-xl border border-gray-200 hover:border-[#a5880f] hover:shadow-md transition-all cursor-pointer"
-              >
-                
-                <div className="w-16 h-16 bg-gray-200 rounded-md flex-shrink-0"></div>
-
-                
-                <p className="text-sm leading-snug text-black hover:text-[#a5880f] transition">
-                  {text}
+                <p className="text-sm text-gray-300 mt-2">
+                  {featuredStory?.excerpt}
                 </p>
               </div>
+
+            </div>
+          </Link>
+                    
+          <div className="flex flex-col gap-6">
+
+            {stories.slice(0, 4).map((story) => (
+              <Link
+                key={story.slug}
+                href={`/stories/${story.slug}`}
+              >
+                <div className="flex gap-4 items-start p-4 rounded-xl border border-gray-200 hover:border-[#a5880f] hover:shadow-md transition-all cursor-pointer">
+                  <div className="relative w-16 h-16 rounded-md overflow-hidden flex-shrink-0">
+                    <Image
+                      src={story.image}
+                      alt={story.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+
+                  <p className="text-sm leading-snug text-black hover:text-[#a5880f] transition">
+                    {story.title}
+                  </p>
+                </div>
+              </Link>
             ))}
 
           </div>
