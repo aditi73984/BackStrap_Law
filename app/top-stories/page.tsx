@@ -7,6 +7,11 @@ import { stories } from "@/data/stories";
 
 export default function TopStories() {
   const featuredStory = stories.find((story) => story.featured);
+  const sortedStories = [...stories].sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() -
+      new Date(a.publishedAt).getTime()
+  );
 
   return (
     <main className="relative min-h-screen px-4 sm:px-6 lg:px-8 py-20 overflow-hidden">
@@ -81,7 +86,7 @@ export default function TopStories() {
 
           {/* Story Cards */}
           <div className="grid sm:grid-cols-2 gap-8">
-            {stories.map((story, index) => (
+            {sortedStories.map((story, index) => (
               <Link
                 key={story.slug}
                 href={`/stories/${story.slug}`}
@@ -108,12 +113,15 @@ export default function TopStories() {
                       {story.category}
                     </p>
 
-                    <h3 className="text-lg font-semibold mb-2 group-hover:text-[#a5880f] transition">
+                    <h3 className="text-lg font-semibold text-black mb-2 transition group-hover:text-[#a5880f]">
                       {story.title}
                     </h3>
 
                     <p className="text-xs text-gray-400 mb-3">
-                      {story.date}
+                      {new Date(story.publishedAt).toLocaleString("en-IN", {
+                        dateStyle: "medium",
+                        timeStyle: "short",
+                      })}
                     </p>
 
                     <p className="text-sm text-gray-600 line-clamp-3">
@@ -144,11 +152,11 @@ export default function TopStories() {
             </h3>
 
             <div className="space-y-4 text-sm">
-              {stories.map((story) => (
+              {sortedStories.map((story) => (
                 <Link
                   key={story.slug}
                   href={`/stories/${story.slug}`}
-                  className="block hover:text-[#a5880f] transition"
+                  className="block text-gray-900 hover:text-[#a5880f] transition"
                 >
                   • {story.title}
                 </Link>

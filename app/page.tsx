@@ -2,12 +2,33 @@
 
 import { stories } from "@/data/stories";
 import Image from "next/image";
+import { updates } from "@/data/updates";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
   
   const featuredStory = stories.find((story) => story.featured);
+
+  const latestStories = [...stories]
+  .sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() -
+      new Date(a.publishedAt).getTime()
+  )
+  .filter((story) => story.slug !== featuredStory?.slug)
+  .slice(0, 5);
+
+  const featuredUpdate = updates.find((update) => update.featured);
+
+  const latestUpdates = [...updates]
+    .sort(
+      (a, b) =>
+        new Date(b.publishedAt).getTime() -
+        new Date(a.publishedAt).getTime()
+    )
+    .filter((update) => update.slug !== featuredUpdate?.slug)
+    .slice(0, 5); 
 
   return (
     <main>
@@ -200,7 +221,7 @@ export default function Home() {
                     
           <div className="flex flex-col gap-6">
 
-            {stories.slice(0, 4).map((story) => (
+            {latestStories.map((story) => (
               <Link
                 key={story.slug}
                 href={`/stories/${story.slug}`}
@@ -215,9 +236,25 @@ export default function Home() {
                     />
                   </div>
 
-                  <p className="text-sm leading-snug text-black hover:text-[#a5880f] transition">
-                    {story.title}
-                  </p>
+                  <div>
+                    <p className="text-sm font-medium leading-snug text-black hover:text-[#a5880f] transition">
+                      {story.title}
+                    </p>
+
+                    <p className="text-xs text-gray-500 mt-1">
+                      {new Date(story.publishedAt).toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                      {" • "}
+                      {new Date(story.publishedAt).toLocaleTimeString("en-IN", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}
+                    </p>
+                  </div>
+
                 </div>
               </Link>
             ))}
@@ -227,6 +264,109 @@ export default function Home() {
         </div>
 
       </section>
+
+      <section className="px-4 sm:px-6 lg:px-8 w-full py-20 bg-[#F8F5F0] text-black">
+
+        <div className="flex justify-between items-center mb-12">
+          <h2 className="text-3xl font-bold text-[#a5880f]">
+            News Updates
+          </h2>
+
+          <Link
+            href="/news-update"
+            className="text-sm text-[#a5880f] hover:underline"
+          >
+            View more →
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-12">
+
+          {/* Featured Update */}
+
+          <Link href={`/updates/${featuredUpdate?.slug}`}>
+            <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 cursor-pointer">
+
+              <Image
+                src={featuredUpdate?.image || "/images/placeholder.jpg"}
+                alt={featuredUpdate?.title || "Featured Update"}
+                fill
+                className="object-cover"
+              />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+
+              <div className="absolute bottom-0 p-6">
+
+                <p className="text-sm text-[#a5880f] mb-2">
+                  {featuredUpdate?.category}
+                </p>
+
+                <h3 className="text-xl font-semibold leading-snug text-white">
+                  {featuredUpdate?.title}
+                </h3>
+
+                <p className="text-sm text-gray-300 mt-2">
+                  {featuredUpdate?.excerpt}
+                </p>
+
+              </div>
+
+            </div>
+          </Link>
+
+          {/* Latest Updates */}
+
+          <div className="flex flex-col gap-6">
+
+            {latestUpdates.map((update) => (
+              <Link
+                key={update.slug}
+                href={`/updates/${update.slug}`}
+              >
+                <div className="flex gap-4 items-start p-4 rounded-xl border border-gray-200 hover:border-[#a5880f] hover:shadow-md transition-all cursor-pointer">
+
+                  <div className="relative w-16 h-16 rounded-md overflow-hidden flex-shrink-0">
+                    <Image
+                      src={update.image}
+                      alt={update.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+
+                  <div>
+
+                    <p className="text-sm font-medium leading-snug text-black hover:text-[#a5880f] transition">
+                      {update.title}
+                    </p>
+
+                    <p className="text-xs text-gray-500 mt-1">
+                      {new Date(update.publishedAt).toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                      {" • "}
+                      {new Date(update.publishedAt).toLocaleTimeString("en-IN", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}
+                    </p>
+
+                  </div>
+
+                </div>
+              </Link>
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+
 
     </main>
   );

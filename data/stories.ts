@@ -2,12 +2,15 @@ export interface Story {
   slug: string;
   title: string;
   category: string;
-  date: string;
+
+  publishedAt: string;
+
   excerpt: string;
   image: string;
   featured?: boolean;
   content: string[];
 }
+
 
 export const stories: Story[] = [
   {
@@ -17,7 +20,8 @@ export const stories: Story[] = [
 
     category: "Supreme Court",
 
-    date: "15 May 2026",
+    publishedAt: "2026-05-15T09:00:00+05:30",
+  
 
     excerpt:
         "The Supreme Court has introduced a hybrid work policy, expanded virtual hearings for specified matters, and encouraged carpooling among judges as part of new administrative measures aimed at improving efficiency and sustainability.",
@@ -46,7 +50,7 @@ export const stories: Story[] = [
 
     category: "Bombay High Court",
 
-    date: "07 July 2026",
+    publishedAt: "2026-07-07T11:20:00+05:30",
 
     excerpt:
         "The Bombay High Court has held that when an arbitral award is set aside under Section 34 of the Arbitration and Conciliation Act, a fresh notice under Section 21 is mandatory before initiating a new round of arbitration.",
@@ -88,7 +92,7 @@ export const stories: Story[] = [
 
     category: "Supreme Court",
 
-    date: "07 July 2026",
+    publishedAt: "2026-07-07T10:45:00+05:30",
 
     excerpt:
       "The Supreme Court has held that a will excluding a surviving widow in favour of distant relatives or unrelated persons raises serious suspicion and requires strict proof of its voluntary execution by the testator.",
@@ -143,7 +147,7 @@ export const stories: Story[] = [
 
     category: "Patna High Court",
 
-    date: "07 July 2026",
+    publishedAt: "2026-07-07T10:30:00+05:30",
 
     excerpt:
       "The Patna High Court has held that the State cannot construct a public road on privately owned raiyati land without first acquiring the property in accordance with law and paying due compensation to the landowner.",
