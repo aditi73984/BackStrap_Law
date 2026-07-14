@@ -180,8 +180,57 @@ export const updates: Update[] = [
         ],
     },
 
+    {
+        slug: "update-5",
 
-    
+        title:
+            "Assam Assembly Clears Uniform Civil Code Bill Focused on Registration and Legal Records of Family Relations",
+
+        category: "Legislation",
+
+        publishedAt: "2026-07-14T10:15:00+05:30",
+
+        excerpt:
+            "The Assam Legislative Assembly has passed a Uniform Civil Code Bill introducing a common civil framework for marriage, divorce, succession and domestic relationships, with a strong focus on registration and legal documentation.",
+
+        image: "/images/update5.png",
+
+        content: [
+            "The Assam Legislative Assembly has passed a Uniform Civil Code (UCC) Bill, making Assam one of the latest states to introduce a common civil framework dealing with matters such as marriage, divorce, succession and domestic relationships. The move also makes Assam the first Northeastern state to adopt such legislation.",
+
+            "The proposed framework places considerable emphasis on registration and formal documentation of family relationships. Rather than focusing only on religious or customary practices, the legislation seeks to create legally verifiable records of marriages, divorces and live-in relationships.",
+
+            "One of the most discussed features of the Bill is the mandatory registration framework for live-in relationships. Through formal documentation, the legislation seeks to provide greater legal clarity regarding domestic partnerships that exist outside conventional marriage.",
+
+            "The provision may also lead to wider constitutional discussions concerning privacy, dignity and personal autonomy under Article 21 of the Constitution. Supporters, however, are likely to view registration as a mechanism for protecting civil rights and reducing disputes arising from undocumented relationships.",
+
+            "The Bill reportedly adopts an expanded definition of the term \"child\". The definition covers adopted children as well as children born through surrogacy, assisted reproductive technology and outside traditional marital relationships.",
+
+            "By broadening the statutory definition, the framework seeks to provide equal civil recognition to children irrespective of the circumstances of their birth. The provision reflects changes in family structures and reproductive technologies that have developed beyond traditional marriage-based concepts of legitimacy.",
+
+            "The legislation also provides for compulsory registration of marriages, divorces and decrees declaring marriages null and void. This approach places documentary records at the centre of family law administration and is intended to create greater legal certainty regarding an individual's civil status.",
+
+            "Such documentation could also play an important role in disputes concerning maintenance, inheritance, alimony and matrimonial rights by reducing uncertainty over the existence or legal status of family relationships.",
+
+            "The Bill seeks to prohibit polygamy and introduce common rules governing civil relationships. The measure is expected to be presented as part of a broader effort to strengthen gender equality and provide uniform legal protections.",
+
+            "Supporters of the legislation may argue that clearer documentation and common civil standards can improve the ability of women to enforce maintenance, inheritance and other legal claims.",
+
+            "A significant feature of the Assam framework is the exclusion of Scheduled Tribes recognised under Article 342 read with Article 366(25) of the Constitution. The Code will not apply to members of these communities, allowing constitutionally protected tribal customs and traditional practices to continue.",
+
+            "The exemption is likely to remain an important part of the debate surrounding the legislation. Critics may question whether such exclusions are consistent with the idea of a truly uniform civil code, while supporters may argue that the protection of indigenous customs is necessary in view of the unique constitutional and cultural position of tribal communities in the Northeast.",
+
+            "The compulsory registration of live-in relationships may invite judicial and constitutional scrutiny concerning the State's role in private and intimate decisions. Questions surrounding decisional autonomy, informational privacy and dignity may emerge as the provisions are implemented.",
+
+            "At the same time, supporters are expected to argue that formal recognition of domestic relationships can provide stronger legal safeguards, particularly for women and children, and prevent evidentiary disputes in family law proceedings.",
+
+            "The Assam legislation reflects a broader shift towards state-level experimentation with Uniform Civil Code frameworks. With other states also pursuing their own models, the development may contribute to a wider debate over whether a common civil framework in India will emerge through a single national law or through separate legislative initiatives undertaken by individual states.",
+
+            "At its core, the Assam UCC framework appears to prioritise legal documentation and traceability of family relationships. Its provisions concerning marriage, divorce, live-in relationships and the recognition of children indicate an effort to move family law administration towards formally recorded civil relationships while retaining constitutional protections for tribal customs."
+        ],
+    },
+
+            
 
 ];
 
