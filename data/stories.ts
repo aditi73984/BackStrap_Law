@@ -22,13 +22,10 @@ export const stories: Story[] = [
 
     publishedAt: "2026-05-15T09:00:00+05:30",
   
-
     excerpt:
         "The Supreme Court has introduced a hybrid work policy, expanded virtual hearings for specified matters, and encouraged carpooling among judges as part of new administrative measures aimed at improving efficiency and sustainability.",
 
     image: "/images/story1.png",
-
-    featured: true,
 
     content: [
         "The Supreme Court of India has introduced a revised set of administrative measures through a circular issued on May 15, 2026, following recent directions from the Department of Personnel and Training. The changes are aimed at streamlining court operations, encouraging digital proceedings, and promoting environmentally conscious practices.",
@@ -174,6 +171,58 @@ export const stories: Story[] = [
       "Accordingly, the High Court directed the District Magistrate to personally examine the matter, verify the relevant revenue records along with the civil court's decree, and ensure that no further construction is carried out unless the land is lawfully acquired in accordance with the applicable legal procedure and appropriate compensation is paid.",
 
       "Case: Uttam Jha v. State of Bihar & Others, Civil Writ Jurisdiction Case No. 7953 of 2026."
+    ],
+  },
+
+  {
+    slug: "story-5",
+
+    title:
+      "Sikkim High Court Calls for Scientific Review of Child Mental Health Policies, Raises Concerns Over Prison Rehabilitation",
+
+    category: "Sikkim High Court",
+
+    publishedAt: "2026-07-14T09:30:00+05:30",
+
+    excerpt:
+      "The Sikkim High Court has called for a systematic and evidence-based review of child mental health policies while raising concerns over the effectiveness of prison rehabilitation programmes in preventing repeat offences.",
+
+    image: "/images/story5.png",
+
+    featured: true,
+
+    content: [
+      "The Sikkim High Court has urged the State Government to adopt a systematic and evidence-based approach to safeguarding children's mental health. The Court also raised concerns over the effectiveness of prison rehabilitation programmes after observing that a repeat offender had committed a graver crime despite undergoing imprisonment for an earlier conviction.",
+
+      "The observations were made while partly allowing an appeal filed by a man convicted in a case under the Protection of Children from Sexual Offences (POCSO) Act. The Court upheld his conviction for sexual assault, wrongful restraint and abetment of suicide. However, it set aside the separate punishment imposed under Section 354A of the Indian Penal Code, holding that overlapping offences cannot result in multiple punishments in view of Section 42 of the POCSO Act and Section 71 IPC.",
+
+      "A Division Bench comprising Chief Justice A. Muhamed Mustaque and Justice Bhaskar Raj Pradhan expressed serious concern over the mental well-being of children after examining the suicide note left by the minor victim. The Court observed that the emotional and psychological health of children, particularly girl children, requires greater institutional attention.",
+
+      "The Bench noted that although the State has introduced programmes aimed at addressing mental health concerns, their effectiveness must be periodically assessed through scientific evaluation. It called upon the government to develop a structured framework capable of identifying gaps and measuring whether existing schemes are achieving their intended objectives.",
+
+      "The High Court also examined the appellant's previous criminal history. He had earlier been convicted under Section 458 IPC in 2011 and sentenced to 25 months of imprisonment. Despite serving the sentence, the appellant subsequently committed an offence which the Court described as more serious than his previous crime.",
+
+      "Taking note of the repeat offending, the Bench questioned the effectiveness of rehabilitation measures at the State Central Prison in Rongyek. It observed that correctional programmes must be capable of addressing behavioural concerns and reducing the possibility of offenders returning to criminal activity after release.",
+
+      "The case arose from the sexual assault of a 17-year-old schoolgirl who later died by suicide. The appellant was convicted by the Special Judge (POCSO), West Sikkim, for offences connected with the assault and the circumstances leading to the victim's death.",
+
+      "The prosecution relied upon a suicide note recovered from the victim's room, forensic handwriting analysis, medical records and witness testimony. These materials, according to the prosecution, established the events preceding the victim's death and the appellant's involvement.",
+
+      "Challenging his conviction, the appellant argued that the investigation suffered from serious defects. He also questioned whether the prosecution had sufficiently established the victim's age and the authorship of the suicide note and maintained that the available evidence was inadequate to sustain the conviction.",
+
+      "The High Court rejected these arguments, finding that the prosecution had established a complete and consistent chain of circumstantial evidence. The Bench held that the suicide note was supported by forensic findings, medical material and witness testimony and sufficiently established the acts of sexual assault, restraint and harassment attributed to the appellant.",
+
+      "The Court also upheld the Trial Court's finding that the victim was a child for the purposes of the POCSO Act, relying upon official birth records and other documentary evidence.",
+
+      "The High Court stressed that children's mental health requires proactive intervention at both rural and urban levels. It observed that the government should not limit itself to implementing programmes but must establish a structured mechanism to regularly assess their impact.",
+
+      "The Bench highlighted that protecting the psychological well-being of children is essential not only for their individual development but also for the wider progress of society.",
+
+      "While setting aside the separate sentence under Section 354A IPC, the Court affirmed the appellant's remaining convictions and sentences and directed that the sentences run concurrently. It also upheld the compensation awarded to the victim's parents.",
+
+      "Considering the wider institutional issues highlighted by the case, the Court directed that copies of its judgment be forwarded to the Additional Director General of Police overseeing the State Central Prison and the Chief Secretary of Sikkim for appropriate consideration and action.",
+
+      "Case: Chewang Sherpa v. State of Sikkim, Criminal Appeal No. 19 of 2023. Bench: Chief Justice A. Muhamed Mustaque and Justice Bhaskar Raj Pradhan."
     ],
   },
 
