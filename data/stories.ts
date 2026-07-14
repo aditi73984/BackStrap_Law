@@ -226,6 +226,64 @@ export const stories: Story[] = [
     ],
   },
 
+  {
+    slug: "story-6",
+
+    title:
+      "Bombay High Court Upholds AIMIM MLA's Election, Says Prayer for Victory Is Not a Religious Appeal for Votes",
+
+    category: "Bombay High Court",
+
+    publishedAt: "2026-07-14T11:30:00+05:30",
+
+    excerpt:
+      "The Bombay High Court has held that offering a Dua for electoral success, followed by a congregation responding with Amen, does not by itself amount to seeking votes on religious grounds or constitute a corrupt electoral practice.",
+
+    image: "/images/story6.png",
+
+    content: [
+      "The Bombay High Court has held that a candidate offering a \"Dua\" for success in an election, followed by members of the congregation responding with \"Amen\", does not by itself amount to seeking votes on religious grounds or constitute a corrupt electoral practice under the Representation of the People Act, 1951.",
+
+      "The ruling came while the Court rejected an election petition challenging the victory of AIMIM MLA Mufti Mohammad Ismail Abdul Khalique from the Malegaon Central Assembly Constituency in the 2024 Maharashtra Assembly elections.",
+
+      "Justice N.J. Jamadar observed that a prayer seeking success or invoking divine blessings is fundamentally different from an appeal asking electors to vote on the basis of a candidate's religion. The Court also distinguished the congregation's response of \"Amen\" from a formal pledge or undertaking to support a candidate.",
+
+      "According to the Court, saying \"Amen\" may indicate agreement with or support for the prayer being offered. However, such a response cannot be equated with a commitment to cast a vote in favour of the person offering the prayer.",
+
+      "Shaikh Asif Shaikh Rashid, who contested the 2024 Assembly election on the \"Auto Rikshaw\" symbol, challenged the election of Mufti Mohammad Ismail Abdul Khalique, the AIMIM candidate contesting on the \"Kite\" symbol. The election was decided by a margin of 162 votes.",
+
+      "The petitioner alleged that the returned candidate had committed corrupt practices prohibited under the Representation of the People Act. Among the allegations was that, in his capacity as Imam of Jama Masjid and Eidgah in Malegaon, the MLA offered prayers for his electoral success during congregational gatherings.",
+
+      "It was further alleged that religious references were used during election campaigning. The petition referred to speeches allegedly delivered by AIMIM leader Asaduddin Owaisi and claimed that the petitioner had been compared to \"Yazid\" and described as a \"drug peddler\".",
+
+      "Additional allegations concerned attempts to create divisions between \"Dakhani Muslims\" and \"Momins\" through campaign speeches, pamphlets and prayer gatherings allegedly organised by the returned candidate's family members.",
+
+      "The petitioner also claimed that 1,082 deceased individuals had been recorded as having voted in the election and argued that the result should therefore be declared void under Section 100(1)(d)(iii) of the Representation of the People Act.",
+
+      "The returned candidate sought rejection of the election petition under Order VII Rule 11 of the Code of Civil Procedure read with Section 86(1) of the Representation of the People Act. It was argued that the petition failed to disclose the material facts and detailed particulars required under Section 83 of the Act.",
+
+      "The High Court rejected the petitioner's preliminary contention that a failure to comply with Section 83 could not result in rejection of the petition under Section 86. Relying on the Supreme Court's decision in Azhar Hussain v. Rajiv Gandhi, the Court held that Order VII Rule 11 CPC could independently apply to election petitions through Section 87 of the Representation of the People Act.",
+
+      "Examining the allegations concerning the Dua and the congregation's response, the Court found that the pleadings lacked the necessary particulars to establish a corrupt practice. Even if the allegations were accepted at face value, the Court held that praying for electoral success did not amount to soliciting votes on religious grounds.",
+
+      "Referring to Dr. Ramesh Yashwant Prabhoo v. Prabhakar Kashinath Kunte & Others, the Court reiterated that merely referring to religion in an election speech is not prohibited. For the conduct to constitute a corrupt practice, there must be an identifiable appeal asking voters to support or reject a candidate on religious grounds.",
+
+      "The Court found that references to Islamic history, prayers for peace and support allegedly extended by religious organisations did not satisfy this legal threshold.",
+
+      "The Court also noted that the allegedly objectionable speeches were delivered by persons who were not shown to be election agents of the returned candidate. The petition attempted to attribute consent to the MLA merely because he was allegedly present at the meetings. However, no specific act or statement demonstrating his approval of the speeches had been pleaded.",
+
+      "Similarly, the Court found that the pamphlet relied upon by the petitioner did not contain an appeal to vote for the candidate because of his religion. At most, it presented him as a preferable representative based on his stated qualifications.",
+
+      "The High Court also rejected the allegation that 1,082 deceased voters had participated in the election. The Court found that the claim was based on broad assertions and was not supported by affidavits from polling agents, CCTV material or relevant Form 17-C records.",
+
+      "Relying on its earlier decision in Shobha Dinesh Bacchav v. Dr. Subhash Ramrao Bhamre, the Court held that unsupported allegations of electoral irregularities could not justify a detailed judicial inquiry.",
+
+      "Finding that the election petition failed to disclose a complete cause of action or the material particulars necessary to establish corrupt electoral practices, the Bombay High Court allowed the application for rejection and dismissed the election petition in its entirety.",
+
+      "Case: Mufti Mohammad Ismail Abdul Khalique v. Shaikh Asif Shaikh Rashid @ Asif Shaikh Rasheed & Others. Neutral Citation: 2026:BHC-OS:12567. Bench: Justice N.J. Jamadar."
+    ],
+  },
+
 
 ];
 
