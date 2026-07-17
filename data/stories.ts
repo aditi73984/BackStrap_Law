@@ -1,177 +1,467 @@
 export interface Story {
   slug: string;
+
   title: string;
+
   category: string;
 
   publishedAt: string;
 
-  excerpt: string;
-  image: string;
-  featured?: boolean;
-  content: string[];
-}
+  readTime: string;
 
+  excerpt: string;
+
+  image: string;
+
+  featured?: boolean;
+
+  sections: {
+    title: string;
+    content: string[];
+  }[];
+
+  quote?: {
+    text: string;
+    author: string;
+  };
+
+  highlightsTitle?: string;
+
+  highlights?: {
+    title: string;
+    description: string;
+  }[];
+
+  legalSignificance?: string;
+
+  caseDetails?: {
+    caseName: string;
+    court: string;
+    bench: string;
+    decisionDate: string;
+    caseNumber?: string;
+    citation?: string;
+
+    disclaimer?: string;
+  };
+
+  disclaimer?: string;
+  
+}
 
 export const stories: Story[] = [
   {
     slug: "story-1",
 
-    title: "Supreme Court Adopts Hybrid Work Policy, Introduces Carpooling and Virtual Hearings",
+    title:
+      "Supreme Court Adopts Hybrid Work Policy, Introduces Carpooling and Virtual Hearings",
 
     category: "Supreme Court",
 
     publishedAt: "2026-05-15T09:00:00+05:30",
-  
+
+    readTime: "4 min read",
+
     excerpt:
-        "The Supreme Court has introduced a hybrid work policy, expanded virtual hearings for specified matters, and encouraged carpooling among judges as part of new administrative measures aimed at improving efficiency and sustainability.",
+      "The Supreme Court has introduced a hybrid work policy, expanded virtual hearings for specified matters, and encouraged carpooling among judges as part of new administrative measures aimed at improving efficiency and sustainability.",
 
     image: "/images/story1.png",
 
-    content: [
-        "The Supreme Court of India has introduced a revised set of administrative measures through a circular issued on May 15, 2026, following recent directions from the Department of Personnel and Training. The changes are aimed at streamlining court operations, encouraging digital proceedings, and promoting environmentally conscious practices.",
+    featured: false,
 
-        "According to the circular, all cases listed on miscellaneous days—including Mondays and Fridays—as well as matters scheduled during the Court's partial working days, will be heard exclusively through video conferencing. To support the transition, the Registry has been directed to ensure that hearing links are shared promptly, video conferencing facilities remain reliable, and technical assistance is readily available to prevent interruptions during proceedings.",
+    sections: [
+      {
+        title: "Background",
 
-        "The circular also outlines a sustainability initiative under which the judges of the Supreme Court have agreed to encourage carpooling wherever feasible in an effort to reduce fuel consumption.",
+        content: [
+          "The Supreme Court of India has introduced a revised set of administrative measures through a circular issued on May 15, 2026, following recent directions from the Department of Personnel and Training. The changes are aimed at streamlining court operations, encouraging digital proceedings, and promoting environmentally conscious practices."
+        ]
+      },
 
-        "In addition, the Court has introduced a work-from-home arrangement for Registry employees. Under the new policy, up to 50% of the staff in each branch or section may work remotely for a maximum of two days a week, provided that adequate personnel remain present in the office to ensure the uninterrupted functioning of judicial and administrative work. Concerned Registrars have been instructed to prepare weekly duty rosters before the start of each week to maintain smooth operations.",
+      {
+        title: "Virtual Hearings",
 
-        "The circular further clarifies that these work-from-home provisions are subject to administrative requirements. If the functioning of any branch or section demands full physical attendance, the competent authority may revise or withdraw the remote working arrangement as necessary."
+        content: [
+          "According to the circular, all cases listed on miscellaneous days—including Mondays and Fridays—as well as matters scheduled during the Court's partial working days, will be heard exclusively through video conferencing. The Registry has been directed to ensure that hearing links are shared promptly, video conferencing facilities remain reliable, and technical assistance is readily available."
+        ]
+      },
+
+      {
+        title: "Hybrid Work Policy",
+
+        content: [
+          "The Court has also introduced a work-from-home arrangement for Registry employees. Up to 50% of staff in each branch may work remotely for two days each week while maintaining uninterrupted judicial administration through weekly duty rosters."
+        ]
+      },
+
+      {
+        title: "Sustainability Measures",
+
+        content: [
+          "Judges have additionally agreed to encourage carpooling wherever feasible as part of the Court's environmental sustainability initiative. The circular further clarifies that hybrid work arrangements remain subject to administrative requirements and may be modified whenever necessary."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "Hybrid work arrangements and technology-driven hearings can enhance judicial efficiency while ensuring continuity of access to justice.",
+      author: "Supreme Court Circular"
+    },
+
+    highlightsTitle: "Key Highlights",
+
+    highlights: [
+      {
+        title: "Virtual Hearings",
+        description:
+          "Miscellaneous day matters and specified proceedings will now be conducted through video conferencing."
+      },
+      {
+        title: "Hybrid Working",
+        description:
+          "Registry employees may work remotely for up to two days a week subject to administrative requirements."
+      },
+      {
+        title: "Carpooling Initiative",
+        description:
+          "Judges have been encouraged to adopt carpooling to promote sustainability and reduce fuel consumption."
+      },
+      {
+        title: "Administrative Flexibility",
+        description:
+          "Authorities retain the power to withdraw hybrid arrangements whenever institutional requirements demand."
+      }
+    ],
+
+    legalSignificance:
+      "The circular represents a significant administrative modernization of the Supreme Court by integrating digital hearings, flexible work arrangements, and sustainability initiatives while ensuring uninterrupted judicial functioning.",
+
+    caseDetails: {
+      caseName: "Administrative Circular of the Supreme Court of India",
+      court: "Supreme Court of India",
+      bench: "Supreme Court Administration",
+      decisionDate: "15 May 2026"
+    },
+
+    disclaimer:
+      "This article is intended solely for informational purposes. Readers should refer to the official Supreme Court circular for complete administrative directions."
   },
 
   {
     slug: "story-2",
 
-    title: "Fresh Section 21 Notice Mandatory to Initiate New Arbitration After Award Is Set Aside: Bombay High Court",
+    title:
+      "Fresh Section 21 Notice Mandatory to Initiate New Arbitration After Award Is Set Aside: Bombay High Court",
 
     category: "Bombay High Court",
 
     publishedAt: "2026-07-07T11:20:00+05:30",
 
+    readTime: "6 min read",
+
     excerpt:
-        "The Bombay High Court has held that when an arbitral award is set aside under Section 34 of the Arbitration and Conciliation Act, a fresh notice under Section 21 is mandatory before initiating a new round of arbitration.",
+      "The Bombay High Court has ruled that once an arbitral award is set aside under Section 34 of the Arbitration and Conciliation Act, parties must issue a fresh notice under Section 21 before commencing a new round of arbitration.",
 
     image: "/images/story2.png",
 
-    content: [
-        "The Bombay High Court has ruled that when an arbitral award is set aside under Section 34 of the Arbitration and Conciliation Act, 1996, a party seeking to restart arbitration must first issue a fresh notice under Section 21 of the Act. The Court observed that this notice marks the commencement of new arbitral proceedings and is necessary for determining the limitation period. It rejected the argument that a party is required to directly file a petition under Section 11 within three years of the earlier award being set aside without first invoking arbitration through a fresh notice.",
+    sections: [
+      {
+        title: "Background",
 
-        "The Court further explained that the benefit of exclusion of time available under Section 43(4) of the Arbitration and Conciliation Act can be claimed only when arbitration has been validly reinitiated by serving a fresh Section 21 notice.",
+        content: [
+          "The dispute arose from a partnership deed executed in December 1985 between the applicants and Respondent Nos. 1 and 2. An arbitral award delivered in April 2016 was subsequently set aside by the Bombay High Court under Section 34 of the Arbitration and Conciliation Act in October 2019.",
 
-        "Addressing a separate issue, the High Court held that a court considering an application under Section 11 cannot automatically refer individuals who were never parties to the arbitration agreement. While questions relating to the involvement of non-signatories may, in appropriate cases, be decided by the arbitral tribunal, the referral court must first be satisfied that there is a prima facie intention to create a legal relationship binding such parties. The Court emphasized that considerations of fairness or convenience cannot compel arbitration in the absence of express or implied consent.",
+          "Following the setting aside of the award, the applicants issued a fresh notice under Section 21 in March 2024 before filing an application under Section 11 seeking appointment of an arbitrator."
+        ]
+      },
 
-        "Justice Arun R. Pedneker, deciding the commercial arbitration application, relied on the principles laid down in Harkisandas Tulshidas Pabari & Anr. v. Rajendra Anandrao Acharya & Ors. and reiterated that, unless the parties agree otherwise, arbitral proceedings commence on the date the respondent receives the notice issued under Section 21. Since the fresh notice in the present case had been served within three years of the earlier award being set aside, the Court held that the subsequent Section 11 application was also filed within the prescribed limitation period.",
+      {
+        title: "Court's Findings",
 
-        "The dispute originated from a partnership deed executed on December 9, 1985, between the applicants and Respondent Nos. 1 and 2. An arbitral award arising from that partnership was delivered on April 15, 2016, but was later set aside by the Bombay High Court under Section 34 on October 15, 2019.",
+        content: [
+          "Justice Arun R. Pedneker held that the issuance of a fresh notice under Section 21 is mandatory whenever arbitration is recommenced after an earlier award has been set aside. The Court observed that arbitration legally commences only upon service of such notice unless the parties agree otherwise.",
 
-        "During the intervening period, Respondent Nos. 3 and 4 became partners under separate partnership deeds executed in 2009 using the same firm's name and assets. The applicants later initiated a fresh round of arbitration by issuing a Section 21 notice on March 8, 2024, followed by a Section 11 application filed on October 15, 2026, in which the later-inducted partners were also made parties.",
+          "The Bench clarified that limitation for filing a Section 11 application cannot be calculated independently of a valid Section 21 notice. The exclusion of time available under Section 43(4) can also be claimed only after arbitration has been properly reinitiated."
+        ]
+      },
 
-        "Respondent Nos. 1 and 2 argued that the application was barred by limitation, contending that the three-year period began from the date on which the earlier arbitral award was set aside. Respondent Nos. 3 and 4 separately challenged their inclusion in the proceedings, maintaining that they were not signatories to the original 1985 partnership deed and had been treated as third parties during the earlier arbitration.",
+      {
+        title: "Issue of Non-Signatories",
 
-        "After excluding the period covered by the Supreme Court's COVID-19 limitation extensions, the High Court found that the Section 21 notice had been issued within the permissible period, making the Section 11 application maintainable.",
+        content: [
+          "The Court also examined whether Respondent Nos. 3 and 4, who became partners under subsequent partnership deeds, could be compelled to participate in arbitration despite never signing the original arbitration agreement.",
 
-        "On the issue of non-signatories, the Court applied the principles laid down in Cox and Kings and Hindustan Petroleum Corporation Limited. It concluded that Respondent Nos. 3 and 4 neither participated in the original partnership agreement nor derived their rights or liabilities through the original contracting parties in a manner that would bind them to the arbitration agreement.",
+          "Relying upon the Supreme Court decisions in Cox and Kings and Hindustan Petroleum Corporation Limited, the Court held that arbitration cannot be imposed merely on grounds of convenience or fairness. A referral court must first be satisfied that there is prima facie evidence showing an intention to bind such persons to the arbitration agreement."
+        ]
+      },
 
-        "Accordingly, the Court allowed the application against Respondent Nos. 1 and 2 and referred the disputes between the original parties to arbitration. However, it dismissed the proceedings against Respondent Nos. 3 and 4.",
+      {
+        title: "Decision",
 
-        "The Court appointed Justice Sadhana Jadhav (Retd.), former Judge of the Bombay High Court, as the sole arbitrator to adjudicate the disputes. The arbitration will proceed in accordance with the terms of the original agreement, with all legal and factual issues left open for determination by the arbitral tribunal.",
+        content: [
+          "The Court held that the fresh Section 21 notice had been issued within the prescribed limitation period after accounting for the Supreme Court's COVID-19 limitation extensions. Consequently, the Section 11 application against the original contracting parties was maintainable.",
 
-        "Case: Hemant D. Shah HUF & Anr. v. Chittaranjan D. Shah HUF & Ors., Commercial Arbitration Application No. 184 of 2026."
+          "Justice Sadhana Jadhav (Retd.), former Judge of the Bombay High Court, was appointed as the sole arbitrator. However, the proceedings against Respondent Nos. 3 and 4 were dismissed as they were not parties to the original arbitration agreement."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "A fresh notice under Section 21 is the legal commencement of a new arbitration and cannot be dispensed with merely because an earlier award has been set aside.",
+      author: "Bombay High Court"
     },
 
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Fresh Notice Mandatory",
+        description:
+          "A new Section 21 notice must always precede a fresh arbitration after an arbitral award is set aside."
+      },
+      {
+        title: "Limitation Begins with Notice",
+        description:
+          "The limitation period for recommencing arbitration is linked to a valid Section 21 notice and not merely the setting aside of the previous award."
+      },
+      {
+        title: "Non-Signatories Protected",
+        description:
+          "Persons who are not parties to an arbitration agreement cannot be referred to arbitration without prima facie evidence showing their consent or legal relationship."
+      },
+      {
+        title: "Section 43(4)",
+        description:
+          "The statutory exclusion of time is available only where arbitration has been properly recommenced in accordance with the Act."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the procedural safeguards governing arbitration by clarifying that every fresh arbitral proceeding requires a valid invocation under Section 21. It also reiterates that arbitration remains a consensual dispute resolution mechanism and cannot ordinarily bind persons who never agreed to arbitrate.",
+
+    caseDetails: {
+      caseName:
+        "Hemant D. Shah HUF & Anr. v. Chittaranjan D. Shah HUF & Ors.",
+      court: "Bombay High Court",
+      bench: "Justice Arun R. Pedneker",
+      decisionDate: "7 July 2026",
+      caseNumber: "Commercial Arbitration Application No. 184 of 2026"
+    },
+
+    disclaimer:
+      "This article is intended for informational purposes only and provides a summary of the Bombay High Court's judgment. Readers should refer to the complete judgment for the full legal reasoning and operative directions."
+  },
 
   {
     slug: "story-3",
 
-    title: "Supreme Court: Excluding Widow in Favour of Distant Relatives Casts Doubt on Validity of Will",
+    title:
+      "Supreme Court: Excluding Widow in Favour of Distant Relatives Casts Doubt on Validity of Will",
 
     category: "Supreme Court",
 
     publishedAt: "2026-07-07T10:45:00+05:30",
 
+    readTime: "7 min read",
+
     excerpt:
-      "The Supreme Court has held that a will excluding a surviving widow in favour of distant relatives or unrelated persons raises serious suspicion and requires strict proof of its voluntary execution by the testator.",
+      "The Supreme Court has ruled that a will completely excluding a surviving widow in favour of distant relatives naturally raises suspicion and requires strict proof that the document was executed voluntarily and with full understanding by the testator.",
 
     image: "/images/story3.png",
 
-    content: [
-      "The Supreme Court has held that a will which completely excludes a surviving widow while transferring property to distant relatives or persons with no close familial connection naturally gives rise to suspicion regarding its authenticity. The Court observed that since a widow is a Class I legal heir under succession law, any attempt to deprive her of inheritance without a convincing explanation requires careful judicial scrutiny.",
+    sections: [
+      {
+        title: "Background",
 
-      "The Court emphasized that in such cases, the burden rests heavily on the person relying on the will to establish that it was executed voluntarily by the testator with a clear understanding of its contents and legal consequences. It further observed that where genuine suspicious circumstances remain unresolved, appellate courts should not interfere with concurrent factual findings merely because another view is possible.",
+        content: [
+          "The dispute concerned agricultural land belonging to Chhajju Ram, an illiterate farmer who died without children. Following his death, his widow, Bhambo Devi, claimed ownership of the property as the sole surviving Class I heir.",
 
-      "Allowing the civil appeal, a Bench comprising Justice Manoj Misra and Justice K.V. Viswanathan set aside the Himachal Pradesh High Court's judgment, which had overturned the concurrent findings of the Trial Court and the First Appellate Court in a property inheritance dispute.",
+          "The defendants relied upon a registered will allegedly executed by the deceased in their favour. The widow challenged its validity, alleging that the document had never been voluntarily executed and was surrounded by suspicious circumstances."
+        ]
+      },
 
-      "The dispute concerned agricultural land owned by Chhajju Ram, an illiterate farmer who died without children. Following his death, his widow, Bhambo Devi, instituted a civil suit claiming ownership of the property as his sole surviving Class I heir. She challenged a registered will relied upon by the defendants, alleging that it had never been executed by her husband and was the result of fraud and undue influence.",
+      {
+        title: "Findings of the Lower Courts",
 
-      "The defendants maintained that the deceased had voluntarily executed the registered will in their favour in recognition of the care and assistance they had extended to him and his wife.",
+        content: [
+          "Both the Trial Court and the First Appellate Court accepted the widow's claim after finding several unexplained circumstances surrounding the will. These included the complete exclusion of the widow, unexplained alterations in the registration endorsement, and the absence of any convincing evidence showing a close relationship between the deceased and the beneficiaries.",
 
-      "The Trial Court accepted the widow's claim after finding that the alleged will was surrounded by several suspicious circumstances. These included the complete exclusion of the widow without any convincing justification, material alterations on the registration endorsement that were not authenticated by initials, and the defendants' failure to establish possession of the disputed property.",
+          "However, the Himachal Pradesh High Court reversed these concurrent findings in second appeal after holding that the registered will had been duly proved through an attesting witness."
+        ]
+      },
 
-      "The First Appellate Court affirmed these findings, observing that the defendants had failed to prove any close relationship between the testator and the beneficiaries. It also noted unexplained alterations in the registration records, including changes to the presenter's name without proper authentication, which created serious doubt regarding the document's execution.",
+      {
+        title: "Supreme Court's Analysis",
 
-      "However, the Himachal Pradesh High Court reversed the concurrent findings in second appeal, holding that the will stood proved once an attesting witness established its execution in accordance with law and that the discrepancies relied upon by the lower courts were insufficient to invalidate the registered document.",
+        content: [
+          "The Supreme Court disagreed with the High Court's approach and observed that excluding a surviving widow in favour of distant relatives naturally creates suspicion requiring careful judicial scrutiny. Since the deceased was illiterate, the burden upon the propounders of the will became even heavier.",
 
-      "Disagreeing with that approach, the Supreme Court restored the findings of the Trial Court and the First Appellate Court. The Bench held that the complete disinheritance of the widow in favour of persons who were not shown to be close relatives, coupled with the testator's illiteracy and unexplained alterations in the registration endorsement, constituted significant suspicious circumstances. In such a situation, the propounders of the will were required to dispel every legitimate doubt, which they failed to do.",
+          "The Bench held that the defendants failed to satisfactorily explain the suspicious circumstances surrounding the document. The Court further observed that appellate courts exercising jurisdiction under Section 100 of the Code of Civil Procedure cannot ordinarily reassess concurrent factual findings unless a substantial question of law genuinely arises."
+        ]
+      },
 
-      "The Court also observed that once the courts below had concurrently recorded factual findings after appreciating the evidence, no substantial question of law arose warranting interference by the High Court in second appeal.",
+      {
+        title: "Decision",
 
-      "Before the Supreme Court, the appellant argued that there was no dispute regarding the deceased's ownership of the property or the plaintiff's status as his sole surviving Class I legal heir. It was contended that the burden to prove the will rested entirely on the defendants and that the Trial Court and the First Appellate Court had rightly appreciated the evidence, leaving no scope for interference in second appeal.",
+        content: [
+          "Allowing the appeal, the Supreme Court restored the concurrent judgments of the Trial Court and the First Appellate Court. It held that the defendants had failed to discharge the burden required in law to establish the genuineness of the disputed will.",
 
-      "The respondents contended that the plaintiff had taken inconsistent pleas by alleging both forgery and fraud, and argued that the registered will had been duly proved through an attesting witness. They further submitted that the alterations relied upon were confined to the registration endorsement and did not affect the contents of the will itself.",
-
-      "The Supreme Court examined whether the plaintiff's pleadings were legally sustainable, whether her failure to enter the witness box was fatal to the suit, whether the will was surrounded by suspicious circumstances, and whether the High Court had exceeded its jurisdiction under Section 100 of the Code of Civil Procedure.",
-
-      "Rejecting the respondents' objections, the Court held that alternative pleadings alleging fraud or undue influence did not amount to admitting the execution of the will. It also ruled that the plaintiff's failure to testify did not defeat her case because her status as the deceased's widow and sole Class I heir had not been specifically denied by the defendants and therefore stood admitted under Order VIII Rule 5 of the Code of Civil Procedure.",
-
-      "On the merits, the Court noted that the testator was illiterate, making it essential for the propounders to prove that he had executed the will voluntarily and with full knowledge of its contents. The Bench found several unexplained suspicious circumstances, including the complete exclusion of the widow, transfer of property to persons who were not close relatives, incorrect recitals explaining the disinheritance, and multiple unauthenticated alterations in the registration endorsement. These circumstances prevented the defendants from discharging the burden required in law.",
-
-      "The Supreme Court further reiterated that the existence of suspicious circumstances surrounding a will is essentially a question of fact. Concurrent findings recorded by the Trial Court and the First Appellate Court after appreciating evidence cannot ordinarily be disturbed in a second appeal unless shown to be perverse or legally unsustainable.",
-
-      "Accordingly, the Bench held that the Himachal Pradesh High Court had travelled beyond the limited jurisdiction conferred by Section 100 of the Code of Civil Procedure by reassessing factual findings that did not raise any substantial question of law.",
-
-      "Allowing the appeal, the Supreme Court set aside the judgment of the Himachal Pradesh High Court and restored the concurrent decrees of the Trial Court and the First Appellate Court. It affirmed the plaintiff's ownership and possession of the disputed property and passed no order as to costs.",
-
-      "Case: Sardari Lal v. Bishan Dass and Others (2026 INSC 669)."
+          "The widow's ownership and possession of the disputed property were consequently restored."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "A will completely excluding a surviving widow in favour of distant relatives naturally gives rise to suspicious circumstances requiring strict proof.",
+      author: "Supreme Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Widow's Exclusion Raises Suspicion",
+        description:
+          "Complete disinheritance of a Class I heir without convincing explanation demands greater judicial scrutiny."
+      },
+      {
+        title: "Higher Burden on Propounder",
+        description:
+          "The person relying upon the will must dispel every legitimate suspicion surrounding its execution."
+      },
+      {
+        title: "Illiterate Testator",
+        description:
+          "Where the testator is illiterate, courts require stronger proof that the document was voluntarily executed with full knowledge."
+      },
+      {
+        title: "Second Appeal Limited",
+        description:
+          "High Courts cannot ordinarily interfere with concurrent findings of fact unless a substantial question of law exists."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reiterates the well-settled principles governing proof of wills, emphasising that suspicious circumstances surrounding testamentary documents must be satisfactorily explained before probate or inheritance claims can succeed.",
+
+    caseDetails: {
+      caseName: "Sardari Lal v. Bishan Dass and Others",
+      court: "Supreme Court of India",
+      bench: "Justice Manoj Misra & Justice K.V. Viswanathan",
+      decisionDate: "7 July 2026",
+      citation: "2026 INSC 669"
+    },
+
+    disclaimer:
+      "This summary is intended solely for informational purposes and should not be treated as legal advice. Readers are encouraged to refer to the complete judgment for the Court's detailed reasoning."
   },
 
   {
     slug: "story-4",
 
-    title: "Patna High Court Directs DM to Ensure Legal Acquisition Before Constructing Road on Private Raiyati Land",
+    title:
+      "Patna High Court Directs DM to Ensure Legal Acquisition Before Constructing Road on Private Raiyati Land",
 
     category: "Patna High Court",
 
     publishedAt: "2026-07-07T10:30:00+05:30",
 
+    readTime: "5 min read",
+
     excerpt:
-      "The Patna High Court has held that the State cannot construct a public road on privately owned raiyati land without first acquiring the property in accordance with law and paying due compensation to the landowner.",
+      "The Patna High Court has held that the State cannot construct public infrastructure over privately owned raiyati land without first acquiring the property in accordance with law and paying lawful compensation.",
 
     image: "/images/story4.png",
 
-    content: [
-      "The Patna High Court has strongly criticized the district administration for permitting the construction of a village road on privately owned raiyati land without following the procedure prescribed by law. Observing that the authorities neither initiated land acquisition proceedings nor paid compensation to the landowner, the Court described the administrative action as a clear instance of arbitrariness and directed the District Magistrate to personally oversee compliance with the law.",
+    sections: [
+      {
+        title: "Background",
 
-      "Justice Rana Vikram Singh observed that public authorities cannot enter upon or utilize private property for development projects without first following the statutory process of acquisition. The Court further remarked that the failure of senior district officials to address the petitioner's repeated complaints reflected administrative indifference and effectively allowed the alleged illegal construction to continue.",
+        content: [
+          "The petitioner claimed ownership over ancestral raiyati land situated in Bhagalpur district. Although the land was mistakenly recorded as government property during a survey, an appellate court later declared it to be the petitioner's private property.",
 
-      "The dispute arose from land situated in Bihar's Bhagalpur district, which the petitioner claimed had remained in his family's possession for generations. During a survey operation, however, the property was mistakenly recorded in the revenue records as belonging to the State of Bihar. Challenging this error, the petitioner filed a civil suit seeking declaration of title and correction of the revenue entry.",
+          "Despite the civil court decree attaining finality, local authorities proceeded with construction of a village road over the land without initiating acquisition proceedings or paying compensation."
+        ]
+      },
 
-      "Although the Trial Court initially dismissed the suit, the appellate court later ruled in the petitioner's favour, declaring the land to be private raiyati property belonging to his family. As the State did not challenge the appellate decree, the finding attained finality.",
+      {
+        title: "Court's Observations",
 
-      "Despite the civil court's decision, local authorities proceeded with the construction of a village road over the land. The petitioner alleged that no notice was issued, no acquisition proceedings were commenced, and no compensation was offered before the work began. He further submitted that several representations made to the Executive Engineer, District Magistrate, and other authorities failed to elicit any corrective action.",
+        content: [
+          "Justice Rana Vikram Singh observed that public authorities cannot utilise private land for development projects without first complying with the statutory acquisition process. The Court described the conduct of the authorities as arbitrary and contrary to law.",
 
-      "Opposing the writ petition, the State argued that the authorities had initially believed the land to be government property because of the earlier revenue entry and the Trial Court's dismissal of the civil suit. It was also contended that the petitioner's initial representations had been submitted before the appellate court pronounced its judgment, and therefore the authorities were unaware of the subsequent change in the legal position.",
+          "The Bench further criticised the administration for failing to respond to repeated representations made by the landowner while permitting construction activities to continue."
+        ]
+      },
 
-      "After examining the record, the High Court held that the petitioner's ownership had already been conclusively established by the appellate court's decree. It observed that even when land is required for a public purpose, the State cannot take possession of private property without adhering to the statutory acquisition procedure and ensuring payment of lawful compensation.",
+      {
+        title: "Violation of Property Rights",
 
-      "The Court found that the authorities had failed to issue any notice, commence acquisition proceedings, or compensate the petitioner before allowing the road construction. Such conduct, the Court observed, demonstrated a complete disregard for the petitioner's legal and statutory rights.",
+        content: [
+          "The Court held that the petitioner's ownership had already been conclusively established through the civil court decree. Consequently, the State could not rely upon outdated revenue records to justify occupation of the land.",
 
-      "Accordingly, the High Court directed the District Magistrate to personally examine the matter, verify the relevant revenue records along with the civil court's decree, and ensure that no further construction is carried out unless the land is lawfully acquired in accordance with the applicable legal procedure and appropriate compensation is paid.",
+          "Even where land is required for a genuine public purpose, the Constitution and statutory framework require lawful acquisition and payment of compensation before possession can be taken."
+        ]
+      },
 
-      "Case: Uttam Jha v. State of Bihar & Others, Civil Writ Jurisdiction Case No. 7953 of 2026."
+      {
+        title: "Decision",
+
+        content: [
+          "The High Court directed the District Magistrate to personally verify the revenue records together with the civil court decree and ensure that no further construction is carried out unless acquisition proceedings are completed in accordance with law.",
+
+          "The Court further directed that appropriate compensation must be paid if the land is acquired for public purposes."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "The State cannot take possession of private property for public purposes without first following the procedure established by law.",
+      author: "Patna High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Private Property Protected",
+        description:
+          "Government agencies cannot utilise private land merely because it is needed for a public project."
+      },
+      {
+        title: "Acquisition is Mandatory",
+        description:
+          "Lawful land acquisition and payment of compensation must precede any public construction."
+      },
+      {
+        title: "Administrative Accountability",
+        description:
+          "The District Magistrate was directed to personally supervise compliance with the Court's directions."
+      },
+      {
+        title: "Revenue Errors Not Enough",
+        description:
+          "Incorrect revenue entries cannot override a binding civil court decree recognising private ownership."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces constitutional protection of property rights by reiterating that public development projects cannot bypass statutory acquisition procedures or deny landowners their right to compensation.",
+
+    caseDetails: {
+      caseName: "Uttam Jha v. State of Bihar & Others",
+      court: "Patna High Court",
+      bench: "Justice Rana Vikram Singh",
+      decisionDate: "7 July 2026",
+      caseNumber: "Civil Writ Jurisdiction Case No. 7953 of 2026"
+    },
+
+    disclaimer:
+      "This article is intended for informational purposes only and summarises the High Court's judgment. Readers should consult the complete decision for the full legal reasoning."
   },
 
   {
@@ -184,44 +474,99 @@ export const stories: Story[] = [
 
     publishedAt: "2026-07-14T09:30:00+05:30",
 
+    readTime: "6 min read",
+
     excerpt:
-      "The Sikkim High Court has called for a systematic and evidence-based review of child mental health policies while raising concerns over the effectiveness of prison rehabilitation programmes in preventing repeat offences.",
+      "The Sikkim High Court has urged the State Government to scientifically evaluate child mental health programmes while questioning whether existing prison rehabilitation measures effectively prevent repeat offences.",
 
     image: "/images/story5.png",
 
-    content: [
-      "The Sikkim High Court has urged the State Government to adopt a systematic and evidence-based approach to safeguarding children's mental health. The Court also raised concerns over the effectiveness of prison rehabilitation programmes after observing that a repeat offender had committed a graver crime despite undergoing imprisonment for an earlier conviction.",
+    sections: [
+      {
+        title: "Background",
 
-      "The observations were made while partly allowing an appeal filed by a man convicted in a case under the Protection of Children from Sexual Offences (POCSO) Act. The Court upheld his conviction for sexual assault, wrongful restraint and abetment of suicide. However, it set aside the separate punishment imposed under Section 354A of the Indian Penal Code, holding that overlapping offences cannot result in multiple punishments in view of Section 42 of the POCSO Act and Section 71 IPC.",
+        content: [
+          "The appeal arose from the conviction of a man under the Protection of Children from Sexual Offences (POCSO) Act in connection with the sexual assault of a 17-year-old schoolgirl who later died by suicide.",
 
-      "A Division Bench comprising Chief Justice A. Muhamed Mustaque and Justice Bhaskar Raj Pradhan expressed serious concern over the mental well-being of children after examining the suicide note left by the minor victim. The Court observed that the emotional and psychological health of children, particularly girl children, requires greater institutional attention.",
+          "While the High Court upheld the convictions for sexual assault, wrongful restraint and abetment of suicide, it set aside the separate punishment imposed under Section 354A IPC, holding that overlapping offences cannot attract multiple punishments."
+        ]
+      },
 
-      "The Bench noted that although the State has introduced programmes aimed at addressing mental health concerns, their effectiveness must be periodically assessed through scientific evaluation. It called upon the government to develop a structured framework capable of identifying gaps and measuring whether existing schemes are achieving their intended objectives.",
+      {
+        title: "Mental Health Concerns",
 
-      "The High Court also examined the appellant's previous criminal history. He had earlier been convicted under Section 458 IPC in 2011 and sentenced to 25 months of imprisonment. Despite serving the sentence, the appellant subsequently committed an offence which the Court described as more serious than his previous crime.",
+        content: [
+          "After examining the victim's suicide note, the Division Bench observed that children's emotional and psychological well-being deserves greater institutional attention. The Court emphasised that mental health policies should not merely exist on paper but should be periodically assessed through scientific evaluation.",
 
-      "Taking note of the repeat offending, the Bench questioned the effectiveness of rehabilitation measures at the State Central Prison in Rongyek. It observed that correctional programmes must be capable of addressing behavioural concerns and reducing the possibility of offenders returning to criminal activity after release.",
+          "The Bench recommended the creation of measurable frameworks capable of identifying shortcomings and evaluating whether existing government programmes are actually improving children's mental health."
+        ]
+      },
 
-      "The case arose from the sexual assault of a 17-year-old schoolgirl who later died by suicide. The appellant was convicted by the Special Judge (POCSO), West Sikkim, for offences connected with the assault and the circumstances leading to the victim's death.",
+      {
+        title: "Prison Rehabilitation",
 
-      "The prosecution relied upon a suicide note recovered from the victim's room, forensic handwriting analysis, medical records and witness testimony. These materials, according to the prosecution, established the events preceding the victim's death and the appellant's involvement.",
+        content: [
+          "The Court also examined the appellant's previous conviction and observed that despite serving an earlier prison sentence, he subsequently committed a graver offence. This prompted the Bench to question the effectiveness of rehabilitation programmes within the State Central Prison.",
 
-      "Challenging his conviction, the appellant argued that the investigation suffered from serious defects. He also questioned whether the prosecution had sufficiently established the victim's age and the authorship of the suicide note and maintained that the available evidence was inadequate to sustain the conviction.",
+          "The Court stressed that correctional institutions should actively reduce the likelihood of repeat offending through meaningful rehabilitation rather than merely serving punitive functions."
+        ]
+      },
 
-      "The High Court rejected these arguments, finding that the prosecution had established a complete and consistent chain of circumstantial evidence. The Bench held that the suicide note was supported by forensic findings, medical material and witness testimony and sufficiently established the acts of sexual assault, restraint and harassment attributed to the appellant.",
+      {
+        title: "Decision",
 
-      "The Court also upheld the Trial Court's finding that the victim was a child for the purposes of the POCSO Act, relying upon official birth records and other documentary evidence.",
+        content: [
+          "The High Court affirmed the appellant's remaining convictions and directed that the sentences run concurrently. It also upheld compensation awarded to the victim's parents.",
 
-      "The High Court stressed that children's mental health requires proactive intervention at both rural and urban levels. It observed that the government should not limit itself to implementing programmes but must establish a structured mechanism to regularly assess their impact.",
-
-      "The Bench highlighted that protecting the psychological well-being of children is essential not only for their individual development but also for the wider progress of society.",
-
-      "While setting aside the separate sentence under Section 354A IPC, the Court affirmed the appellant's remaining convictions and sentences and directed that the sentences run concurrently. It also upheld the compensation awarded to the victim's parents.",
-
-      "Considering the wider institutional issues highlighted by the case, the Court directed that copies of its judgment be forwarded to the Additional Director General of Police overseeing the State Central Prison and the Chief Secretary of Sikkim for appropriate consideration and action.",
-
-      "Case: Chewang Sherpa v. State of Sikkim, Criminal Appeal No. 19 of 2023. Bench: Chief Justice A. Muhamed Mustaque and Justice Bhaskar Raj Pradhan."
+          "Copies of the judgment were directed to be forwarded to the Chief Secretary of Sikkim and senior prison authorities for appropriate policy consideration."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "Children's mental health requires proactive intervention supported by scientific evaluation rather than merely implementing schemes.",
+      author: "Sikkim High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Scientific Policy Review",
+        description:
+          "Mental health programmes should be periodically evaluated using measurable outcomes."
+      },
+      {
+        title: "Children's Well-being",
+        description:
+          "Psychological health deserves equal institutional attention alongside physical safety."
+      },
+      {
+        title: "Prison Reform",
+        description:
+          "Correctional systems must focus on reducing repeat offending through rehabilitation."
+      },
+      {
+        title: "Double Punishment Restricted",
+        description:
+          "Overlapping offences cannot result in multiple punishments where statutory protections apply."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment extends beyond criminal law by emphasising evidence-based policymaking in child mental health and the constitutional importance of meaningful prison rehabilitation.",
+
+    caseDetails: {
+      caseName: "Chewang Sherpa v. State of Sikkim",
+      court: "Sikkim High Court",
+      bench: "Chief Justice A. Muhamed Mustaque & Justice Bhaskar Raj Pradhan",
+      decisionDate: "14 July 2026",
+      caseNumber: "Criminal Appeal No. 19 of 2023"
+    },
+
+    disclaimer:
+      "This article provides an editorial summary of the judgment and is intended solely for informational purposes."
   },
 
   {
@@ -234,52 +579,98 @@ export const stories: Story[] = [
 
     publishedAt: "2026-07-14T11:30:00+05:30",
 
+    readTime: "7 min read",
+
     excerpt:
-      "The Bombay High Court has held that offering a Dua for electoral success, followed by a congregation responding with Amen, does not by itself amount to seeking votes on religious grounds or constitute a corrupt electoral practice.",
+      "The Bombay High Court has ruled that offering a prayer for electoral success, without asking voters to support a candidate because of religion, does not amount to a corrupt electoral practice under the Representation of the People Act.",
 
     image: "/images/story6.png",
 
-    content: [
-      "The Bombay High Court has held that a candidate offering a \"Dua\" for success in an election, followed by members of the congregation responding with \"Amen\", does not by itself amount to seeking votes on religious grounds or constitute a corrupt electoral practice under the Representation of the People Act, 1951.",
+    sections: [
+      {
+        title: "Election Challenge",
 
-      "The ruling came while the Court rejected an election petition challenging the victory of AIMIM MLA Mufti Mohammad Ismail Abdul Khalique from the Malegaon Central Assembly Constituency in the 2024 Maharashtra Assembly elections.",
+        content: [
+          "The election petition challenged the victory of AIMIM MLA Mufti Mohammad Ismail Abdul Khalique from the Malegaon Central constituency. The petitioner alleged corrupt electoral practices based on religious speeches, campaign material and congregational prayers.",
 
-      "Justice N.J. Jamadar observed that a prayer seeking success or invoking divine blessings is fundamentally different from an appeal asking electors to vote on the basis of a candidate's religion. The Court also distinguished the congregation's response of \"Amen\" from a formal pledge or undertaking to support a candidate.",
+          "It was also alleged that deceased voters had participated in the election and that communal divisions had been encouraged during campaigning."
+        ]
+      },
 
-      "According to the Court, saying \"Amen\" may indicate agreement with or support for the prayer being offered. However, such a response cannot be equated with a commitment to cast a vote in favour of the person offering the prayer.",
+      {
+        title: "Court's Analysis",
 
-      "Shaikh Asif Shaikh Rashid, who contested the 2024 Assembly election on the \"Auto Rikshaw\" symbol, challenged the election of Mufti Mohammad Ismail Abdul Khalique, the AIMIM candidate contesting on the \"Kite\" symbol. The election was decided by a margin of 162 votes.",
+        content: [
+          "Justice N.J. Jamadar observed that offering a Dua for electoral success differs fundamentally from requesting votes on the basis of religion. Likewise, the congregation's response of 'Amen' merely reflected agreement with the prayer and could not be treated as an electoral commitment.",
 
-      "The petitioner alleged that the returned candidate had committed corrupt practices prohibited under the Representation of the People Act. Among the allegations was that, in his capacity as Imam of Jama Masjid and Eidgah in Malegaon, the MLA offered prayers for his electoral success during congregational gatherings.",
+          "The Court reiterated that merely referring to religion in a speech does not automatically amount to a corrupt electoral practice unless there is a direct appeal asking electors to vote because of religion."
+        ]
+      },
 
-      "It was further alleged that religious references were used during election campaigning. The petition referred to speeches allegedly delivered by AIMIM leader Asaduddin Owaisi and claimed that the petitioner had been compared to \"Yazid\" and described as a \"drug peddler\".",
+      {
+        title: "Insufficient Evidence",
 
-      "Additional allegations concerned attempts to create divisions between \"Dakhani Muslims\" and \"Momins\" through campaign speeches, pamphlets and prayer gatherings allegedly organised by the returned candidate's family members.",
+        content: [
+          "The Bench found that allegations concerning campaign speeches, pamphlets and voting irregularities lacked the detailed pleadings and supporting evidence required under election law.",
 
-      "The petitioner also claimed that 1,082 deceased individuals had been recorded as having voted in the election and argued that the result should therefore be declared void under Section 100(1)(d)(iii) of the Representation of the People Act.",
+          "Claims regarding deceased voters were unsupported by polling records, affidavits or other reliable evidence."
+        ]
+      },
 
-      "The returned candidate sought rejection of the election petition under Order VII Rule 11 of the Code of Civil Procedure read with Section 86(1) of the Representation of the People Act. It was argued that the petition failed to disclose the material facts and detailed particulars required under Section 83 of the Act.",
+      {
+        title: "Decision",
 
-      "The High Court rejected the petitioner's preliminary contention that a failure to comply with Section 83 could not result in rejection of the petition under Section 86. Relying on the Supreme Court's decision in Azhar Hussain v. Rajiv Gandhi, the Court held that Order VII Rule 11 CPC could independently apply to election petitions through Section 87 of the Representation of the People Act.",
-
-      "Examining the allegations concerning the Dua and the congregation's response, the Court found that the pleadings lacked the necessary particulars to establish a corrupt practice. Even if the allegations were accepted at face value, the Court held that praying for electoral success did not amount to soliciting votes on religious grounds.",
-
-      "Referring to Dr. Ramesh Yashwant Prabhoo v. Prabhakar Kashinath Kunte & Others, the Court reiterated that merely referring to religion in an election speech is not prohibited. For the conduct to constitute a corrupt practice, there must be an identifiable appeal asking voters to support or reject a candidate on religious grounds.",
-
-      "The Court found that references to Islamic history, prayers for peace and support allegedly extended by religious organisations did not satisfy this legal threshold.",
-
-      "The Court also noted that the allegedly objectionable speeches were delivered by persons who were not shown to be election agents of the returned candidate. The petition attempted to attribute consent to the MLA merely because he was allegedly present at the meetings. However, no specific act or statement demonstrating his approval of the speeches had been pleaded.",
-
-      "Similarly, the Court found that the pamphlet relied upon by the petitioner did not contain an appeal to vote for the candidate because of his religion. At most, it presented him as a preferable representative based on his stated qualifications.",
-
-      "The High Court also rejected the allegation that 1,082 deceased voters had participated in the election. The Court found that the claim was based on broad assertions and was not supported by affidavits from polling agents, CCTV material or relevant Form 17-C records.",
-
-      "Relying on its earlier decision in Shobha Dinesh Bacchav v. Dr. Subhash Ramrao Bhamre, the Court held that unsupported allegations of electoral irregularities could not justify a detailed judicial inquiry.",
-
-      "Finding that the election petition failed to disclose a complete cause of action or the material particulars necessary to establish corrupt electoral practices, the Bombay High Court allowed the application for rejection and dismissed the election petition in its entirety.",
-
-      "Case: Mufti Mohammad Ismail Abdul Khalique v. Shaikh Asif Shaikh Rashid @ Asif Shaikh Rasheed & Others. Neutral Citation: 2026:BHC-OS:12567. Bench: Justice N.J. Jamadar."
+        content: [
+          "Holding that the election petition failed to disclose a complete cause of action, the Bombay High Court rejected the petition under Order VII Rule 11 CPC and upheld the returned candidate's election."
+        ]
+      }
     ],
+
+    quote: {
+      text:
+        "A prayer seeking electoral success cannot by itself be equated with an appeal seeking votes on religious grounds.",
+      author: "Bombay High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Prayer ≠ Religious Appeal",
+        description:
+          "Religious prayers alone do not amount to corrupt electoral practice."
+      },
+      {
+        title: "Strict Pleading Required",
+        description:
+          "Election petitions must contain detailed material facts and supporting particulars."
+      },
+      {
+        title: "Evidence Matters",
+        description:
+          "Broad allegations without documentary support cannot invalidate an election."
+      },
+      {
+        title: "Religion in Speech",
+        description:
+          "References to religion become unlawful only when they directly solicit votes on religious grounds."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment clarifies the distinction between religious expression and unlawful electoral appeals under the Representation of the People Act.",
+
+    caseDetails: {
+      caseName:
+        "Mufti Mohammad Ismail Abdul Khalique v. Shaikh Asif Shaikh Rashid & Others",
+      court: "Bombay High Court",
+      bench: "Justice N.J. Jamadar",
+      decisionDate: "14 July 2026",
+      citation: "2026:BHC-OS:12567"
+    },
+
+    disclaimer:
+      "This summary is intended solely for educational and informational purposes and should not be treated as legal advice."
   },
 
   {
@@ -292,46 +683,100 @@ export const stories: Story[] = [
 
     publishedAt: "2026-07-17T10:00:00+05:30",
 
+    readTime: "6 min read",
+
     excerpt:
-      "The Allahabad High Court has held that an electro homeopathy qualification does not authorise a person to practice allopathic medicine, observing that practicing a medical system without recognised qualifications amounts to quackery.",
+      "The Allahabad High Court has held that qualifications in electro homeopathy do not authorise the practice of allopathic medicine, observing that practising an unfamiliar medical system amounts to quackery and endangers public health.",
 
     image: "/images/story7.png",
 
     featured: true,
 
-    content: [
-      "The Allahabad High Court has refused to interfere with the sealing of a clinic operated by a practitioner holding an electro homeopathy qualification, holding that such a qualification does not confer the legal authority to practice modern medicine (allopathy). The Court further observed that a person practicing a system of medicine without possessing the requisite knowledge and recognised qualification amounts to a 'quack'.",
+    sections: [
+      {
+        title: "Background",
 
-      "A Division Bench comprising Justice J.J. Munir and Justice Indrajeet Shukla dismissed the writ petition filed by Santosh Kumar Sharma, concluding that the petitioner neither possessed a recognised qualification to practice allopathic medicine nor operated a clinic that complied with statutory and regulatory requirements.",
+        content: [
+          "The petitioner challenged the sealing of his clinic after authorities concluded that he was administering allopathic medicines despite possessing only qualifications in electro homeopathy and community health.",
 
-      "Emphasising the importance of professional competence in the medical field, the Bench observed that a person who does not have knowledge of a particular system of medicine but practices in that system is a quack and merely pretends to possess medical knowledge or skill.",
+          "Following an inspection, the Chief Medical Officer found multiple statutory violations and initiated both regulatory and criminal proceedings."
+        ]
+      },
 
-      "The Court held that allowing an unqualified individual to treat patients under a medical system for which they are neither trained nor registered would compromise public health and run contrary to statutory provisions regulating medical practice.",
+      {
+        title: "Regulatory Violations",
 
-      "The dispute arose after the Chief Medical Officer initiated proceedings against the petitioner, who was operating a clinic while claiming entitlement to practice on the basis of a certificate in electro homeopathy and a vocational qualification in community health.",
+        content: [
+          "Apart from lacking recognised medical qualifications, the clinic was found to be unregistered, lacked biomedical waste management facilities, had no fire safety clearance, failed to maintain infection control standards and permitted unqualified persons to provide treatment.",
 
-      "Authorities found that the petitioner was administering allopathic medicines despite lacking a recognised medical qualification or registration permitting such practice. Following earlier proceedings before the High Court, the petitioner submitted a detailed explanation before the Chief Medical Officer. However, the explanation was rejected, and the clinic remained sealed.",
+          "The Court observed that each of these deficiencies independently justified regulatory action."
+        ]
+      },
 
-      "The Chief Medical Officer also initiated criminal proceedings after concluding that the petitioner had no legal authority to practice allopathic medicine or operate the clinic in the manner in which it was functioning.",
+      {
+        title: "Court's Analysis",
 
-      "Apart from the issue of medical qualification, the authorities found several regulatory deficiencies. The clinic was not registered with the Chief Medical Officer, failed to comply with statutory standards governing clinical establishments, lacked a biomedical waste management system, did not possess the mandatory Fire NOC, failed to maintain infection prevention and control mechanisms, and permitted persons without recognised qualifications to treat patients.",
+        content: [
+          "The Bench reiterated that registration under one system of medicine does not authorise practice under another unless specifically recognised by law. Relying upon Mukhtiar Chand v. State of Punjab, the Court held that only recognised allopathic practitioners may administer modern medicine.",
 
-      "The High Court observed that these shortcomings independently justified regulatory action against the clinic.",
+          "The Court further observed that Article 19(1)(g) permits the State to regulate professions through reasonable restrictions in the interest of public health."
+        ]
+      },
 
-      "Rejecting the petitioner's claim that his electro homeopathy qualification entitled him to practice modern medicine, the Court reiterated that only persons possessing recognised qualifications under the applicable medical laws are authorised to practice allopathic medicine.",
+      {
+        title: "Decision",
 
-      "Relying on the Supreme Court's decision in Mukhtiar Chand v. State of Punjab, the Bench held that registration under one system of medicine does not authorise a practitioner to cross over and practice another system unless specifically recognised by law.",
-
-      "The Court also referred to Article 19(1)(g) of the Constitution, observing that although it guarantees the freedom to practice a profession, the State is empowered to impose reasonable restrictions in the interest of public health by regulating medical qualifications and clinical establishments.",
-
-      "Finding no illegality in the decision of the Chief Medical Officer, the High Court held that it could not substitute its own view for that of competent statutory authorities exercising powers under the relevant regulatory framework.",
-
-      "Accordingly, the writ petition was dismissed, and the order sealing the clinic was allowed to stand.",
-
-      "Case: Santosh Kumar Sharma v. State of Uttar Pradesh, WRIT-C No. 21019 of 2026. Decision Date: July 10, 2026."
+        content: [
+          "Finding no illegality in the decision of the Chief Medical Officer, the High Court dismissed the writ petition and upheld the order sealing the clinic."
+        ]
+      }
     ],
-  },
 
+    quote: {
+      text:
+        "A person who practises a system of medicine without possessing the necessary knowledge is a quack and merely pretends to possess medical skill.",
+      author: "Allahabad High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Electro Homeopathy ≠ Allopathy",
+        description:
+          "Qualification in one medical system does not authorise practice in another."
+      },
+      {
+        title: "Public Health First",
+        description:
+          "Medical regulation exists to protect patients from unqualified treatment."
+      },
+      {
+        title: "Clinic Standards Mandatory",
+        description:
+          "Registration, biomedical waste disposal, fire safety and infection control are statutory requirements."
+      },
+      {
+        title: "Professional Regulation",
+        description:
+          "Reasonable restrictions under Article 19(1)(g) permit regulation of medical professions."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the Supreme Court's long-standing principle that cross-practice without statutory recognition is impermissible and highlights the constitutional importance of regulating healthcare professions in the interest of public safety.",
+
+    caseDetails: {
+      caseName: "Santosh Kumar Sharma v. State of Uttar Pradesh",
+      court: "Allahabad High Court",
+      bench: "Justice J.J. Munir & Justice Indrajeet Shukla",
+      decisionDate: "10 July 2026",
+      caseNumber: "WRIT-C No. 21019 of 2026"
+    },
+
+    disclaimer:
+      "This article summarises the judgment for informational purposes and should not be treated as legal or medical advice."
+  },
 
 ];
 
