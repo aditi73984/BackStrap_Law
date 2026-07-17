@@ -1,57 +1,156 @@
 export interface Update {
   slug: string;
+
   title: string;
+
   category: string;
+
   publishedAt: string;
+
+  readTime: string;
+
   excerpt: string;
+
   image: string;
+
   featured?: boolean;
-  content: string[];
+
+  sections: {
+    title: string;
+    content: string[];
+  }[];
+
+  quote?: {
+    text: string;
+    author: string;
+  };
+
+  highlightsTitle?: string;
+
+  highlights?: {
+    title: string;
+    description: string;
+  }[];
+
+  legalSignificance?: string;
+
+  caseDetails?: {
+    caseName: string;
+    court: string;
+    bench: string;
+    decisionDate: string;
+    caseNumber?: string;
+    citation?: string;
+  };
+
+  disclaimer?: string;
 }
 
+
+
 export const updates: Update[] = [
-  {
-    slug: "update-1",
+    {
+        slug: "update-1",
 
-    title:
-      "Delhi High Court Rejects Bail Plea of Accused in 2008 Delhi Blasts Case, Cites National Security",
+        title:
+            "Delhi High Court Rejects Bail Plea of Accused in 2008 Delhi Blasts Case, Cites National Security",
 
-    category: "Delhi High Court",
+        category: "Delhi High Court",
 
-    publishedAt: "2026-07-08T09:30:00+05:30",
+        publishedAt: "2026-07-08T09:30:00+05:30",
 
-    excerpt:
-      "The Delhi High Court has refused bail to an accused in the 2008 Delhi serial blasts case, holding that national security and the sovereignty of the country outweigh personal liberty where the two are in conflict.",
+        readTime: "6 min read",
 
-    image: "/images/update1.png",
+        excerpt:
+            "The Delhi High Court has refused bail to an accused in the 2008 Delhi serial blasts case, holding that national security and the sovereignty of the country outweigh personal liberty where the two are in conflict.",
 
-    featured: true,
+        image: "/images/update1.png",
 
-    content: [
-        "The Delhi High Court has refused bail to Mansoor Asghar Peerbhoy, an accused in the 2008 Delhi serial blasts case, holding that considerations of national security and the sovereignty of the country take precedence where they come into conflict with an individual's claim to personal liberty.",
+        featured: true,
 
-        "A Division Bench comprising Justice Prathiba M. Singh and Justice Madhu Jain dismissed Peerbhoy's third bail application, observing that the seriousness of the allegations, the nature of the evidence, and the stage of the trial did not justify his release. The Court also held that his prolonged incarceration as an undertrial, by itself, was insufficient to overcome the statutory restrictions on bail under the Unlawful Activities (Prevention) Act (UAPA).",
+        sections: [
+            {
+                title: "Background",
 
-        "The prosecution case relates to the coordinated bomb blasts that occurred across Delhi on September 13, 2008, including explosions at Karol Bagh, Greater Kailash-I, and Connaught Place. The attacks claimed 26 lives and injured more than 130 people.",
+                content: [
+                    "The case concerns Mansoor Asghar Peerbhoy, an accused in the 2008 Delhi serial blasts that resulted in the deaths of 26 people and injuries to more than 130 others. The prosecution alleges that he played a significant role in facilitating the attacks through technical expertise and cyber operations.",
 
-        "According to the prosecution, an email claiming responsibility for the attacks was circulated to several national and international media organisations just minutes before the explosions. Investigators alleged that Peerbhoy, along with a co-accused, accessed an unsecured Wi-Fi network in Mumbai to transmit the message.",
+                    "Investigators claimed that an email claiming responsibility for the blasts was sent using an unsecured Wi-Fi network shortly before the explosions and that forensic evidence linked electronic devices recovered from the accused to the conspiracy."
+                ]
+            },
 
-        "The investigation further claimed that laptops allegedly used in the operation contained specialised software designed to erase digital evidence. Despite attempts to wipe the data, forensic experts reportedly recovered documents linked to the email sent before the blasts. The prosecution also relied on witness statements identifying the purchase of the laptops and the recovery of electronic devices, including Wi-Fi detection equipment and surveillance gadgets, from the accused.",
+            {
+                title: "Court's Analysis",
 
-        "The High Court observed that the allegations portrayed Peerbhoy as a technically skilled individual with expertise in computer systems and cybersecurity who allegedly played a significant role in the functioning of the banned organisation's media wing. At the stage of considering bail, the Court found sufficient material to conclude that the accusations against him were prima facie true.",
+                content: [
+                    "A Division Bench comprising Justice Prathiba M. Singh and Justice Madhu Jain held that the allegations, the evidence placed on record and the statutory restrictions under the Unlawful Activities (Prevention) Act did not justify the grant of bail.",
 
-        "The defence argued that Peerbhoy had spent nearly 17 years in custody without the completion of the trial and relied upon the Supreme Court's decision in K.A. Najeeb to contend that such prolonged incarceration violated his rights under Article 21 of the Constitution.",
+                    "The Court observed that prolonged incarceration alone could not override statutory restrictions in terrorism-related prosecutions, particularly when the accusations appeared prima facie true."
+                ]
+            },
 
-        "The Bench, however, held that the length of custody could not be viewed in isolation, particularly in cases involving allegations of terrorism. Referring to the Supreme Court's recent decision in Gulfisha Fatima, the Court noted that the gravity of the alleged offences, the large-scale loss of life, and the manner in which the attacks were allegedly executed distinguished the case from ordinary criminal prosecutions.",
+            {
+                title: "National Security Considerations",
 
-        "The Court also took note of the fact that the trial had reached its concluding stage, with only a limited number of witnesses remaining to be examined. It observed that releasing the accused at such a crucial stage could adversely affect the ongoing proceedings.",
+                content: [
+                    "The Bench distinguished the case from ordinary criminal prosecutions by emphasising the gravity of the alleged offences, the scale of loss of life and the appellant's alleged technical role within the banned organisation.",
 
-        "Additionally, the Bench expressed concern that the appellant's alleged leadership role within the banned organisation and his technical expertise could indicate continuing links with its network. Considering these factors along with the prima facie evidence placed on record, the Court concluded that no case for grant of bail had been made out.",
+                    "The Court also noted that the trial had reached its concluding stage and that releasing the accused at such a crucial juncture could adversely affect the proceedings."
+                ]
+            },
 
-        "Accordingly, the Delhi High Court dismissed the appeal and directed the trial court to complete the trial within the timeline prescribed by the Supreme Court.",
+            {
+                title: "Decision",
 
-        "Case: Mansoor Asghar Peerbhoy v. State (Government of NCT of Delhi). Bench: Justice Prathiba M. Singh and Justice Madhu Jain. Decision Date: July 7, 2026."
+                content: [
+                    "The Delhi High Court dismissed the bail application and directed the Trial Court to complete the proceedings within the timeline prescribed by the Supreme Court."
+                ]
+            }
         ],
+
+        quote: {
+            text:
+            "Where personal liberty conflicts with national security and the sovereignty of the nation, the latter must prevail.",
+            author: "Delhi High Court"
+        },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "Bail Refused",
+                description:
+                    "The Court found that statutory restrictions under the UAPA continued to operate."
+            },
+            {
+                title: "National Security",
+                description:
+                    "Security considerations outweighed the claim of prolonged incarceration."
+            },
+            {
+                title: "Prima Facie Evidence",
+                description:
+                    "Electronic and forensic material was sufficient at the bail stage."
+            },
+            {
+                title: "Trial Near Completion",
+                description:
+                    "The Court considered the advanced stage of the trial while refusing bail."
+            }
+        ],
+
+        legalSignificance:
+            "The decision reiterates that in prosecutions involving terrorism, courts must carefully balance individual liberty against national security while applying the statutory restrictions contained in the UAPA.",
+
+        caseDetails: {
+            caseName: "Mansoor Asghar Peerbhoy v. State (Government of NCT of Delhi)",
+            court: "Delhi High Court",
+            bench: "Justice Prathiba M. Singh & Justice Madhu Jain",
+            decisionDate: "7 July 2026"
+        },
+
+        disclaimer:
+            "This article provides an editorial summary of the Delhi High Court's decision and is intended solely for informational purposes."
     },
 
     {
@@ -64,36 +163,97 @@ export const updates: Update[] = [
 
         publishedAt: "2026-07-08T11:15:00+05:30",
 
+        readTime: "6 min read",
+
         excerpt:
             "The Madras High Court has held that illegally imported foreign municipal waste must be returned to its country of origin, observing that India cannot become a dumping ground for waste generated by other nations.",
 
         image: "/images/update2.png",
 
-        content: [
-            "The Madras High Court has ruled that the deliberate import of foreign municipal waste into India is not merely an environmental violation but may also attract criminal liability under Section 152 of the Bharatiya Nyaya Sanhita (BNS) if carried out knowingly. The Court observed that India cannot be treated as a dumping ground for waste generated by other nations and directed that illegally imported municipal waste must be returned to the country of origin rather than diverted elsewhere.",
+        sections: [
+            {
+                title: "Background",
 
-            "Justice D. Bharatha Chakravarthy delivered the ruling while dismissing a batch of petitions filed by two paper manufacturing companies that sought permission either to re-export imported waste consignments to Dubai or dispose of them within India. The Court refused both requests and upheld the directions issued by the customs authorities requiring the consignments to be sent back to the exporting countries.",
+                content: [
+                    "The petitions were filed by two paper manufacturing companies seeking permission either to re-export imported municipal waste consignments to Dubai or dispose of them within India after customs authorities found that the shipments contained prohibited municipal solid waste instead of recyclable waste paper.",
 
-            "The Court further observed that where customs authorities conclude, after investigation, that municipal waste was intentionally imported in violation of the law, they should forward the matter to the jurisdictional police for appropriate action under Section 152 of the Bharatiya Nyaya Sanhita.",
+                    "Following adjudication, customs authorities confiscated the consignments, imposed penalties and directed that the waste be returned to the countries from which it originated."
+                ]
+            },
 
-            "The petitioners, M/s Sripathi Paper and Boards Pvt. Ltd. and M/s Rajarajeswari Krafts Pvt. Ltd., had imported consignments declared as waste paper from suppliers based in Canada, the United States and Singapore. During inspection, however, customs officials and the Tamil Nadu Pollution Control Board found that the consignments contained municipal solid waste, including used plastic bottles, plastic bags, broken glass, street sweepings, beverage cans, food-contaminated paper and other prohibited materials.",
+            {
+                title: "Court's Observations",
 
-            "Following adjudication proceedings, the customs authorities confiscated the consignments, imposed penalties and directed the importers to bear the cost of re-exporting the waste to the countries from which it had originated. Although the companies initially accepted the penalties, they later approached the High Court seeking permission to redirect the consignments to Dubai, citing lower transportation costs and requests from the overseas suppliers. In the alternative, they sought permission to process or dispose of the waste within India through recycling facilities, cement kilns or waste-to-energy plants.",
+                content: [
+                    "Justice D. Bharatha Chakravarthy held that Rule 15(2) of the Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016 permits only re-export to the country of origin and does not authorise diversion to a third country.",
 
-            "Rejecting these submissions, the High Court held that Rule 15(2) of the Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016 permits only re-export to the country of origin and does not authorise shipment to a third country. The Court observed that allowing such diversion would be inconsistent with both the domestic regulatory framework and India's obligations under the Basel Convention governing the transboundary movement of hazardous waste.",
+                    "The Court further observed that knowingly importing prohibited municipal waste could also attract criminal liability under Section 152 of the Bharatiya Nyaya Sanhita."
+                ]
+            },
 
-            "The Bench also declined the request to dispose of the imported waste within India. It observed that the legislative framework governing hazardous and other wastes was enacted specifically to prevent India from becoming a destination for foreign waste. Permitting local disposal merely because it was commercially convenient would undermine the purpose of the law and place an unnecessary burden on the country's environment and public health.",
+            {
+                title: "Environmental Concerns",
 
-            "The Court further noted that India already generates a substantial quantity of municipal solid waste every day and questioned the rationale behind importing waste paper from abroad when recyclable material is readily available within the country. It described attempts by developed countries to shift the environmental burden of waste disposal onto developing nations as a form of 'waste colonialism' that threatens ecological security and environmental justice.",
+                content: [
+                    "The Bench rejected the request to dispose of the waste within India, observing that such a course would defeat the very object of environmental legislation and India's obligations under the Basel Convention.",
 
-            "Finding no illegality in the adjudication orders, the High Court observed that the petitioners had accepted the customs findings, paid the penalties imposed upon them and had not pursued the statutory appellate remedies available under the Customs Act. Consequently, the findings regarding the illegal import had attained finality and did not warrant interference in writ jurisdiction.",
+                    "Describing attempts by developed nations to shift their waste burden onto developing countries as 'waste colonialism', the Court stressed that India cannot become a global dumping ground."
+                ]
+            },
 
-            "The Court also rejected the petitioners' request for waiver of detention, demurrage and storage charges, holding that importers found responsible for bringing prohibited waste into the country cannot escape the financial consequences arising from their actions.",
+            {
+                title: "Decision",
 
-            "Accordingly, the High Court dismissed all seven writ petitions and upheld the customs authorities' directions requiring the waste consignments to be returned to their respective countries of origin.",
-
-            "Case: M/s Sripathi Paper and Boards Private Limited v. Commissioner of Customs & Others (along with connected matters). Bench: Justice D. Bharatha Chakravarthy. Decision Date: June 19, 2026."
+                content: [
+                    "The High Court dismissed all writ petitions, upheld the customs authorities' orders directing re-export of the waste to its country of origin, and refused waiver of detention, storage and demurrage charges."
+                ]
+            }
         ],
+
+        quote: {
+            text:
+            "India cannot be treated as a dumping ground for municipal waste generated by other nations.",
+            author: "Madras High Court"
+        },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "Re-export Mandatory",
+                description:
+                    "Illegal waste imports must be returned to their country of origin."
+            },
+            {
+                title: "No Third Country",
+                description:
+                    "The law does not permit diversion of prohibited waste to another country."
+            },
+            {
+                title: "Waste Colonialism",
+                description:
+                    "The Court condemned attempts to shift environmental burdens onto developing nations."
+            },
+            {
+                title: "Possible Criminal Action",
+                description:
+                    "Intentional illegal imports may attract prosecution under the Bharatiya Nyaya Sanhita."
+            }
+        ],
+
+        legalSignificance:
+            "The judgment reinforces India's environmental obligations under domestic law and the Basel Convention while affirming that environmental protection cannot be sacrificed for commercial convenience.",
+
+        caseDetails: {
+            caseName:
+            "M/s Sripathi Paper and Boards Private Limited v. Commissioner of Customs & Others",
+            court: "Madras High Court",
+            bench: "Justice D. Bharatha Chakravarthy",
+            decisionDate: "19 June 2026"
+        },
+
+        disclaimer:
+            "This article is intended solely for informational purposes and summarises the Madras High Court's judgment."
     },
 
     {
@@ -106,34 +266,92 @@ export const updates: Update[] = [
 
         publishedAt: "2026-07-08T12:00:00+05:30",
 
+        readTime: "5 min read",
+
         excerpt:
-            "The Karnataka High Court has granted bail to an accused in the 2020 Bengaluru riots case, citing his prolonged incarceration of more than five years, parity with co-accused, and the likely delay in conclusion of the trial.",
+            "The Karnataka High Court has granted bail to an accused in the 2020 Bengaluru riots case after considering his prolonged incarceration, parity with co-accused and the likely delay in conclusion of the trial.",
 
         image: "/images/update3.png",
 
-        content: [
-            "The Karnataka High Court has granted bail to Fairoz Pasha, an accused in the 2020 Bengaluru riots case, after taking note of his prolonged incarceration of more than five years and the fact that several similarly placed co-accused had already secured bail. The Court held that the principle of parity, coupled with the extended period of custody and the likely delay in conclusion of the trial, justified granting him relief.",
+        sections: [
+            {
+                title: "Background",
 
-            "A Division Bench comprising Justice Mohammad Nawaz and Justice G. Basavaraja allowed Pasha's appeal under Section 21(4) of the National Investigation Agency (NIA) Act and set aside the Special Court's earlier order refusing him bail.",
+                content: [
+                    "The appeal arose from the prosecution relating to the 2020 Bengaluru riots investigated by the National Investigation Agency. The appellant had remained in custody since August 2020 and challenged the Special Court's refusal to grant bail."
+                ]
+            },
 
-            "The prosecution case relates to the large-scale violence that broke out in Bengaluru on the night of August 11, 2020, within the jurisdiction of the DJ Halli and KG Halli police stations. The National Investigation Agency (NIA), which later took over the investigation, alleged that the riots were the result of a planned conspiracy involving members of the Social Democratic Party of India (SDPI).",
+            {
+                title: "Court's Analysis",
 
-            "According to the prosecution, Fairoz Pasha circulated provocative audio and video messages on social media and allegedly amplified a controversial social media exchange involving Naveen, the nephew of a Congress MLA, by forwarding it through WhatsApp and other platforms. Investigators alleged that these actions fuelled public anger and contributed to the mobilisation of crowds that later attacked the residences of public representatives as well as the DJ Halli and KG Halli police stations.",
+                content: [
+                    "The Division Bench noted that several similarly placed co-accused had already been granted bail by both the Supreme Court and the Karnataka High Court.",
 
-            "The violence allegedly resulted in the death of four persons, extensive damage to public property, and the destruction of police and private vehicles. Following its investigation, the NIA filed a charge sheet against 109 accused persons, invoking provisions of the Unlawful Activities (Prevention) Act (UAPA) against 24 of them.",
+                    "The Court also observed that the prosecution intended to examine 267 witnesses, making it evident that the trial would not conclude in the near future."
+                ]
+            },
 
-            "In February 2026, the Special Court dealing with NIA cases rejected Pasha's bail application after concluding that the allegations disclosed a prima facie case under the UAPA. The Court held that the statutory restrictions on grant of bail under Section 43D(5) of the Act were attracted.",
+            {
+                title: "Parity and Delay",
 
-            "Before the High Court, the appellant argued that multiple co-accused facing similar allegations had already been granted bail by both the Supreme Court and the Karnataka High Court. The defence also highlighted that Pasha had remained in judicial custody since August 12, 2020, and that the trial was unlikely to conclude in the near future.",
+                content: [
+                    "The Bench held that prolonged incarceration exceeding five years, coupled with the principle of parity and anticipated delay in completion of trial, justified granting bail despite the seriousness of the allegations."
+                ]
+            },
 
-            "The Division Bench accepted these submissions, noting that bail had already been granted to several co-accused in the same prosecution. The Court also considered the fact that the prosecution proposed to examine as many as 267 witnesses, making it evident that the trial would require considerable time to conclude.",
+            {
+                title: "Decision",
 
-            "Taking into account the appellant's prolonged incarceration, the delay in completion of the trial, and the principle of parity with other accused who had already been enlarged on bail, the High Court held that the appellant was entitled to similar relief.",
-
-            "Accordingly, the Court allowed the appeal, set aside the Special Court's order, and directed Fairoz Pasha's release on bail subject to stringent conditions. These include furnishing a personal bond of ₹1 lakh with two sureties, refraining from influencing prosecution witnesses, and not leaving the jurisdiction of the trial court without prior permission.",
-
-            "Case: Fairoz Pasha v. National Investigation Agency. Bench: Justice Mohammad Nawaz and Justice G. Basavaraja. Judgment Date: June 3, 2026."
+                content: [
+                    "The High Court allowed the appeal, granted bail subject to stringent conditions and set aside the Special Court's earlier order refusing bail."
+                ]
+            }
         ],
+
+        quote: {
+            text:
+            "Parity with similarly placed co-accused and prolonged incarceration remain important considerations while deciding bail.",
+            author: "Karnataka High Court"
+        },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "Five Years in Custody",
+                description:
+                    "Extended incarceration weighed heavily in favour of bail."
+            },
+            {
+                title: "Parity Applied",
+                description:
+                    "Several co-accused had already secured similar relief."
+            },
+            {
+                title: "Delayed Trial",
+                description:
+                    "The large number of witnesses indicated that the trial would take considerable time."
+            },
+            {
+                title: "Conditional Bail",
+                description:
+                    "Strict conditions were imposed while granting release."
+            }
+        ],
+
+        legalSignificance:
+            "The decision highlights that prolonged incarceration and parity with co-accused continue to play a significant role in bail jurisprudence even in prosecutions involving serious offences.",
+
+        caseDetails: {
+            caseName: "Fairoz Pasha v. National Investigation Agency",
+            court: "Karnataka High Court",
+            bench: "Justice Mohammad Nawaz & Justice G. Basavaraja",
+            decisionDate: "3 June 2026"
+        },
+
+        disclaimer:
+            "This article summarises the judgment for informational purposes only."
     },
 
     {
@@ -146,39 +364,98 @@ export const updates: Update[] = [
 
         publishedAt: "2026-07-08T13:30:00+05:30",
 
+        readTime: "6 min read",
+
         excerpt:
             "The Madhya Pradesh High Court has held that disciplinary proceedings against a judicial officer need not be stayed merely because a parallel criminal prosecution is pending.",
 
         image: "/images/update4.png",
 
-        content: [
-            "The Madhya Pradesh High Court has declined to interfere with disciplinary proceedings initiated against a judicial officer accused of misconduct in connection with the alleged preparation of an acquittal judgment while the underlying criminal trial was still pending. The Court held that the existence of a parallel criminal prosecution does not, by itself, prevent departmental proceedings from continuing.",
+        sections: [
+            {
+                title: "Background",
 
-            "A Division Bench comprising Justice Anand Pathak and Justice B.P. Sharma dismissed a writ petition challenging a charge-sheet issued under Rule 14 of the Madhya Pradesh Civil Services (Classification, Control and Appeal) Rules, 1966. The Bench observed that courts ordinarily do not interfere at the stage of issuance of a charge-sheet unless exceptional circumstances are demonstrated.",
+                content: [
+                    "The petitioner, a judicial officer, challenged a departmental charge-sheet alleging misconduct relating to the preparation of an acquittal judgment before the underlying criminal trial had concluded.",
 
-            "The petitioner, a member of the Madhya Pradesh Judicial Service, was serving as the V Civil Judge, Senior Division, Indore, when allegations surfaced regarding Criminal Trial No. 1621 of 2019 (State v. Santosh Verma). During vigilance scrutiny, it was alleged that an acquittal judgment dated October 6, 2020, had been prepared even though the criminal proceedings had not legally concluded.",
+                    "He argued that the departmental inquiry should remain stayed until completion of the criminal prosecution."
+                ]
+            },
 
-            "According to the allegations, the purported judgment was intended to confer an undue advantage upon the accused, who was allegedly unable to receive an IAS award because the criminal case remained pending.",
+            {
+                title: "Court's Analysis",
 
-            "Following an administrative inquiry, the High Court placed the judicial officer under suspension and, on December 19, 2025, issued a departmental charge-sheet containing detailed articles of charge along with supporting documents, witness lists and the appointment of an Inquiry Officer and a Presenting Officer.",
+                content: [
+                    "The Division Bench reiterated that courts ordinarily do not interfere at the stage of issuance of a charge-sheet unless exceptional circumstances exist.",
 
-            "The petitioner argued that the disciplinary proceedings were vitiated by an unexplained delay, pointing out that the alleged misconduct dated back to 2020 while the charge-sheet was issued only in late 2025. It was contended that this delay had adversely affected the ability to effectively defend against the allegations.",
+                    "It further held that the mere pendency of a criminal prosecution does not automatically require disciplinary proceedings to be stayed."
+                ]
+            },
 
-            "The petitioner further submitted that both the criminal prosecution and the departmental inquiry arose from the same set of facts and relied upon substantially similar evidence. Proceeding simultaneously with the departmental inquiry, it was argued, would prejudice the defence in the pending criminal case by compelling disclosure of the petitioner's stand before the criminal trial concluded.",
+            {
+                title: "Integrity of Judiciary",
 
-            "Rejecting these submissions, the High Court held that allegations involving members of the judiciary require careful vigilance scrutiny before disciplinary proceedings are initiated. The Bench observed that the petitioner had failed to establish any concrete prejudice caused by the passage of time, adding that a mere assertion of prejudice, without supporting material, was insufficient to invalidate the proceedings.",
+                content: [
+                    "The Court emphasised that allegations concerning judicial integrity require prompt examination through departmental proceedings and that public confidence in the justice delivery system must be preserved.",
 
-            "The Court also reiterated that the principles laid down by the Supreme Court in Capt. M. Paul Anthony v. Bharat Gold Mines Ltd. do not create an automatic rule requiring departmental proceedings to be stayed whenever a criminal prosecution is pending. Whether both proceedings should continue simultaneously depends upon the facts of each case.",
+                    "The Bench also found no material prejudice caused by the delay in issuing the charge-sheet."
+                ]
+            },
 
-            "Emphasising the importance of maintaining public confidence in the judicial system, the Bench observed that allegations affecting the integrity of judicial institutions are of the highest seriousness and cannot ordinarily remain pending indefinitely merely because criminal proceedings are yet to conclude.",
+            {
+                title: "Decision",
 
-            "The Court further noted that the charge-sheet was supported by specific allegations, documentary material and a list of witnesses, and therefore could not be characterised as vague or arbitrary.",
-
-            "Finding no legal infirmity in the initiation of disciplinary proceedings, the High Court dismissed the writ petition and permitted the departmental inquiry to continue in accordance with law. It clarified, however, that the observations made in its order were confined to the challenge against the charge-sheet and would not influence the merits of the disciplinary inquiry.",
-
-            "Case: VSR v. State of Madhya Pradesh & Others. Bench: Justice Anand Pathak and Justice B.P. Sharma. Order Date: June 24, 2026."
+                content: [
+                    "Finding no legal infirmity in the initiation of disciplinary proceedings, the High Court dismissed the writ petition while clarifying that its observations would not influence the disciplinary inquiry."
+                ]
+            }
         ],
+
+        quote: {
+            text:
+            "The mere existence of a parallel criminal prosecution does not automatically justify staying departmental proceedings.",
+            author: "Madhya Pradesh High Court"
+        },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "No Automatic Stay",
+                description:
+                    "Departmental proceedings may continue despite a pending criminal case."
+            },
+            {
+                title: "Charge-sheet Stage",
+                description:
+                    "Courts generally avoid interfering at the initial stage of disciplinary proceedings."
+            },
+            {
+                title: "Judicial Integrity",
+                description:
+                    "Allegations affecting the judiciary require timely institutional scrutiny."
+            },
+            {
+                title: "Case-Specific Test",
+                description:
+                    "Whether proceedings should be stayed depends on the facts of each case."
+            }
+        ],
+
+        legalSignificance:
+            "The judgment reaffirms that disciplinary proceedings and criminal prosecutions operate in distinct legal spheres and that maintaining public confidence in judicial institutions justifies continuation of departmental inquiries.",
+
+        caseDetails: {
+            caseName: "VSR v. State of Madhya Pradesh & Others",
+            court: "Madhya Pradesh High Court",
+            bench: "Justice Anand Pathak & Justice B.P. Sharma",
+            decisionDate: "24 June 2026"
+        },
+
+        disclaimer:
+            "This article provides an editorial summary of the High Court's judgment and is intended solely for informational purposes."
     },
+
 
     {
         slug: "update-5",
@@ -190,48 +467,99 @@ export const updates: Update[] = [
 
         publishedAt: "2026-07-14T10:15:00+05:30",
 
+        readTime: "6 min read",
+
         excerpt:
             "The Assam Legislative Assembly has passed a Uniform Civil Code Bill introducing a common civil framework for marriage, divorce, succession and domestic relationships, with a strong focus on registration and legal documentation.",
 
         image: "/images/update5.png",
 
-        content: [
-            "The Assam Legislative Assembly has passed a Uniform Civil Code (UCC) Bill, making Assam one of the latest states to introduce a common civil framework dealing with matters such as marriage, divorce, succession and domestic relationships. The move also makes Assam the first Northeastern state to adopt such legislation.",
+        sections: [
+            {
+                title: "Overview",
 
-            "The proposed framework places considerable emphasis on registration and formal documentation of family relationships. Rather than focusing only on religious or customary practices, the legislation seeks to create legally verifiable records of marriages, divorces and live-in relationships.",
+                content: [
+                    "The Assam Legislative Assembly has passed a Uniform Civil Code (UCC) Bill, making Assam the first Northeastern state to introduce a common civil framework governing matters such as marriage, divorce, succession and domestic relationships.",
 
-            "One of the most discussed features of the Bill is the mandatory registration framework for live-in relationships. Through formal documentation, the legislation seeks to provide greater legal clarity regarding domestic partnerships that exist outside conventional marriage.",
+                    "The proposed legislation places significant emphasis on registration and legal documentation of family relationships with the objective of creating greater certainty in civil status and family law administration."
+                ]
+            },
 
-            "The provision may also lead to wider constitutional discussions concerning privacy, dignity and personal autonomy under Article 21 of the Constitution. Supporters, however, are likely to view registration as a mechanism for protecting civil rights and reducing disputes arising from undocumented relationships.",
+            {
+                title: "Key Provisions",
 
-            "The Bill reportedly adopts an expanded definition of the term \"child\". The definition covers adopted children as well as children born through surrogacy, assisted reproductive technology and outside traditional marital relationships.",
+                content: [
+                    "The Bill introduces compulsory registration of marriages, divorces, decrees declaring marriages void and live-in relationships. It also proposes a broader statutory definition of 'child' that includes adopted children as well as children born through surrogacy, assisted reproductive technology and outside traditional marriages.",
 
-            "By broadening the statutory definition, the framework seeks to provide equal civil recognition to children irrespective of the circumstances of their birth. The provision reflects changes in family structures and reproductive technologies that have developed beyond traditional marriage-based concepts of legitimacy.",
+                    "In addition, the legislation seeks to prohibit polygamy and establish common civil rules governing family relationships while preserving constitutional protections available to Scheduled Tribes."
+                ]
+            },
 
-            "The legislation also provides for compulsory registration of marriages, divorces and decrees declaring marriages null and void. This approach places documentary records at the centre of family law administration and is intended to create greater legal certainty regarding an individual's civil status.",
+            {
+                title: "Constitutional Debate",
 
-            "Such documentation could also play an important role in disputes concerning maintenance, inheritance, alimony and matrimonial rights by reducing uncertainty over the existence or legal status of family relationships.",
+                content: [
+                    "Mandatory registration of live-in relationships is expected to generate debate regarding privacy, dignity and decisional autonomy under Article 21 of the Constitution. At the same time, supporters argue that formal documentation strengthens legal protection for women and children while reducing evidentiary disputes.",
 
-            "The Bill seeks to prohibit polygamy and introduce common rules governing civil relationships. The measure is expected to be presented as part of a broader effort to strengthen gender equality and provide uniform legal protections.",
+                    "The exemption granted to Scheduled Tribes recognised under Article 342 also raises important questions regarding the balance between legal uniformity and constitutional protection of indigenous customs."
+                ]
+            },
 
-            "Supporters of the legislation may argue that clearer documentation and common civil standards can improve the ability of women to enforce maintenance, inheritance and other legal claims.",
+            {
+                title: "Legislative Significance",
 
-            "A significant feature of the Assam framework is the exclusion of Scheduled Tribes recognised under Article 342 read with Article 366(25) of the Constitution. The Code will not apply to members of these communities, allowing constitutionally protected tribal customs and traditional practices to continue.",
-
-            "The exemption is likely to remain an important part of the debate surrounding the legislation. Critics may question whether such exclusions are consistent with the idea of a truly uniform civil code, while supporters may argue that the protection of indigenous customs is necessary in view of the unique constitutional and cultural position of tribal communities in the Northeast.",
-
-            "The compulsory registration of live-in relationships may invite judicial and constitutional scrutiny concerning the State's role in private and intimate decisions. Questions surrounding decisional autonomy, informational privacy and dignity may emerge as the provisions are implemented.",
-
-            "At the same time, supporters are expected to argue that formal recognition of domestic relationships can provide stronger legal safeguards, particularly for women and children, and prevent evidentiary disputes in family law proceedings.",
-
-            "The Assam legislation reflects a broader shift towards state-level experimentation with Uniform Civil Code frameworks. With other states also pursuing their own models, the development may contribute to a wider debate over whether a common civil framework in India will emerge through a single national law or through separate legislative initiatives undertaken by individual states.",
-
-            "At its core, the Assam UCC framework appears to prioritise legal documentation and traceability of family relationships. Its provisions concerning marriage, divorce, live-in relationships and the recognition of children indicate an effort to move family law administration towards formally recorded civil relationships while retaining constitutional protections for tribal customs."
+                content: [
+                    "The Assam legislation represents another step in the growing trend of state-specific Uniform Civil Code frameworks. It may contribute to the wider national discussion on whether civil law reform should emerge through individual state legislation or a comprehensive national framework."
+                ]
+            }
         ],
+
+        quote: {
+            text:
+            "The proposed framework seeks to place legally verifiable documentation at the centre of family relationships and civil status.",
+            author: "Assam Uniform Civil Code Bill"
+        },
+
+        highlightsTitle: "Key Highlights",
+
+        highlights: [
+            {
+                title: "Mandatory Registration",
+                description:
+                    "Marriage, divorce, live-in relationships and declarations of nullity will require formal registration."
+            },
+            {
+                title: "Expanded Definition of Child",
+                description:
+                    "The Bill recognises adopted children and those born through surrogacy, assisted reproductive technology and outside traditional marriage."
+            },
+            {
+                title: "Common Civil Framework",
+                description:
+                    "The legislation introduces uniform rules governing family relationships and prohibits polygamy."
+            },
+            {
+                title: "Scheduled Tribe Exemption",
+                description:
+                    "Constitutionally recognised tribal communities remain outside the scope of the proposed Code."
+            }
+        ],
+
+        legalSignificance:
+            "The Bill represents an important legislative development in India's ongoing debate on Uniform Civil Codes. By prioritising registration and documentary certainty while preserving constitutional protections for tribal communities, it raises significant questions regarding privacy, equality, federalism and personal law reform.",
+
+        caseDetails: {
+            caseName: "Assam Uniform Civil Code Bill, 2026",
+            court: "Assam Legislative Assembly",
+            bench: "Legislative Measure",
+            decisionDate: "14 July 2026"
+        },
+
+        disclaimer:
+            "This article summarises the provisions of the proposed legislation for informational purposes only. The legal position may evolve as the legislation receives further approvals, notifications and judicial interpretation."
     },
 
-            
-
+    
 ];
 
 

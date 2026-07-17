@@ -46,7 +46,7 @@ export interface Story {
   };
 
   disclaimer?: string;
-  
+
 }
 
 export const stories: Story[] = [
