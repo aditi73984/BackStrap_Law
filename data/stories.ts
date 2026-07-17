@@ -189,8 +189,6 @@ export const stories: Story[] = [
 
     image: "/images/story5.png",
 
-    featured: true,
-
     content: [
       "The Sikkim High Court has urged the State Government to adopt a systematic and evidence-based approach to safeguarding children's mental health. The Court also raised concerns over the effectiveness of prison rehabilitation programmes after observing that a repeat offender had committed a graver crime despite undergoing imprisonment for an earlier conviction.",
 
@@ -281,6 +279,56 @@ export const stories: Story[] = [
       "Finding that the election petition failed to disclose a complete cause of action or the material particulars necessary to establish corrupt electoral practices, the Bombay High Court allowed the application for rejection and dismissed the election petition in its entirety.",
 
       "Case: Mufti Mohammad Ismail Abdul Khalique v. Shaikh Asif Shaikh Rashid @ Asif Shaikh Rasheed & Others. Neutral Citation: 2026:BHC-OS:12567. Bench: Justice N.J. Jamadar."
+    ],
+  },
+
+  {
+    slug: "story-7",
+
+    title:
+      "Allahabad High Court Upholds Sealing of Clinic, Says Electro Homeopathy Qualification Does Not Authorise Allopathic Practice",
+
+    category: "Allahabad High Court",
+
+    publishedAt: "2026-07-17T10:00:00+05:30",
+
+    excerpt:
+      "The Allahabad High Court has held that an electro homeopathy qualification does not authorise a person to practice allopathic medicine, observing that practicing a medical system without recognised qualifications amounts to quackery.",
+
+    image: "/images/story7.png",
+
+    featured: true,
+
+    content: [
+      "The Allahabad High Court has refused to interfere with the sealing of a clinic operated by a practitioner holding an electro homeopathy qualification, holding that such a qualification does not confer the legal authority to practice modern medicine (allopathy). The Court further observed that a person practicing a system of medicine without possessing the requisite knowledge and recognised qualification amounts to a 'quack'.",
+
+      "A Division Bench comprising Justice J.J. Munir and Justice Indrajeet Shukla dismissed the writ petition filed by Santosh Kumar Sharma, concluding that the petitioner neither possessed a recognised qualification to practice allopathic medicine nor operated a clinic that complied with statutory and regulatory requirements.",
+
+      "Emphasising the importance of professional competence in the medical field, the Bench observed that a person who does not have knowledge of a particular system of medicine but practices in that system is a quack and merely pretends to possess medical knowledge or skill.",
+
+      "The Court held that allowing an unqualified individual to treat patients under a medical system for which they are neither trained nor registered would compromise public health and run contrary to statutory provisions regulating medical practice.",
+
+      "The dispute arose after the Chief Medical Officer initiated proceedings against the petitioner, who was operating a clinic while claiming entitlement to practice on the basis of a certificate in electro homeopathy and a vocational qualification in community health.",
+
+      "Authorities found that the petitioner was administering allopathic medicines despite lacking a recognised medical qualification or registration permitting such practice. Following earlier proceedings before the High Court, the petitioner submitted a detailed explanation before the Chief Medical Officer. However, the explanation was rejected, and the clinic remained sealed.",
+
+      "The Chief Medical Officer also initiated criminal proceedings after concluding that the petitioner had no legal authority to practice allopathic medicine or operate the clinic in the manner in which it was functioning.",
+
+      "Apart from the issue of medical qualification, the authorities found several regulatory deficiencies. The clinic was not registered with the Chief Medical Officer, failed to comply with statutory standards governing clinical establishments, lacked a biomedical waste management system, did not possess the mandatory Fire NOC, failed to maintain infection prevention and control mechanisms, and permitted persons without recognised qualifications to treat patients.",
+
+      "The High Court observed that these shortcomings independently justified regulatory action against the clinic.",
+
+      "Rejecting the petitioner's claim that his electro homeopathy qualification entitled him to practice modern medicine, the Court reiterated that only persons possessing recognised qualifications under the applicable medical laws are authorised to practice allopathic medicine.",
+
+      "Relying on the Supreme Court's decision in Mukhtiar Chand v. State of Punjab, the Bench held that registration under one system of medicine does not authorise a practitioner to cross over and practice another system unless specifically recognised by law.",
+
+      "The Court also referred to Article 19(1)(g) of the Constitution, observing that although it guarantees the freedom to practice a profession, the State is empowered to impose reasonable restrictions in the interest of public health by regulating medical qualifications and clinical establishments.",
+
+      "Finding no illegality in the decision of the Chief Medical Officer, the High Court held that it could not substitute its own view for that of competent statutory authorities exercising powers under the relevant regulatory framework.",
+
+      "Accordingly, the writ petition was dismissed, and the order sealing the clinic was allowed to stand.",
+
+      "Case: Santosh Kumar Sharma v. State of Uttar Pradesh, WRIT-C No. 21019 of 2026. Decision Date: July 10, 2026."
     ],
   },
 
