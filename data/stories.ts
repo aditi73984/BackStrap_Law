@@ -777,6 +777,109 @@ export const stories: Story[] = [
     disclaimer:
       "This article summarises the judgment for informational purposes and should not be treated as legal or medical advice."
   },
+  {
+    slug: "story-8",
+
+    title:
+      "Supreme Court: Appeal Against Joint and Inseparable Decree Abates Entirely if Legal Representatives Are Not Substituted",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-07-31T11:55:00+05:30",
+
+    readTime: "4 min read",
+
+    excerpt:
+      "The Supreme Court has held that where a decree is joint and inseparable, failure to substitute the legal representatives of a deceased party within the prescribed time results in the abatement of the entire appeal.",
+
+    image: "/images/story8.png",
+
+    sections: [
+      {
+        title: "Background",
+
+        content: [
+          "The Supreme Court considered the consequences of failing to substitute the legal representatives of a deceased party during the pendency of an appeal. The issue arose in the context of a decree involving rights and liabilities that were so interconnected they could not be separated.",
+
+          "The Court examined whether the appeal could continue against the remaining parties despite the absence of the deceased party's legal representatives."
+        ]
+      },
+
+      {
+        title: "Court's Observations",
+
+        content: [
+          "The Bench observed that where a decree is joint and inseverable, the rights and liabilities of the parties are so closely connected that they cannot be adjudicated independently. In such situations, failure to bring the legal representatives of a deceased party on record creates the possibility of conflicting and unenforceable decrees.",
+
+          "The Court emphasised that the procedural requirement of substituting legal representatives is not a mere technicality but an essential safeguard ensuring that all affected parties are given an opportunity to be heard."
+        ]
+      },
+
+      {
+        title: "Legal Principle",
+
+        content: [
+          "Reiterating settled principles, the Court held that the doctrine of abatement applies where the decree under challenge is joint and indivisible, the rights of the parties are inseparable, and non-substitution of legal representatives would result in inconsistent judicial outcomes.",
+
+          "The Bench further stressed that parties must diligently substitute the legal representatives of a deceased litigant within the limitation period prescribed under the Code of Civil Procedure."
+        ]
+      },
+
+      {
+        title: "Decision",
+
+        content: [
+          "Applying these principles, the Supreme Court held that since the decree in question was joint and inseverable, and the legal representatives of the deceased party were not brought on record within the prescribed period, the appeal had abated in its entirety.",
+
+          "The Court therefore declined to examine the merits of the appeal."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "Where a decree is joint and inseverable, failure to substitute the legal representatives of a deceased party may result in the abatement of the entire appeal.",
+      author: "Supreme Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Joint Decree",
+        description:
+          "A decree involving inseparable rights and liabilities cannot be partially adjudicated."
+      },
+      {
+        title: "Timely Substitution",
+        description:
+          "Legal representatives must be brought on record within the limitation period prescribed by law."
+      },
+      {
+        title: "Doctrine of Abatement",
+        description:
+          "Failure to substitute legal representatives may cause the entire appeal to abate where the decree is inseverable."
+      },
+      {
+        title: "Procedural Safeguard",
+        description:
+          "Substitution rules ensure that all affected parties receive an opportunity to be heard and prevent conflicting decrees."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the importance of procedural compliance in appellate proceedings and clarifies that courts cannot continue appeals involving joint and inseparable decrees where the absence of a necessary party would result in inconsistent or unenforceable outcomes.",
+
+    caseDetails: {
+      caseName: "To be updated upon release of the official judgment details",
+      court: "Supreme Court of India",
+      bench: "Supreme Court Bench",
+      decisionDate: "31 July 2026"
+    },
+
+    disclaimer:
+      "This article provides a summary of the Supreme Court's ruling for informational purposes only. Readers should refer to the official judgment for the complete factual background and legal reasoning."
+  },
 
 ];
 
