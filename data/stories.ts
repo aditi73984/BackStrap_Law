@@ -880,6 +880,111 @@ export const stories: Story[] = [
     disclaimer:
       "This article provides a summary of the Supreme Court's ruling for informational purposes only. Readers should refer to the official judgment for the complete factual background and legal reasoning."
   },
+  {
+    slug: "story-9",
+
+    title:
+      "Disability Reservation Cannot Be Sub-Classified by Caste, Rules Himachal Pradesh High Court",
+
+    category: "Himachal Pradesh High Court",
+
+    publishedAt: "2026-07-30T10:00:00+05:30",
+
+    readTime: "5 min read",
+
+    excerpt:
+      "The Himachal Pradesh High Court has held that reservation for Persons with Disabilities cannot ordinarily be further sub-classified on the basis of caste, directing the State to appoint a hearing-impaired candidate who was wrongly denied selection.",
+
+    image: "/images/story9.png",
+
+    sections: [
+      {
+        title: "Background",
+
+        content: [
+          "The petitioner, a hearing-impaired candidate with 46% permanent disability, had applied for the post of Physical Education Teacher (PET) under a special recruitment drive for Persons with Disabilities (PwDs). Although he secured higher marks than the only other candidate in the hearing-impaired category from Kullu district, he was denied appointment after the State treated the post as reserved for Scheduled Caste candidates within the disability category.",
+
+          "Challenging the decision, the petitioner argued that neither the recruitment notification nor the interview call letter mentioned any such reservation and that disability reservation, being a form of horizontal reservation, could not legally be sub-classified on the basis of caste."
+        ]
+      },
+
+      {
+        title: "Court's Observations",
+
+        content: [
+          "Justice Jiya Lal Bhardwaj examined the recruitment records and found that the State had never disclosed that the hearing-impaired post was reserved for Scheduled Caste candidates. The Court observed that even if such a classification had been introduced subsequently, it would be contrary to the principles governing horizontal reservation.",
+
+          "Relying on the Supreme Court's decision in Mahesh Gupta v. Yashwant Kumar Ahirwar (2007), the Court reiterated that persons with disabilities constitute a distinct class for the purpose of horizontal reservation and cannot ordinarily be subjected to further caste-based classification."
+        ]
+      },
+
+      {
+        title: "Horizontal Reservation Explained",
+
+        content: [
+          "The High Court distinguished between vertical reservation under Article 16(4) of the Constitution, which applies to categories such as Scheduled Castes, Scheduled Tribes and Other Backward Classes, and horizontal reservation under Article 16(1), which applies to categories including persons with disabilities.",
+
+          "Holding that the State's action blurred this constitutional distinction, the Court concluded that excluding the petitioner solely because he belonged to the general category was arbitrary, discriminatory and legally unsustainable."
+        ]
+      },
+
+      {
+        title: "Decision",
+
+        content: [
+          "The Court also rejected the State's contention that appointments under the disability category could be confined to candidates from a particular district, holding that eligible PwD candidates across the State were entitled to equal consideration unless a valid legal basis existed for such restriction.",
+
+          "Considering the prolonged litigation and the petitioner's higher merit, the High Court directed the State Government to appoint him as Physical Education Teacher with consequential service benefits. Monetary benefits for the intervening period were directed to remain notional, while salary would become payable if the appointment was not offered within three months."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "Reservation for Persons with Disabilities is a form of horizontal reservation and cannot ordinarily be sub-classified on the basis of caste.",
+      author: "Himachal Pradesh High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "No Caste-Based Split",
+        description:
+          "Posts reserved for Persons with Disabilities cannot ordinarily be further reserved on the basis of caste."
+      },
+      {
+        title: "Horizontal Reservation",
+        description:
+          "Disability reservation operates independently of caste-based vertical reservation under the constitutional framework."
+      },
+      {
+        title: "Transparent Recruitment",
+        description:
+          "Reservation conditions must be clearly disclosed in recruitment notifications and interview communications."
+      },
+      {
+        title: "Appointment Ordered",
+        description:
+          "The Court granted direct appointment with consequential service benefits instead of directing a fresh recruitment process."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the constitutional distinction between vertical and horizontal reservation, affirming that disability reservation is intended to benefit all eligible persons with disabilities irrespective of caste. It also underscores the importance of transparency in public recruitment and protects candidates from arbitrary changes to reservation criteria after the selection process has commenced.",
+
+    caseDetails: {
+      caseName: "Hoshiyar Singh v. State of Himachal Pradesh & Others",
+      court: "Himachal Pradesh High Court",
+      bench: "Justice Jiya Lal Bhardwaj",
+      decisionDate: "30 July 2026"
+    },
+
+    disclaimer:
+      "This article provides an editorial summary of the Himachal Pradesh High Court's judgment and is intended solely for informational purposes."
+  },
+
+
 
 ];
 
