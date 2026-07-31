@@ -572,7 +572,7 @@ export const updates: Update[] = [
         excerpt:
             "The Bar Council of India has released the Draft Advocates (Amendment) Bill, 2026 for public consultation, proposing statutory recognition of law firms, advocate welfare reforms, greater representation for women, and a regulated framework for foreign lawyers.",
 
-        image: "/images/update6.png",
+        image: "/images/update6.jpeg",
 
         featured: true,
 
