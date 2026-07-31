@@ -66,8 +66,6 @@ export const updates: Update[] = [
 
         image: "/images/update1.png",
 
-        featured: true,
-
         sections: [
             {
                 title: "Background",
@@ -557,6 +555,112 @@ export const updates: Update[] = [
 
         disclaimer:
             "This article summarises the provisions of the proposed legislation for informational purposes only. The legal position may evolve as the legislation receives further approvals, notifications and judicial interpretation."
+    },
+
+    {
+        slug: "update-6",
+
+        title:
+            "BCI Releases Draft Advocates (Amendment) Bill, 2026 Proposing Recognition of Law Firms and Regulated Entry of Foreign Lawyers",
+
+        category: "Legislation",
+
+        publishedAt: "2026-07-31T12:15:00+05:30",
+
+        readTime: "6 min read",
+
+        excerpt:
+            "The Bar Council of India has released the Draft Advocates (Amendment) Bill, 2026 for public consultation, proposing statutory recognition of law firms, advocate welfare reforms, greater representation for women, and a regulated framework for foreign lawyers.",
+
+        image: "/images/update6.png",
+
+        featured: true,
+
+        sections: [
+            {
+            title: "Background",
+
+            content: [
+                "The Bar Council of India (BCI) has released the Draft Advocates (Amendment) Bill, 2026 for public consultation with the objective of modernising the Advocates Act, 1961. The proposed legislation introduces reforms relating to law firms, advocate welfare, gender representation, legal education and foreign legal practice in India.",
+
+                "The BCI has invited suggestions from State Bar Councils, Bar Associations, advocates and academic institutions before the draft is finalised and placed for legislative consideration."
+            ]
+            },
+
+            {
+            title: "Key Proposals",
+
+            content: [
+                "A significant feature of the draft is the statutory recognition of law firms under the Advocates Act. Law firms operating as partnerships, LLPs or incorporated entities would be required to register with the appropriate State Bar Council, while firms operating across multiple states would also register with the Bar Council of India.",
+
+                "The Bill also introduces a regulatory framework permitting foreign lawyers and foreign law firms to advise on foreign law and participate in international commercial arbitration under specified conditions. However, they would not be permitted to practise Indian law, appear before Indian courts, represent clients before tribunals or engage in litigation within India."
+            ]
+            },
+
+            {
+            title: "Advocate Welfare and Representation",
+
+            content: [
+                "The draft proposes dedicated welfare funds to provide pensions, health insurance, medical assistance, financial aid, scholarships for junior advocates and support for advocates with disabilities and the families of deceased advocates.",
+
+                "It also seeks to improve representation by reserving seats for women in State Bar Councils and enhancing participation of advocates practising in remote districts and taluka courts. Additionally, enrolment fees are proposed to be reduced for Scheduled Castes, Scheduled Tribes and persons with benchmark disabilities."
+            ]
+            },
+
+            {
+            title: "Legislative Significance",
+
+            content: [
+                "The draft removes several controversial provisions contained in earlier versions, including proposals relating to penalties for advocate strikes, heavy disciplinary fines and government nominees on elected Bar Councils.",
+
+                "It further proposes the creation of a high-level committee comprising representatives from the judiciary, the Bar Council of India, the Attorney General's office, the Solicitor General's office, legal academia and the University Grants Commission to advise on legal education and professional standards."
+            ]
+            }
+        ],
+
+        quote: {
+            text:
+            "The Draft Advocates (Amendment) Bill, 2026 seeks to modernise the legal profession while strengthening institutional safeguards and advocate welfare.",
+            author: "Bar Council of India"
+        },
+
+        highlightsTitle: "Key Highlights",
+
+        highlights: [
+            {
+            title: "Recognition of Law Firms",
+            description:
+                "Law firms would receive statutory recognition under the Advocates Act and be subject to mandatory registration."
+            },
+            {
+            title: "Foreign Lawyers",
+            description:
+                "Foreign lawyers may advise on foreign law and international arbitration but cannot practise Indian law or appear before Indian courts."
+            },
+            {
+            title: "Advocate Welfare",
+            description:
+                "Dedicated welfare funds are proposed for pensions, health insurance, financial assistance and support for junior advocates."
+            },
+            {
+            title: "Women's Representation",
+            description:
+                "The Bill proposes reservation of seats for women in State Bar Councils and greater representation for advocates from remote regions."
+            }
+        ],
+
+        legalSignificance:
+            "The Draft Advocates (Amendment) Bill, 2026 represents one of the most significant proposed reforms to India's legal profession in recent decades. By recognising law firms, introducing a regulated framework for foreign legal practice, strengthening advocate welfare and improving professional governance, the draft aims to modernise the legal regulatory framework while safeguarding the interests of Indian advocates.",
+
+        caseDetails: {
+            caseName: "Draft Advocates (Amendment) Bill, 2026",
+            court: "Bar Council of India",
+            bench: "Public Consultation Draft",
+            decisionDate: "2026"
+        },
+
+        disclaimer:
+            "This article summarises the provisions of the Draft Advocates (Amendment) Bill, 2026 for informational purposes only. As the Bill is presently open for public consultation, its provisions may be modified before any legislation is enacted."
     },
 
     
