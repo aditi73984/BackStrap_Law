@@ -678,7 +678,7 @@ export const updates: Update[] = [
         excerpt:
             "The Bar Council of India has issued comprehensive guidelines regulating the digital conduct of advocates, law students and legal interns, restricting reels, promotional videos and recordings from court premises while promoting responsible legal education online.",
 
-        image: "/images/update7.png",
+        image: "/images/update7.jpeg",
 
         sections: [
             {
