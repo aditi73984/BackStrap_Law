@@ -690,9 +690,7 @@ export const stories: Story[] = [
 
     image: "/images/story7.png",
 
-    featured: true,
-
-    sections: [
+      sections: [
       {
         title: "Background",
 
@@ -792,7 +790,9 @@ export const stories: Story[] = [
     excerpt:
       "The Supreme Court has held that where a decree is joint and inseparable, failure to substitute the legal representatives of a deceased party within the prescribed time results in the abatement of the entire appeal.",
 
-    image: "/images/story8.png",
+    image: "/images/story8.jpeg",
+
+    featured: true,
 
     sections: [
       {
