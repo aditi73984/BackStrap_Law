@@ -663,6 +663,110 @@ export const updates: Update[] = [
             "This article summarises the provisions of the Draft Advocates (Amendment) Bill, 2026 for informational purposes only. As the Bill is presently open for public consultation, its provisions may be modified before any legislation is enacted."
     },
 
+    {
+        slug: "update-7",
+
+        title:
+            "BCI Issues Digital Ethics Guidelines Restricting Lawyers' Social Media Content and Courtroom Videos",
+
+        category: "Bar Council of India",
+
+        publishedAt: "2026-07-31T13:00:00+05:30",
+
+        readTime: "6 min read",
+
+        excerpt:
+            "The Bar Council of India has issued comprehensive guidelines regulating the digital conduct of advocates, law students and legal interns, restricting reels, promotional videos and recordings from court premises while promoting responsible legal education online.",
+
+        image: "/images/update7.png",
+
+        sections: [
+            {
+            title: "Background",
+
+            content: [
+                "The Bar Council of India (BCI) has issued a comprehensive circular regulating the use of social media by advocates, law students and legal interns. Issued under the Advocates Act, 1961, the guidelines seek to preserve the dignity of the legal profession and prevent the misuse of court premises, judicial proceedings and professional attire for publicity or commercial gain.",
+
+                "The directive comes in response to the growing trend of creating influencer-style content from court complexes and the increasing circulation of misleading legal information across digital platforms."
+            ]
+            },
+
+            {
+            title: "Key Guidelines",
+
+            content: [
+                "The BCI has prohibited advocates from creating or sharing reels, videos, photographs or promotional content from courtrooms, court premises, bar rooms, advocates' chambers and other judicial buildings. It has also clarified that professional attire, including gowns, robes and bands, should not be used for branding or commercial social media content.",
+
+                "The circular further prohibits recording physical, virtual or hybrid court proceedings unless expressly permitted under applicable court rules or by prior judicial approval. It also cautions against clipping, editing, sensationalising or monetising live-streamed court proceedings."
+            ]
+            },
+
+            {
+            title: "Digital Ethics and Enforcement",
+
+            content: [
+                "Expressing concern over fake judgments, fabricated citations, misleading legal advice and AI-generated court material, the Council warned that such conduct may attract disciplinary proceedings along with civil, criminal, contempt and technology-related legal consequences wherever applicable.",
+
+                "To ensure compliance, the BCI has directed State Bar Councils to establish Digital Ethics Committees and online complaint mechanisms, while also proposing the creation of a Digital Ethics Nodal Cell to coordinate with social media platforms for the removal of unethical or unlawful content."
+            ]
+            },
+
+            {
+            title: "Professional Significance",
+
+            content: [
+                "The guidelines also impose restrictions on law students and interns, prohibiting vlog-style internship content, courtroom recordings and the use of judicial spaces for social media engagement. At the same time, the BCI has clarified that advocates remain free to create factual, balanced and non-promotional educational content aimed at improving public legal awareness.",
+
+                "Violations may result in disciplinary proceedings under Section 35 of the Advocates Act, 1961, in addition to other legal consequences under applicable statutes where digital misconduct involves privacy breaches, impersonation, fabricated material or misinformation."
+            ]
+            }
+        ],
+
+        quote: {
+            text:
+            "The legal profession's ethical obligations extend beyond the courtroom into the digital space.",
+            author: "Bar Council of India"
+        },
+
+        highlightsTitle: "Key Highlights",
+
+        highlights: [
+            {
+            title: "Restrictions on Court Content",
+            description:
+                "Reels, promotional videos and photographs from courtrooms, court premises and advocates' chambers are prohibited."
+            },
+            {
+            title: "Professional Attire",
+            description:
+                "Advocates cannot use gowns, robes or bands for personal branding or commercial social media promotion."
+            },
+            {
+            title: "Digital Ethics Oversight",
+            description:
+                "State Bar Councils will establish Digital Ethics Committees and complaint mechanisms to monitor violations."
+            },
+            {
+            title: "Responsible Legal Education",
+            description:
+                "Advocates may continue publishing factual legal awareness content provided it remains non-promotional and does not amount to solicitation or misinformation."
+            }
+        ],
+
+        legalSignificance:
+            "The BCI's digital ethics framework represents one of the most comprehensive regulatory initiatives governing the online conduct of legal professionals in India. By distinguishing responsible legal education from commercial promotion and misinformation, the guidelines seek to preserve the dignity of the legal profession while adapting professional ethics to the digital era.",
+
+        caseDetails: {
+            caseName: "BCI Guidelines on Digital and Social Media Conduct of Advocates, Law Students and Legal Interns",
+            court: "Bar Council of India",
+            bench: "Regulatory Circular",
+            decisionDate: "2026"
+        },
+
+        disclaimer:
+            "This article summarises the Bar Council of India's digital ethics guidelines for informational purposes only. Readers should refer to the official circular for the complete text and applicable regulatory requirements."
+        },
+
     
 ];
 
