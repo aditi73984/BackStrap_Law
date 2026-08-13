@@ -66,9 +66,7 @@ export const stories: Story[] = [
       "The Supreme Court has introduced a hybrid work policy, expanded virtual hearings for specified matters, and encouraged carpooling among judges as part of new administrative measures aimed at improving efficiency and sustainability.",
 
     image: "/images/story1.png",
-
-    featured: false,
-
+    
     sections: [
       {
         title: "Background",
@@ -792,8 +790,6 @@ export const stories: Story[] = [
 
     image: "/images/story8.jpeg",
 
-    featured: true,
-
     sections: [
       {
         title: "Background",
@@ -983,6 +979,135 @@ export const stories: Story[] = [
     disclaimer:
       "This article provides an editorial summary of the Himachal Pradesh High Court's judgment and is intended solely for informational purposes."
   },
+  {
+    slug: "story-10",
+
+    title:
+      "Bombay High Court Holds Supreme Court's One-Time Attendance Relief Applies to Law Students Across States and Semesters",
+
+    category: "Bombay High Court",
+
+    publishedAt: "2026-08-12T21:00:00+05:30",
+
+    readTime: "6 min read",
+
+    excerpt:
+      "The Bombay High Court has held that the Supreme Court's one-time attendance relief for the 2025-26 academic session applies uniformly to eligible law students across all States and semesters, preventing universities from imposing additional restrictions.",
+
+    image: "/images/story10.png",
+
+    featured: true,
+
+    sections: [
+      {
+        title: "Background",
+
+        content: [
+          "The Bombay High Court examined a dispute involving 41 law students from ILS Law College, Pune, who had been barred from appearing in their semester examinations because of attendance shortages ranging from 46% to 54.37%. Although the students had submitted their examination forms, the college withheld their admit cards and declined to condone the shortage under the applicable university ordinances.",
+
+          "The students approached the High Court relying on the Delhi High Court's judgment in Re: Courts on Its Own Motion in Re: Suicide Committed by Sushant Rohilla, Law Student of I.P. University. During the pendency of the proceedings, however, the Supreme Court issued a series of orders concerning the operation of the Delhi High Court's judgment and eventually granted one-time relief to students belonging to the 2025-26 academic session."
+        ]
+      },
+
+      {
+        title: "Supreme Court Relief Cannot Be Restricted",
+
+        content: [
+          "The principal issue before the Bombay High Court was whether the Supreme Court's order dated July 21, 2026, could be restricted to particular categories of students, academic years or territorial jurisdictions.",
+
+          "A Division Bench comprising Justice R.I. Chagla and Justice Farhan P. Dubash rejected such an interpretation and held that the Supreme Court had created an objective class of students entitled to one-time protection without imposing any territorial limitation."
+        ]
+      },
+
+      {
+        title: "Relief Available Across States and Semesters",
+
+        content: [
+          "The Court clarified that educational institutions and universities could not limit the benefit only to final-year students or insist that students must have independently approached a court to claim the benefit.",
+
+          "The Bench observed that the Supreme Court's order did not distinguish between students studying in different semesters and did not restrict its operation to students falling within the territorial jurisdiction of the Delhi High Court. Consequently, the one-time protection extended to eligible students across States and academic levels."
+        ]
+      },
+
+      {
+        title: "Article 142 Directions Are Binding Nationwide",
+
+        content: [
+          "The High Court emphasised that directions issued by the Supreme Court under Article 142 of the Constitution are binding throughout the country and cannot be narrowed by universities or colleges through additional eligibility requirements.",
+
+          "The Bench also clarified that implementing the Supreme Court's subsequent directions did not require any reference to a larger Bench."
+        ]
+      },
+
+      {
+        title: "Court Leaves Larger Attendance Issue Open",
+
+        content: [
+          "Importantly, the Court clarified that its judgment should not be interpreted as an endorsement of the Delhi High Court's ruling in the Sushant Rohilla case as a binding precedent in Maharashtra. According to the Court, the Delhi High Court's decision merely formed part of the factual background that ultimately led to the Supreme Court's intervention.",
+
+          "The Bench deliberately left unresolved the broader question concerning the interpretation of attendance requirements under legal education regulations and university ordinances, indicating that those issues could be decided in an appropriate future case."
+        ]
+      },
+
+      {
+        title: "Decision",
+
+        content: [
+          "The High Court directed that the examination results and academic progression of students who had already appeared pursuant to interim orders should be given full effect.",
+
+          "For students who had not received interim protection, the Court directed the college and the university to conduct supplementary examinations within six weeks so that eligible students could continue into the 2026-27 academic session without losing an academic year."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "The Supreme Court's one-time attendance relief applies uniformly to eligible law students across States and semesters and cannot be restricted by universities.",
+      author: "Bombay High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Nationwide Application",
+        description:
+          "The Supreme Court's July 21, 2026 order applies to eligible law students across all States."
+      },
+      {
+        title: "Not Limited to Final-Year Students",
+        description:
+          "Universities cannot restrict the benefit only to students in the final year of their law course."
+      },
+      {
+        title: "Article 142 Is Binding",
+        description:
+          "Directions issued by the Supreme Court under Article 142 are binding on colleges and universities across the country."
+      },
+      {
+        title: "No Need for Separate Litigation",
+        description:
+          "Students do not have to independently approach a court to claim the benefit if they fall within the class protected by the Supreme Court."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the nationwide binding nature of Supreme Court directions issued under Article 142 and prevents educational institutions from introducing additional eligibility requirements that are absent from a Supreme Court order. It also protects students from losing an academic year because of differing interpretations of attendance rules.",
+
+    caseDetails: {
+      caseName:
+        "Aniruddha Gaurav Gursal & Anr. v. State of Maharashtra & Ors.",
+      court: "Bombay High Court",
+      bench: "Justice R.I. Chagla and Justice Farhan P. Dubash",
+      decisionDate: "12 August 2026",
+      caseNumber:
+        "Writ Petition No. 6027 of 2026 with Interim Application No. 5058 of 2026"
+    },
+
+    disclaimer:
+      "This article is an editorial summary of the Bombay High Court's judgment and is intended solely for informational and educational purposes."
+  },
+
 
 
 
