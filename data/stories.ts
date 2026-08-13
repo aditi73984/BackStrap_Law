@@ -1107,6 +1107,160 @@ export const stories: Story[] = [
     disclaimer:
       "This article is an editorial summary of the Bombay High Court's judgment and is intended solely for informational and educational purposes."
   },
+  {
+    slug: "story-11",
+
+    title:
+      "Supreme Court: State Cannot Delegate Power to Refer Working Journalists' Dues Disputes to Labour Court",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-08-12T19:00:00+05:30",
+
+    readTime: "6 min read",
+
+    excerpt:
+      "The Supreme Court has ruled that State Governments cannot delegate their statutory power under Section 17(2) of the Working Journalists Act to refer disputes relating to unpaid dues to Labour Courts.",
+
+    image: "/images/story11.png",
+
+    sections: [
+      {
+        title: "Background of the Case",
+
+        content: [
+          "The Supreme Court has held that the State Government cannot delegate its statutory power under Section 17(2) of the Working Journalists and Other Newspaper Employees (Conditions of Service) and Miscellaneous Provisions Act, 1955 to refer disputes concerning unpaid dues to a Labour Court.",
+
+          "A Division Bench comprising Justice Dipankar Datta and Justice Sheel Nagu observed that while Section 17(1) expressly permits delegation of recovery powers to a specified authority, the statute contains no similar provision authorizing delegation of the power to make a reference under Section 17(2).",
+
+          "The proceedings arose from claims filed by newspaper employees and journalists' unions seeking recovery of unpaid dues from their employers, including the Dainik Bhaskar Group and All India Reporter Private Limited."
+        ]
+      },
+
+      {
+        title: "Challenge to Maharashtra Government's Delegation",
+
+        content: [
+          "The dispute centered on a notification issued on May 11, 2016, by the Industries, Energy and Labour Department of the Government of Maharashtra.",
+
+          "Through this notification, the State Government delegated its powers under Section 17(2) to Additional and Deputy Commissioners of Labour, authorizing them to make references to Labour Courts.",
+
+          "The employers challenged the validity of the notification, arguing that the statutory power under Section 17(2) could not be delegated."
+        ]
+      },
+
+      {
+        title: "Supreme Court Examines the Structure of Section 17",
+
+        content: [
+          "The Court carefully examined the framework of Section 17 and noted that sub-sections (1), (2), and (3) establish separate stages in the process for recovering dues.",
+
+          "Under Section 17(1), the State Government may authorize a specified authority to exercise powers relating to the recovery of amounts due to newspaper employees.",
+
+          "However, once the employer disputes the claim, the process moves to Section 17(2), which specifically requires the State Government itself to determine whether a dispute exists that requires adjudication by a Labour Court."
+        ]
+      },
+
+      {
+        title: "Delegation Under Section 17(1) Cannot Be Extended to Section 17(2)",
+
+        content: [
+          "The Bench relied on the legal principle 'expressio unius est exclusio alterius,' which means that the express inclusion of one thing implies the exclusion of another.",
+
+          "The Court observed that Parliament deliberately included a delegation mechanism under Section 17(1) but omitted any similar provision under Section 17(2).",
+
+          "Accordingly, the Court held that the delegation expressly permitted under Section 17(1) could not be expanded by implication to include the separate statutory function under Section 17(2)."
+        ]
+      },
+
+      {
+        title: "State Government Must Independently Form Its Satisfaction",
+
+        content: [
+          "The Supreme Court emphasized that making a reference to a Labour Court is not a purely administrative or mechanical exercise.",
+
+          "Before making a reference, the State Government must independently evaluate the available material and determine whether a genuine dispute exists between the employee and the employer.",
+
+          "Although authorities exercising delegated powers under Section 17(1) may collect relevant material, the final satisfaction required under Section 17(2) must be that of the State Government itself."
+        ]
+      },
+
+      {
+        title: "Article 142 Used to Protect Pending Proceedings",
+
+        content: [
+          "While declaring the delegation invalid, the Supreme Court also considered the practical consequences of its decision on numerous pending and completed proceedings.",
+
+          "To prevent widespread disruption, the Court exercised its extraordinary powers under Article 142 of the Constitution and directed the Government of Maharashtra to independently reconsider all affected references within six months.",
+
+          "The Court further clarified that where a fresh reference is made, proceedings before the Labour Court or the High Court may continue from the stage already reached rather than beginning again from the start."
+        ]
+      },
+
+      {
+        title: "Completed Proceedings Will Remain Unaffected",
+
+        content: [
+          "The Court also protected proceedings that had already concluded where the validity of the reference had never been challenged.",
+
+          "According to the Bench, this approach strikes a balance between maintaining statutory compliance and preventing unnecessary hardship for employees and employers who had already participated in lengthy litigation."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "The State Government cannot delegate its statutory power under Section 17(2) to make a reference to a Labour Court when the statute itself does not authorize such delegation.",
+      author: "Supreme Court of India"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "No Delegation Under Section 17(2)",
+        description:
+          "The State Government cannot delegate its power to refer disputes under Section 17(2) of the Working Journalists Act."
+      },
+
+      {
+        title: "Section 17(1) and 17(2) Are Distinct",
+        description:
+          "Delegation expressly permitted under Section 17(1) cannot automatically extend to Section 17(2)."
+      },
+
+      {
+        title: "Independent Satisfaction Is Mandatory",
+        description:
+          "The State Government must independently determine whether a dispute requires adjudication by a Labour Court."
+      },
+
+      {
+        title: "Article 142 Relief Granted",
+        description:
+          "The Supreme Court used its constitutional powers to preserve pending proceedings affected by the invalid delegation."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces an important principle of administrative law: statutory powers can only be delegated when the legislature expressly permits such delegation. The decision also demonstrates how Article 142 can be used to balance legal correctness with practical justice.",
+
+    caseDetails: {
+      caseName:
+        "Sudhir & Ors. v. Head of Human Resource, Dainik Bhaskar Group (D.B. Corp. Ltd.) & Ors.",
+
+      court: "Supreme Court of India",
+
+      bench: "Justice Dipankar Datta and Justice Sheel Nagu",
+
+      decisionDate: "12 August 2026",
+
+      citation: "2026 INSC 834",
+
+      disclaimer:
+        "This article is intended for informational and educational purposes only and should not be construed as legal advice. Readers should consult the official judgment for authoritative guidance."
+    }
+  },
 
 
 
