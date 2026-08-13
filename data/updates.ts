@@ -765,7 +765,111 @@ export const updates: Update[] = [
 
         disclaimer:
             "This article summarises the Bar Council of India's digital ethics guidelines for informational purposes only. Readers should refer to the official circular for the complete text and applicable regulatory requirements."
+    },
+    {
+        slug: "update-8",
+
+        title:
+            "Judges' Inquiry Panel Finds All Three Charges Proved Against Justice Yashwant Varma; Unexplained Cash and Evidence Disturbance Cited",
+
+        category: "Judicial Inquiry",
+
+        publishedAt: "2026-08-12T18:30:00+05:30",
+
+        readTime: "7 min read",
+
+        excerpt:
+            "The statutory Judges' Inquiry Committee has found all three charges against Justice Yashwant Varma proved, holding that he failed to satisfactorily explain the presence of cash at his official residence and failed to ensure the preservation of material evidence.",
+
+        image: "/images/update8.png",
+
+        sections: [
+            {
+                title: "Background",
+
+                content: [
+                    "The statutory Judges' Inquiry Committee examined allegations arising from the discovery of substantial currency notes at the official residence of former High Court Judge Justice Yashwant Varma following a fire that broke out on March 14, 2025.",
+
+                    "The three-member Committee comprised Justice Aravind Kumar of the Supreme Court, Justice Shree Chandrashekhar and Senior Advocate B.V. Acharya. The inquiry focused on three Articles of Charge relating to unexplained cash, preservation of evidence and the explanations furnished by Justice Varma."
+                ]
+            },
+
+            {
+                title: "Discovery of Cash and Committee Findings",
+
+                content: [
+                    "According to the inquiry report, fire service personnel and police officials discovered Indian currency notes, including burnt and partially burnt ₹500 notes, in a storeroom located within the official residential premises.",
+
+                    "The Committee held that the presence of substantial currency within premises under the Judge's control, coupled with the absence of a satisfactory explanation regarding its source or ownership, was sufficient to establish the first Article of Charge."
+                ]
+            },
+
+            {
+                title: "Evidence Preservation and Conspiracy Defence",
+
+                content: [
+                    "The second Article of Charge concerned the handling of the storeroom after the fire. The Committee found that the evidentiary condition of the premises had been disturbed before lawful inspection and sealing by the competent authorities, ultimately resulting in the disappearance or non-availability of the currency notes.",
+
+                    "The Committee rejected the defence that the cash had been planted as part of a conspiracy, observing that no complaint, FIR or supporting evidence had been produced to establish allegations of planting, theft, tampering or other foul play."
+                ]
+            },
+
+            {
+                title: "Decision",
+
+                content: [
+                    "The Committee concluded that all three Articles of Charge stood proved. It held that Justice Varma's explanations were evasive and lacked the candour and transparency expected from a constitutional functionary. However, the Committee specifically clarified that its findings did not amount to a conclusion that Justice Varma had personally removed the currency notes."
+                ]
+            }
+        ],
+
+        quote: {
+            text:
+                "Article I is proved. Article II is proved. Article III is proved.",
+            author: "Judges' Inquiry Committee"
         },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "All Three Charges Proved",
+                description:
+                    "The Committee found all three Articles of Charge against Justice Yashwant Varma to be established."
+            },
+            {
+                title: "Unexplained Cash",
+                description:
+                    "The Committee held that no satisfactory explanation was provided regarding the presence, source or ownership of the currency notes."
+            },
+            {
+                title: "Evidence Not Preserved",
+                description:
+                    "The condition of the storeroom was disturbed before lawful inspection and sealing, resulting in the loss of material evidence."
+            },
+            {
+                title: "Conspiracy Defence Rejected",
+                description:
+                    "Allegations that the cash had been planted or removed by others were found to be unsupported by evidence."
+            }
+        ],
+
+        legalSignificance:
+            "The inquiry highlights the heightened standards of transparency, accountability and institutional responsibility expected from members of the higher judiciary. It also underscores the importance of preserving material evidence during investigations involving constitutional functionaries.",
+
+        caseDetails: {
+            caseName: "Inquiry Concerning Justice Yashwant Varma",
+            court: "Statutory Judges' Inquiry Committee",
+            bench:
+                "Justice Aravind Kumar, Justice Shree Chandrashekhar & Senior Advocate B.V. Acharya",
+            decisionDate: "August 2026"
+        },
+
+        disclaimer:
+            "This article provides an editorial summary of the findings of the statutory Judges' Inquiry Committee and is intended solely for informational purposes."
+    },
+ 
+        
 
     
 ];
