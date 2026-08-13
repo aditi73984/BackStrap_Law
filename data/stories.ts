@@ -994,7 +994,7 @@ export const stories: Story[] = [
     excerpt:
       "The Bombay High Court has held that the Supreme Court's one-time attendance relief for the 2025-26 academic session applies uniformly to eligible law students across all States and semesters, preventing universities from imposing additional restrictions.",
 
-    image: "/images/story10.png",
+    image: "/images/story10.jpeg",
 
     featured: true,
 
