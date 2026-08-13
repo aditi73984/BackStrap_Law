@@ -574,8 +574,6 @@ export const updates: Update[] = [
 
         image: "/images/update6.jpeg",
 
-        featured: true,
-
         sections: [
             {
             title: "Background",
@@ -782,6 +780,8 @@ export const updates: Update[] = [
             "The statutory Judges' Inquiry Committee has found all three charges against Justice Yashwant Varma proved, holding that he failed to satisfactorily explain the presence of cash at his official residence and failed to ensure the preservation of material evidence.",
 
         image: "/images/update8.png",
+
+        featured: true,
 
         sections: [
             {
