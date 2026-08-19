@@ -987,8 +987,130 @@ export const updates: Update[] = [
 
         disclaimer:
             "This article is intended solely for informational purposes and summarizes publicly reported developments relating to the ongoing dispute between the Bar Council of India and NALSAR University of Law."
-        }
-        
+    },
+    {
+        slug: "update-10",
+
+        title:
+            "Delhi High Court Receives Bomb Threat Email Ahead of Independence Day; Security Intensified",
+
+        category: "Delhi High Court",
+
+        publishedAt: "2026-08-14T14:40:00+05:30",
+
+        readTime: "4 min read",
+
+        excerpt:
+            "The Delhi High Court received a bomb threat through email on Friday, prompting an immediate security response, including the deployment of bomb disposal squads and sniffer dog teams ahead of Independence Day.",
+
+        image: "/images/update9.png",
+
+        sections: [
+            {
+            title: "Bomb Threat Triggers Security Response",
+
+            content: [
+                "The Delhi High Court received a bomb threat through email on August 14, 2026, leading to heightened security measures across the court premises.",
+
+                "According to sources, the threatening email, received at approximately 2:11 PM, warned of a possible blast at the High Court complex.",
+
+                "Following the alert, the Registrar General of the Delhi High Court reportedly coordinated with the Delhi Police to ensure an immediate security response."
+            ]
+            },
+
+            {
+            title: "Bomb Disposal Squad and Dog Teams Deployed",
+
+            content: [
+                "Security agencies immediately intensified checks within and around the High Court premises after receiving the threat.",
+
+                "Bomb disposal squads, sniffer dog units and additional security personnel were deployed to conduct a comprehensive search operation.",
+
+                "The incident occurred just one day before Independence Day, a period during which security arrangements across the national capital had already been strengthened."
+            ]
+            },
+
+            {
+            title: "Multiple Government Installations Also Receive Threat Emails",
+
+            content: [
+                "According to police sources, several government installations across Delhi also received similar bomb threat emails on the same day.",
+
+                "Authorities launched coordinated search operations at multiple locations identified in the threatening communications.",
+
+                "The operations involved personnel from the Delhi Police, bomb disposal units, dog squads and the fire department."
+            ]
+            },
+
+            {
+            title: "No Suspicious Object Found",
+
+            content: [
+                "Authorities stated that no suspicious object had been discovered at any of the locations searched so far.",
+
+                "Security personnel continued inspections as a precautionary measure while investigators assessed the credibility of the threats and attempted to trace their origin."
+            ]
+            },
+
+            {
+            title: "Investigation Continues",
+
+            content: [
+                "Police and other security agencies have initiated an investigation to identify the individual or group responsible for sending the emails.",
+
+                "Although no explosive material has been detected, security measures remain in place while authorities continue their inquiries."
+            ]
+            }
+        ],
+
+        quote: {
+            text:
+            "Security agencies intensified checks across the Delhi High Court premises following the bomb threat email.",
+            author: "Delhi Police Sources"
+        },
+
+        highlightsTitle: "Key Highlights",
+
+        highlights: [
+            {
+            title: "Bomb Threat Received",
+            description:
+                "The Delhi High Court received a bomb threat through email on August 14."
+            },
+
+            {
+            title: "Security Intensified",
+            description:
+                "Bomb disposal squads, dog teams and additional security personnel were immediately deployed."
+            },
+
+            {
+            title: "Multiple Locations Targeted",
+            description:
+                "Several government installations across Delhi reportedly received similar threat emails."
+            },
+
+            {
+            title: "No Suspicious Material Found",
+            description:
+                "Authorities stated that searches had not uncovered any suspicious object so far."
+            }
+        ],
+
+        legalSignificance:
+            "The incident highlights the importance of judicial infrastructure security and the coordinated response mechanisms involving law enforcement agencies, particularly during nationally significant events such as Independence Day.",
+
+        caseDetails: {
+            caseName: "Delhi High Court Bomb Threat Incident",
+            court: "Delhi High Court",
+            bench: "Not Applicable",
+            decisionDate: "14 August 2026"
+        },
+
+        disclaimer:
+            "This article summarizes publicly reported developments concerning the security incident and is intended solely for informational purposes. The investigation remains ongoing."
+    }
+                
                 
 
     
