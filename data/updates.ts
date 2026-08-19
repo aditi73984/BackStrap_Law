@@ -1003,7 +1003,7 @@ export const updates: Update[] = [
         excerpt:
             "The Delhi High Court received a bomb threat through email on Friday, prompting an immediate security response, including the deployment of bomb disposal squads and sniffer dog teams ahead of Independence Day.",
 
-        image: "/images/update9.png",
+        image: "/images/update10.png",
 
         sections: [
             {
