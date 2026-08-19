@@ -1408,6 +1408,150 @@ export const stories: Story[] = [
 
     disclaimer:
       "This article is intended solely for informational and educational purposes and should not be construed as legal advice. Readers should refer to the official order for authoritative guidance."
+  },
+  {
+    slug: "story-13",
+
+    title:
+      "Allahabad HC: Order Framing Charges Under NIA Act Is Appealable; Article 227 Petition Before Single Judge Not Maintainable",
+
+    category: "Allahabad High Court",
+
+    publishedAt: "2026-08-19T12:00:00+05:30",
+
+    readTime: "6 min read",
+
+    excerpt:
+      "The Allahabad High Court has held that an order framing charges under the NIA Act is not an interlocutory order and can therefore be challenged through a statutory appeal under Section 21 of the Act rather than by filing a petition under Article 227 of the Constitution.",
+
+    image: "/images/story13.png",
+
+    sections: [
+      {
+        title: "Background of the Case",
+
+        content: [
+          "The petitioner challenged an order passed by the Special Judge, NIA, Lucknow, framing charges under Section 121-A of the IPC in a case involving offences under the Official Secrets Act, 1923.",
+
+          "Instead of filing an appeal under Section 21 of the National Investigation Agency Act, 2008, the petitioner invoked the supervisory jurisdiction of the High Court under Article 227 of the Constitution.",
+
+          "The State opposed the petition, arguing that the NIA Act itself provides a specific appellate remedy against orders passed by Special Courts."
+        ]
+      },
+
+      {
+        title: "Whether an Order Framing Charges Is an Interlocutory Order",
+
+        content: [
+          "The principal issue before the Court was whether an order framing charges falls within the expression 'interlocutory order' under Section 21 of the NIA Act.",
+
+          "Section 21 permits appeals against any judgment, sentence or order of a Special Court except interlocutory orders.",
+
+          "The Court held that the legal position is well settled and that an order framing charges cannot be treated as an interlocutory order."
+        ]
+      },
+
+      {
+        title: "Court Examines the Scope of Section 21",
+
+        content: [
+          "Justice Subhash Vidyarthi observed that Section 21 excludes only interlocutory orders from the appellate framework and does not restrict appeals solely to final orders.",
+
+          "The Court clarified that it was unnecessary to determine whether an order framing charges is a final order because the statute itself only excludes interlocutory orders.",
+
+          "Accordingly, an order framing charges remains appealable under the NIA Act."
+        ]
+      },
+
+      {
+        title: "V.C. Shukla Cannot Be Applied Mechanically",
+
+        content: [
+          "The petitioner relied upon the Supreme Court's decision in V.C. Shukla v. State to argue that an order framing charges could be considered interlocutory.",
+
+          "The High Court rejected the argument, noting that V.C. Shukla was decided under the Special Courts Act, 1979 and not under the NIA Act.",
+
+          "The Court emphasized that judicial precedents must be interpreted in the context of the issues they actually decide and should not be treated as statutory provisions."
+        ]
+      },
+
+      {
+        title: "Differences Between the Special Courts Act and the NIA Act",
+
+        content: [
+          "Relying on the Constitution Bench judgment in P.S. Sathappan v. Andhra Bank Ltd., the Court highlighted significant differences between the two statutes.",
+
+          "Under the repealed Special Courts Act, Special Courts were presided over by sitting High Court Judges and appeals lay directly before the Supreme Court.",
+
+          "Under the NIA Act, however, Special Courts are presided over by Sessions Judges, while appeals lie before a Division Bench of the High Court."
+        ]
+      },
+
+      {
+        title: "Article 227 Cannot Be Used to Bypass a Statutory Appeal",
+
+        content: [
+          "The Court held that permitting a challenge under Article 227 despite the availability of a statutory appeal would allow a Single Judge to examine an order that the legislature intended to be reviewed by a Division Bench.",
+
+          "Such an approach, according to the Court, would violate the statutory scheme and principles of judicial discipline.",
+
+          "The High Court therefore dismissed the petition while granting liberty to the petitioner to file an appeal under Section 21 of the NIA Act before the appropriate Division Bench."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "An order framing charges is not an interlocutory order.",
+      author: "Allahabad High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Charge Orders Are Appealable",
+        description:
+          "An order framing charges under the NIA Act is not an interlocutory order and can be challenged through a statutory appeal."
+      },
+
+      {
+        title: "Section 21 Interpreted Broadly",
+        description:
+          "Section 21 excludes only interlocutory orders and does not limit appeals exclusively to final orders."
+      },
+
+      {
+        title: "V.C. Shukla Distinguished",
+        description:
+          "The Court held that the interpretation adopted under the Special Courts Act cannot automatically be applied to the NIA Act."
+      },
+
+      {
+        title: "Article 227 Not Maintainable",
+        description:
+          "A petition under Article 227 cannot be used to bypass the appellate mechanism specifically provided under the NIA Act."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment reinforces the principle that statutory appellate remedies must ordinarily be exhausted before invoking the High Court's supervisory jurisdiction. It also clarifies that orders framing charges under the NIA Act are appealable and cannot be classified as merely interlocutory orders.",
+
+    caseDetails: {
+      caseName:
+        "Satendra Siwal v. State of U.P. Thru. Prin. Secy. Home Lko. and 2 Others",
+
+      court: "Allahabad High Court, Lucknow Bench",
+
+      bench: "Justice Subhash Vidyarthi",
+
+      decisionDate: "19 August 2026",
+
+      citation: "2026:AHC-LKO:56814"
+    },
+
+    disclaimer:
+      "This article is intended for informational and educational purposes only and should not be construed as legal advice. Readers should consult the official judgment for authoritative guidance."
   }
 
 
