@@ -868,8 +868,128 @@ export const updates: Update[] = [
         disclaimer:
             "This article provides an editorial summary of the findings of the statutory Judges' Inquiry Committee and is intended solely for informational purposes."
     },
- 
+    {
+        slug: "update-9",
+    
+        title:
+            "NALSAR VC To Place BCI's Inquiry Direction Over CJI Convocation Invite Before Executive Council",
+
+        category: "Legal Education",
+
+        publishedAt: "2026-08-14T11:00:00+05:30",
+
+        readTime: "5 min read",
+
+        excerpt:
+            "NALSAR University's Vice-Chancellor has said that the Bar Council of India's direction seeking an inquiry into the controversy surrounding the proposed invitation to CJI Surya Kant for the university's convocation will be placed before the Executive Council.",
+
+        image: "/images/update9.png",
+
+        sections: [
+            {
+            title: "Background",
+
+            content: [
+                "The controversy arose after a section of NALSAR students reportedly objected to a proposal to invite Chief Justice of India Surya Kant as the chief guest for the university's convocation.",
+
+                "Following these developments, the Bar Council of India issued communications concerning the enrolment of the university's graduating BA LLB (Hons.) students of the 2026 batch and sought information regarding those involved in the controversy."
+            ]
+            },
+
+            {
+            title: "BCI Seeks Inquiry Into Convocation Dispute",
+
+            content: [
+                "According to Vice-Chancellor Srikrishna Deva Rao, the university received a communication from the Bar Council of India directing that the graduating students of the 2026 batch should not be enrolled as advocates and seeking an inquiry report identifying those involved in the developments relating to the proposed convocation invitation.",
+
+                "Although the Bar Council subsequently withdrew the restriction on enrolment, it retained its direction seeking an inquiry report from the university."
+            ]
+            },
+
+            {
+            title: "Matter To Be Placed Before Executive Council",
+
+            content: [
+                "The Vice-Chancellor stated that the issue would be placed before the university's Executive Council, which is the institution's highest decision-making body.",
+
+                "He also indicated that the university would first examine whether conducting such an inquiry would be constitutionally permissible and consistent with its governance framework before taking any further steps."
+            ]
+            },
+
+            {
+            title: "University Examining Constitutional Questions",
+
+            content: [
+                "The university has indicated that it will carefully examine questions relating to institutional autonomy, constitutional principles and its internal governance structure before responding to the Bar Council of India.",
+
+                "After consulting the Executive Council, NALSAR will communicate its position to the Bar Council regarding the inquiry request."
+            ]
+            },
+
+            {
+            title: "What Happens Next?",
+
+            content: [
+                "The Executive Council is expected to deliberate on the Bar Council's communication and determine the legally permissible course of action.",
+
+                "Meanwhile, the Bar Council of India has indicated that it will take a final decision on the matter on August 19 after considering the material available before it."
+            ]
+            }
+        ],
+
+        quote: {
+            text:
+            "The matter will be placed before the Executive Council of the University.",
+            author: "Srikrishna Deva Rao, Vice-Chancellor, NALSAR University of Law"
+        },
+
+        highlightsTitle: "Key Highlights",
+
+        highlights: [
+            {
+            title: "Inquiry Direction Retained",
+            description:
+                "The Bar Council withdrew its enrolment restriction but continued to seek an inquiry report from the university."
+            },
+
+            {
+            title: "Executive Council Review",
+            description:
+                "The matter will be considered by NALSAR's highest decision-making body before any action is taken."
+            },
+
+            {
+            title: "Constitutional Questions Raised",
+            description:
+                "The university will examine whether the proposed inquiry is consistent with constitutional principles and institutional autonomy."
+            },
+
+            {
+            title: "BCI Decision Expected",
+            description:
+                "The Bar Council has indicated that it will take a final decision on August 19."
+            }
+        ],
+
+        legalSignificance:
+            "The controversy raises important questions concerning university autonomy, the regulatory powers of the Bar Council of India, and the constitutional limits of external intervention in the internal governance of legal education institutions.",
+
+        caseDetails: {
+            caseName:
+            "BCI-NALSAR Convocation Controversy, 2026",
+
+            court: "Bar Council of India and NALSAR University of Law",
+
+            bench: "Administrative Proceedings",
+
+            decisionDate: "14 August 2026"
+        },
+
+        disclaimer:
+            "This article is intended solely for informational purposes and summarizes publicly reported developments relating to the ongoing dispute between the Bar Council of India and NALSAR University of Law."
+        }
         
+                
 
     
 ];
