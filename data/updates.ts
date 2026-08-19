@@ -781,8 +781,6 @@ export const updates: Update[] = [
 
         image: "/images/update8.png",
 
-        featured: true,
-
         sections: [
             {
                 title: "Background",
@@ -1005,6 +1003,8 @@ export const updates: Update[] = [
 
         image: "/images/update10.png",
 
+        featured: true,
+        
         sections: [
             {
             title: "Bomb Threat Triggers Security Response",
