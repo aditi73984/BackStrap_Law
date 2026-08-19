@@ -996,8 +996,6 @@ export const stories: Story[] = [
 
     image: "/images/story10.jpeg",
 
-    featured: true,
-
     sections: [
       {
         title: "Background",
@@ -1261,6 +1259,156 @@ export const stories: Story[] = [
         "This article is intended for informational and educational purposes only and should not be construed as legal advice. Readers should consult the official judgment for authoritative guidance."
     }
   },
+  {
+    slug: "story-12",
+
+    title:
+      "Supreme Court Stays Allahabad High Court Proceedings in Rahul Gandhi Disproportionate Assets Case; Restrains CBI and ED From Filing Reports",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-08-17T13:00:00+05:30",
+
+    readTime: "7 min read",
+
+    excerpt:
+      "The Supreme Court has directed the Allahabad High Court to defer further proceedings in the disproportionate assets matter involving Rahul Gandhi and restrained the CBI, ED and other authorities from submitting inquiry reports pursuant to the High Court's earlier directions.",
+
+    image: "/images/story12.png",
+
+    featured: true,
+
+    sections: [
+      {
+        title: "Background of the Case",
+
+        content: [
+          "The Supreme Court was hearing a Special Leave Petition filed by Rahul Gandhi challenging an order of the Allahabad High Court directing investigative agencies to verify allegations of disproportionate assets levelled against him.",
+
+          "The complaint was filed by S. Vignesh Shishir, a BJP worker from Karnataka, who alleged that Rahul Gandhi possessed assets disproportionate to his known sources of income.",
+
+          "A Bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana issued notice to the respondents while considering the challenge."
+        ]
+      },
+
+      {
+        title: "Supreme Court Stays Further Proceedings",
+
+        content: [
+          "Pending further consideration of the petition, the Supreme Court directed that no reports should be submitted by the CBI, the Enforcement Directorate or any other authority to the Allahabad High Court pursuant to the impugned order.",
+
+          "The Court also directed the Allahabad High Court to defer the next date of hearing until further orders."
+        ]
+      },
+
+      {
+        title: "Natural Justice Concerns Raised by the Bench",
+
+        content: [
+          "During the hearing, the Bench questioned whether a court could direct an investigative agency to undertake an inquiry without first providing the affected party an opportunity to be heard.",
+
+          "Chief Justice Surya Kant observed that investigative agencies possess independent statutory authority to initiate proceedings when prima facie material exists. However, a different legal issue arises when the investigation is initiated because of a judicial direction.",
+
+          "The Court indicated that the principles of natural justice may require an opportunity of hearing when judicial intervention compels an investigation."
+        ]
+      },
+
+      {
+        title: "Distinction Between Statutory Powers and Court-Directed Investigation",
+
+        content: [
+          "The Bench distinguished investigations initiated independently by statutory authorities from those undertaken pursuant to judicial directions.",
+
+          "The Court observed that investigative agencies do not ordinarily require permission from an accused before registering a case when the law authorizes such action.",
+
+          "However, the judges noted that a court-directed inquiry raises separate questions concerning procedural fairness, separation of powers and the requirement to hear the affected party."
+        ]
+      },
+
+      {
+        title: "Arguments Presented Before the Court",
+
+        content: [
+          "Senior Advocate Kapil Sibal, appearing for Rahul Gandhi, challenged the Allahabad High Court's directions and also sought the transfer of the proceedings.",
+
+          "Additional Solicitor General S.V. Raju, appearing for the CBI, submitted that no FIR had been registered and that the agency had merely undertaken verification of the complaint.",
+
+          "Appearing in person, S. Vignesh Shishir argued that the proceedings remained at the pre-FIR stage and relied upon the Supreme Court's decision in CBI v. Devendra Ammal & Ors. to contend that an accused does not ordinarily have a right to be heard at that stage."
+        ]
+      },
+
+      {
+        title: "Additional Issues Raised During the Hearing",
+
+        content: [
+          "During the proceedings, Kapil Sibal also raised concerns regarding information appearing in the media despite the matter allegedly involving sealed-cover proceedings.",
+
+          "The broader dispute also includes separate allegations concerning Rahul Gandhi's citizenship, including claims relating to a company incorporated in the United Kingdom, corporate records and earlier complaints submitted to the Ministry of Home Affairs.",
+
+          "The Supreme Court clarified that the present proceedings were confined to the challenge against the Allahabad High Court's directions relating to the disproportionate assets complaint."
+        ]
+      },
+
+      {
+        title: "Interim Directions of the Supreme Court",
+
+        content: [
+          "The Supreme Court issued notice to the respondents, restrained investigative agencies from submitting inquiry reports to the Allahabad High Court, directed the High Court to defer further proceedings and ordered service upon the respondent through dasti.",
+
+          "The Court has not yet examined the merits of the allegations or finally adjudicated the disproportionate assets complaint."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "When an investigation is initiated pursuant to a judicial direction, the principles of natural justice may require consideration of whether the affected party should first be heard.",
+      author: "Supreme Court of India"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "High Court Proceedings Deferred",
+        description:
+          "The Allahabad High Court has been directed to defer further proceedings until further orders."
+      },
+
+      {
+        title: "CBI and ED Restrained",
+        description:
+          "Investigative agencies have been prohibited from submitting inquiry reports pursuant to the High Court's order."
+      },
+
+      {
+        title: "Natural Justice Question Raised",
+        description:
+          "The Supreme Court questioned whether a court can direct an investigation without hearing the affected party."
+      },
+
+      {
+        title: "No FIR Registered",
+        description:
+          "The CBI informed the Court that it had only verified the complaint and had not registered an FIR."
+      }
+    ],
+
+    legalSignificance:
+      "The case raises important questions concerning the limits of judicially directed investigations, the application of natural justice principles at the pre-investigation stage and the distinction between an agency's independent statutory powers and investigations initiated through court orders.",
+
+    caseDetails: {
+      caseName: "Rahul Gandhi v. S. Viginesh Shishir & Ors.",
+      court: "Supreme Court of India",
+      bench:
+        "Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana",
+      decisionDate: "17 August 2026",
+      caseNumber: "Diary No. 47728/2026"
+    },
+
+    disclaimer:
+      "This article is intended solely for informational and educational purposes and should not be construed as legal advice. Readers should refer to the official order for authoritative guidance."
+  }
 
 
 
