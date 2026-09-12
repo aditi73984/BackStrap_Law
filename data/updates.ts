@@ -1003,8 +1003,6 @@ export const updates: Update[] = [
 
         image: "/images/update10.png",
 
-        featured: true,
-        
         sections: [
             {
             title: "Bomb Threat Triggered Security Response",
@@ -1118,7 +1116,7 @@ export const updates: Update[] = [
 
         category: "Copyright Office",
 
-        publishedAt: "2026-09-12T20:00:00+05:30", // Replace with actual publication date/time
+        publishedAt: "2026-09-12T20:00:00+05:30",
 
         readTime: "7 min read",
 
@@ -1126,6 +1124,8 @@ export const updates: Update[] = [
             "The Copyright Office has held that an AI-generated work may satisfy the originality requirement for copyright protection, but an artificial intelligence system itself cannot be recognised as the legal author under the Copyright Act, 1957.",
 
         image: "/images/update9.png",
+
+        featured: true,
 
         sections: [
             {
