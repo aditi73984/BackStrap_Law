@@ -1109,7 +1109,7 @@ export const updates: Update[] = [
             "This article summarizes publicly reported developments concerning the security incident and is intended solely for informational purposes. The investigation remains ongoing."
     },
     {
-        slug: "update-9",
+        slug: "update-11",
 
         title:
             "AI-Generated Work May Be Copyrightable, But AI Itself Cannot Be the Author: Copyright Office Rejects DABUS Registration",
@@ -1123,7 +1123,7 @@ export const updates: Update[] = [
         excerpt:
             "The Copyright Office has held that an AI-generated work may satisfy the originality requirement for copyright protection, but an artificial intelligence system itself cannot be recognised as the legal author under the Copyright Act, 1957.",
 
-        image: "/images/update9.png",
+        image: "/images/update11.png",
 
         featured: true,
 
