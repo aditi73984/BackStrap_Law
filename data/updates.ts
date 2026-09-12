@@ -1007,7 +1007,7 @@ export const updates: Update[] = [
         
         sections: [
             {
-            title: "Bomb Threat Triggers Security Response",
+            title: "Bomb Threat Triggered Security Response",
 
             content: [
                 "The Delhi High Court received a bomb threat through email on August 14, 2026, leading to heightened security measures across the court premises.",
