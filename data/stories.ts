@@ -1276,8 +1276,6 @@ export const stories: Story[] = [
 
     image: "/images/story12.png",
 
-    featured: true,
-
     sections: [
       {
         title: "Background of the Case",
@@ -1569,6 +1567,8 @@ export const stories: Story[] = [
         "The Kerala High Court has clarified that when an international arrest warrant issued by a foreign treaty State reaches India through Interpol, the Nodal Agency must forward it to the Central Government and simultaneously place the relevant information before the jurisdictional Magistrate.",
 
     image: "/images/story13.png",
+
+    featured: true,
 
     sections: [
         {
