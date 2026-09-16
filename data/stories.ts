@@ -1552,7 +1552,7 @@ export const stories: Story[] = [
       "This article is intended for informational and educational purposes only and should not be construed as legal advice. Readers should consult the official judgment for authoritative guidance."
   },
   {
-    slug: "story-13",
+    slug: "story-14",
 
     title:
         "Kerala High Court: Interpol Arrest Warrant Must Be Forwarded To Centre And Jurisdictional Magistrate",
@@ -1566,7 +1566,7 @@ export const stories: Story[] = [
     excerpt:
         "The Kerala High Court has clarified that when an international arrest warrant issued by a foreign treaty State reaches India through Interpol, the Nodal Agency must forward it to the Central Government and simultaneously place the relevant information before the jurisdictional Magistrate.",
 
-    image: "/images/story13.png",
+    image: "/images/story14.png",
 
     featured: true,
 
