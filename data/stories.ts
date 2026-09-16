@@ -1552,7 +1552,174 @@ export const stories: Story[] = [
 
     disclaimer:
       "This article is intended for informational and educational purposes only and should not be construed as legal advice. Readers should consult the official judgment for authoritative guidance."
-  }
+  },
+  {
+    slug: "story-13",
+
+    title:
+        "Kerala High Court: Interpol Arrest Warrant Must Be Forwarded To Centre And Jurisdictional Magistrate",
+
+    category: "Kerala High Court",
+
+    publishedAt: "2026-09-16T11:00:00+05:30",
+
+    readTime: "7 min read",
+
+    excerpt:
+        "The Kerala High Court has clarified that when an international arrest warrant issued by a foreign treaty State reaches India through Interpol, the Nodal Agency must forward it to the Central Government and simultaneously place the relevant information before the jurisdictional Magistrate.",
+
+    image: "/images/story13.png",
+
+    sections: [
+        {
+            title: "Background of the Case",
+
+            content: [
+                "The Kerala High Court examined the procedure to be followed by Indian authorities when an international arrest warrant issued by a foreign treaty State is transmitted to India through Interpol.",
+
+                "The proceedings arose from a dispute involving an NRI businessman and the eighth respondent. According to the appellant, the respondent had borrowed approximately 6 million UAE dirhams for strengthening his finances in a hotel business in which he was a partner.",
+
+                "The respondent allegedly failed to repay the amount and subsequently left Dubai for India. A personal guarantee cheque for the same amount was also dishonoured. Criminal proceedings were thereafter initiated in Dubai, resulting in the respondent's conviction and a two-year sentence of imprisonment."
+            ]
+        },
+
+        {
+            title: "International Arrest Warrant Transmitted Through Interpol",
+
+            content: [
+                "Following the conviction, an international arrest warrant was issued against the respondent. According to the appellant, the warrant was transmitted through Interpol to India's Nodal Agency, identified in the proceedings as the CBI-NCB Interpol.",
+
+                "The appellant alleged that despite receipt of the warrant, no effective action was taken to secure the respondent's arrest and facilitate his extradition to the UAE.",
+
+                "The appellant therefore approached the Kerala High Court seeking directions for implementation of the warrant in accordance with the Extradition Act, 1962 and the extradition treaty between India and the UAE."
+            ]
+        },
+
+        {
+            title: "Extradition Treaty and Statutory Framework",
+
+            content: [
+                "The Division Bench examined the relationship between the Extradition Treaty between India and the UAE and the provisions of the Extradition Act, 1962.",
+
+                "The Court noted that extradition arrangements operate on the principle of reciprocity under international law. It distinguished between a formal request seeking surrender and extradition and an urgent request seeking the immediate arrest of a fugitive pending further extradition proceedings.",
+
+                "For formal extradition proceedings under Article 8 of the Extradition Treaty and Sections 4 to 8 of the Extradition Act, a requisition for surrender must reach the Central Government through the prescribed diplomatic channel."
+            ]
+        },
+
+        {
+            title: "Sections 9 and 34-B Provide Separate Mechanisms",
+
+            content: [
+                "The Court examined Sections 9 and 34-B of the Extradition Act, 1962 and found that the two provisions provide distinct legal mechanisms for dealing with a fugitive criminal.",
+
+                "Under Section 9, a Magistrate has an independent power to issue a warrant where it appears that a person within the Magistrate's local jurisdiction is a fugitive criminal of a foreign State. The person may then be detained for a period not exceeding three months, subject to the statutory framework.",
+
+                "Section 34-B deals with provisional arrest. It enables a Magistrate to issue a provisional warrant based on a request from the Central Government, which in turn must be founded upon an urgent request received from the foreign State seeking the immediate arrest of the fugitive."
+            ]
+        },
+
+        {
+            title: "Nodal Agency Must Take Both Steps",
+
+            content: [
+                "The Bench found that the Nodal Agency had not followed the procedure contemplated under either Section 9 or Section 34-B after receiving the international arrest warrant through Interpol.",
+
+                "The Court held that upon receiving such a warrant from a foreign treaty State through Interpol, the Nodal Agency should forward the warrant to the Central Government so that appropriate action can be considered under Section 34-B.",
+
+                "At the same time, the Nodal Agency should place the warrant before the jurisdictional Magistrate under Section 9, enabling the Magistrate to exercise the statutory power of arrest where the circumstances warrant it."
+            ]
+        },
+
+        {
+            title: "Central Government and Magistrate Can Act in Parallel",
+
+            content: [
+                "The Division Bench clarified that the mechanisms under Sections 9 and 34-B are not alternatives requiring the authorities to choose one over the other.",
+
+                "The Nodal Agency may simultaneously alert the Central Government or Ministry of External Affairs and inform the jurisdictional Magistrate about the international arrest warrant.",
+
+                "The Court noted that this approach is particularly significant because a fugitive may abscond while the diplomatic and administrative process for obtaining a provisional warrant is underway."
+            ]
+        },
+
+        {
+            title: "Three-Month Period Under Section 9",
+
+            content: [
+                "The Court also highlighted the significance of the three-month period prescribed under Section 9.",
+
+                "Where the Section 9 mechanism is invoked initially, the formal extradition process must still be regularised through the Central Government within the prescribed period. Otherwise, detention under that provision would lapse.",
+
+                "The Court therefore treated the Section 9 mechanism as providing a temporary bridge while the substantive extradition process is pursued through the Central Government."
+            ]
+        },
+
+        {
+            title: "Proceedings Ultimately Became Infructuous",
+
+            content: [
+                "Although the Court clarified the legal procedure applicable to international arrest warrants received through Interpol, it found that subsequent developments during the pendency of the proceedings had rendered the specific reliefs sought by the appellant infructuous.",
+
+                "The appeal was accordingly dealt with in light of those subsequent developments, while the Court's clarification regarding the responsibilities of the Nodal Agency provided guidance on the operation of Sections 9 and 34-B of the Extradition Act."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "It was not open to the Nodal Agency to simply ignore the International arrest warrant.",
+        author: "Kerala High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "Warrant Must Be Forwarded",
+            description:
+                "An international arrest warrant received through Interpol from a foreign treaty State must be forwarded to the Central Government."
+        },
+
+        {
+            title: "Magistrate Must Also Be Informed",
+            description:
+                "The Nodal Agency must simultaneously place the warrant before the jurisdictional Magistrate under Section 9 of the Extradition Act."
+        },
+
+        {
+            title: "Two Routes Can Operate Together",
+            description:
+                "The mechanisms under Sections 9 and 34-B are independent and do not require authorities to choose one route at the expense of the other."
+        },
+
+        {
+            title: "Section 9 Provides Temporary Arrest Mechanism",
+            description:
+                "A person detained under Section 9 may be held for up to three months, subject to the statutory extradition process being pursued."
+        }
+    ],
+
+    legalSignificance:
+        "The judgment clarifies the procedural responsibilities of India's Nodal Agency when an international arrest warrant is received through Interpol from a foreign treaty State. By recognising the independent operation of Sections 9 and 34-B of the Extradition Act, the Court has explained how the jurisdictional Magistrate and Central Government can be approached simultaneously while formal extradition proceedings are processed.",
+
+    caseDetails: {
+        caseName:
+            "Rakhul Krishnan v. Union of India",
+
+        court: "Kerala High Court",
+
+        bench:
+            "Justice A.K. Jayasankaran Nambiar & Justice Preeta A.K.",
+
+        decisionDate: "16 September 2026",
+
+        citation: "2026:KER:68857"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Kerala High Court's judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and the Extradition Act, 1962 for authoritative guidance."
+  },
 
 
 
