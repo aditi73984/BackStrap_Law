@@ -1730,7 +1730,7 @@ export const stories: Story[] = [
 
     publishedAt: "2026-09-17T12:30:00+05:30",
 
-    readTime: "7 min read",
+    readTime: "10 min read",
 
     excerpt:
         "The Himachal Pradesh High Court has held that the Nautor Land Rules, 1968 do not disqualify a married daughter from claiming land as a legal heir, and that an administrative clarification cannot override statutory rules.",
