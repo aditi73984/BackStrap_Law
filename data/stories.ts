@@ -1721,7 +1721,7 @@ export const stories: Story[] = [
         "This article provides an editorial summary of the Kerala High Court's judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and the Extradition Act, 1962 for authoritative guidance."
   },
   {
-    slug: "story-14",
+    slug: "story-15",
 
     title:
         "Himachal Pradesh HC: Married Daughter Cannot Be Denied Nautor Patta Solely On Ground Of Marriage",
@@ -1735,7 +1735,7 @@ export const stories: Story[] = [
     excerpt:
         "The Himachal Pradesh High Court has held that the Nautor Land Rules, 1968 do not disqualify a married daughter from claiming land as a legal heir, and that an administrative clarification cannot override statutory rules.",
 
-    image: "/images/story14.png",
+    image: "/images/story15.png",
 
     sections: [
         {
