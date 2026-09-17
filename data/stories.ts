@@ -1720,8 +1720,162 @@ export const stories: Story[] = [
     disclaimer:
         "This article provides an editorial summary of the Kerala High Court's judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and the Extradition Act, 1962 for authoritative guidance."
   },
+  {
+    slug: "story-14",
 
+    title:
+        "Himachal Pradesh HC: Married Daughter Cannot Be Denied Nautor Patta Solely On Ground Of Marriage",
 
+    category: "Himachal Pradesh High Court",
+
+    publishedAt: "2026-09-17T12:30:00+05:30",
+
+    readTime: "7 min read",
+
+    excerpt:
+        "The Himachal Pradesh High Court has held that the Nautor Land Rules, 1968 do not disqualify a married daughter from claiming land as a legal heir, and that an administrative clarification cannot override statutory rules.",
+
+    image: "/images/story14.png",
+
+    sections: [
+        {
+            title: "Background of the Case",
+
+            content: [
+                "The Himachal Pradesh High Court examined whether a married daughter could be denied issuance of a patta in respect of Nautor land solely because of her marital status.",
+
+                "The petitioner's father had been allotted 3 bighas and 2 biswas of land under the Himachal Pradesh Nautor Land Rules, 1968 in 1972. He remained in cultivating possession of the property until his death in 1990.",
+
+                "Although a patta was subsequently prepared in favour of the petitioner's mother, it remained unsigned. After the mother died in 2012, the petitioner, being the couple's only surviving legal heir, applied in January 2023 for issuance of the patta in her favour."
+            ]
+        },
+
+        {
+            title: "Dispute Over Rejection of Patta Application",
+
+            content: [
+                "The Sub-Divisional Magistrate recommended the petitioner's claim. However, the Additional District Magistrate rejected her application on January 1, 2024.",
+
+                "The rejection was based upon an administrative clarification issued in 1980, which was treated by the authorities as preventing allotment of Nautor land in favour of married daughters.",
+
+                "The petitioner challenged the decision before the High Court, contending that her claim was based on her status as a Class-I legal heir and not merely on the fact that she was a daughter."
+            ]
+        },
+
+        {
+            title: "Petitioner Claimed As Class-I Legal Heir",
+
+            content: [
+                "The petitioner argued that she was not seeking allotment of a fresh parcel of Nautor land merely because she was a daughter.",
+
+                "Her claim arose from her status as the surviving Class-I legal heir of her deceased parents in respect of land that had already been sanctioned and cultivated by them.",
+
+                "She further submitted that an administrative clarification could not create an eligibility restriction that was absent from the statutory Nautor Land Rules themselves."
+            ]
+        },
+
+        {
+            title: "High Court Examines Rule 8",
+
+            content: [
+                "The Court examined Rule 8 of the Himachal Pradesh Nautor Land Rules, 1968.",
+
+                "The provision prevents a son, daughter or wife from independently applying for Nautor land during the lifetime of the father or husband, as the case may be.",
+
+                "The Court found that the Rule does not create a continuing prohibition against a married daughter inheriting or claiming land after succession has opened. Consequently, the petitioner's marital status could not by itself defeat her claim as a legal heir."
+            ]
+        },
+
+        {
+            title: "Administrative Clarification Cannot Override Statutory Rules",
+
+            content: [
+                "The High Court considered the 1980 administrative clarification relied upon by the authorities and held that such an administrative communication could not supersede the statutory Nautor Land Rules.",
+
+                "The Court also noted developments in succession law concerning the property rights of daughters and referred to the recognition of coparcenary rights of daughters under the Hindu Succession Act, 1956.",
+
+                "The Bench consequently rejected the approach of treating marriage as a continuing legal disqualification for a daughter claiming property through succession."
+            ]
+        },
+
+        {
+            title: "Reliance On Supreme Court's Decision In Kusum Nisha",
+
+            content: [
+                "The High Court relied upon the Supreme Court's reasoning in Kusum Nisha v. State of U.P. & Others, Civil Appeal No. 7667 of 2025, decided on June 2, 2023.",
+
+                "The reasoning relied upon by the High Court rejects the assumption that a daughter's marriage automatically severs her legal and familial connection with her parental family.",
+
+                "The High Court considered such a gender-based presumption inconsistent with the equality guarantee under Article 14 of the Constitution, particularly where the petitioner's claim was founded upon her status as a Class-I legal heir."
+            ]
+        },
+
+        {
+            title: "Order Of Rejection Set Aside",
+
+            content: [
+                "The High Court quashed the order dated January 1, 2024 by which the petitioner's application for issuance of the patta had been rejected.",
+
+                "The authorities were directed to reconsider her application afresh in accordance with the applicable Rules.",
+
+                "If the petitioner was otherwise found eligible, the respondents were directed to complete the process of sanction and issuance of the patta within two months."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "Petitioner herein is not claiming Patta on account of her being unmarried daughter... rather she being Class-I legal heir... prayed for issuance of Patta in her favour.",
+        author: "Himachal Pradesh High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "Marriage Is Not A Disqualification",
+            description:
+                "A daughter's marital status cannot, by itself, be treated as a bar to claiming Nautor land as a legal heir."
+        },
+
+        {
+            title: "Class-I Heirship Recognised",
+            description:
+                "The petitioner's claim was considered in her capacity as the surviving Class-I legal heir of the original grantees."
+        },
+
+        {
+            title: "Administrative Orders Cannot Override Rules",
+            description:
+                "An administrative clarification cannot create a restriction that is absent from the statutory Nautor Land Rules."
+        },
+
+        {
+            title: "Article 14 Equality Principle",
+            description:
+                "The Court considered the assumption that marriage severs a daughter's connection with her parental family inconsistent with the constitutional guarantee of equality."
+        }
+    ],
+
+    legalSignificance:
+        "The judgment clarifies that marital status cannot by itself operate as a disqualification where a daughter claims property or land through her status as a legal heir. It also reinforces the principle that administrative instructions cannot override statutory rules and highlights the relevance of equality principles in rejecting gender-based assumptions concerning daughters' rights.",
+
+    caseDetails: {
+        caseName:
+            "Shanti v. State of Himachal Pradesh & Others",
+
+        court: "Himachal Pradesh High Court",
+
+        bench: "Justice Sandeep Sharma",
+
+        decisionDate: "17 September 2026",
+
+        citation: "2026:HHC:39123"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Himachal Pradesh High Court's judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
+  },
 
 
 ];
