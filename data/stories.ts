@@ -1876,6 +1876,269 @@ export const stories: Story[] = [
     disclaimer:
         "This article provides an editorial summary of the Himachal Pradesh High Court's judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
   },
+  {
+    slug: "story-16",
+
+    title:
+        "Supreme Court: POCSO Presumptions Cannot Replace Proof; Accused Acquitted After Prosecution Evidence Found Unreliable",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-09-18T15:50:00+05:30",
+
+    readTime: "10 min read",
+
+    excerpt:
+        "The Supreme Court has held that the presumptions under Sections 29 and 30 of the POCSO Act arise only after the prosecution establishes the foundational facts necessary for their operation, and cannot substitute for proof beyond reasonable doubt.",
+
+    image: "/images/story16.png",
+
+    sections: [
+        {
+            title: "Supreme Court Examines POCSO Conviction",
+
+            content: [
+                "The Supreme Court has clarified that the reverse-burden provisions under the Protection of Children from Sexual Offences Act, 2012 do not permit courts to accept the prosecution's case without carefully examining the evidence.",
+
+                "A Bench comprising Justice Prashant Kumar Mishra and Justice N.V. Anjaria considered two appeals challenging a common judgment of the Delhi High Court, which had affirmed the conviction imposed by the designated POCSO Special Court.",
+
+                "The appellant had been convicted under Section 363 of the Indian Penal Code, 1860 for kidnapping and Section 6 of the POCSO Act for aggravated penetrative sexual assault."
+            ]
+        },
+
+        {
+            title: "Prosecution Alleged Assault After Child Went To Accused's House",
+
+            content: [
+                "The prosecution alleged that the child, aged approximately two-and-a-half years, went to the adjoining house of the accused while playing.",
+
+                "It was alleged that the accused subsequently took the child to a park where he sexually assaulted her.",
+
+                "The child's mother relied upon what she stated was the account given by the child, alleged bloodstains on the child's clothing and a consultation with a private doctor.",
+
+                "Because of the child's very young age, her statement could not be formally recorded.",
+
+                "The defence disputed the prosecution version and alleged that the criminal complaint had been motivated by an earlier dispute between the two households concerning a shared water connection."
+            ]
+        },
+
+        {
+            title: "Trial Court And High Court Upheld Conviction",
+
+            content: [
+                "The trial court convicted the appellant under Section 363 IPC and Section 6 of the POCSO Act.",
+
+                "The appellant was sentenced to one year of rigorous imprisonment for kidnapping and ten years of rigorous imprisonment for the POCSO offence, along with fines. He was acquitted of the charge under Section 506 IPC.",
+
+                "The Delhi High Court subsequently upheld the conviction.",
+
+                "While affirming the conviction, the High Court treated discrepancies in the prosecution witnesses' accounts as relatively minor and relied upon the statutory presumption under Section 29 of the POCSO Act."
+            ]
+        },
+
+        {
+            title: "Material Contradictions In Mother's Evidence",
+
+            content: [
+                "The Supreme Court found significant inconsistencies in the mother's account concerning the alleged consultation with the private doctor.",
+
+                "The contradictions included discrepancies concerning when the consultation took place and who accompanied the child.",
+
+                "The Court also noticed improvements in the mother's version during the proceedings.",
+
+                "The private doctor had not prepared treatment records, and there was no independent corroboration for his assertion that the police had been informed about the alleged incident.",
+
+                "The Supreme Court therefore examined the reliability of the prosecution evidence as a whole rather than treating the statutory presumption as determinative."
+            ]
+        },
+
+        {
+            title: "Medical And Forensic Evidence Did Not Support Prosecution",
+
+            content: [
+                "The Supreme Court examined the medical and forensic material placed on record.",
+
+                "The forensic examination detected neither semen nor an isolatable male DNA profile on the relevant exhibits. No blood was detected on the child's clothing.",
+
+                "The Court also found that the hospital findings did not support the account given by the private doctor.",
+
+                "The Court considered the prosecution's reliance on State of U.P. v. Babul Nath (1994), noting that the absence of injuries or semen may not, by itself, disprove sexual assault in an appropriate factual situation.",
+
+                "However, the Court found the present case materially different because the medical evidence, read together with the FSL report, did not merely fail to corroborate the prosecution case but ruled out the possibility of the alleged penetrative act."
+            ]
+        },
+
+        {
+            title: "Standard Of Reliable Witness Reiterated",
+
+            content: [
+                "The Supreme Court referred to its earlier decision in Rai Sandeep alias Deepu v. State (NCT of Delhi) (2012), as reiterated in Ganesan v. State represented by its Inspector of Police (2020).",
+
+                "The Court explained that where a conviction is sought to be based upon the testimony of a witness of exceptional reliability, the account should be capable of acceptance without hesitation and should remain consistent from the earliest version through the testimony before the court.",
+
+                "Applying that standard, the Court found that the evidence in the present case did not meet the required level of reliability."
+            ]
+        },
+
+        {
+            title: "Previous Water Dispute Considered",
+
+            content: [
+                "The Court also considered the defence allegation of prior enmity between the two households.",
+
+                "During cross-examination, the child's mother acknowledged the existence of a common water connection and a dispute between the households concerning water sharing.",
+
+                "The Supreme Court held that, when considered alongside the contradictions in the prosecution evidence and the absence of supporting medical evidence, the previous dispute provided a basis for the defence contention that the complaint may have been motivated by hostility."
+            ]
+        },
+
+        {
+            title: "POCSO Presumptions Require Foundational Facts",
+
+            content: [
+                "A significant part of the judgment concerned the operation of Sections 29 and 30 of the POCSO Act.",
+
+                "The Court stressed that these provisions create rebuttable presumptions and do not make the prosecution's allegations automatically true.",
+
+                "Before the reverse burden can operate, the prosecution must first establish the foundational facts constituting the offence.",
+
+                "The Court relied, among other authorities, upon the Bombay High Court's reasoning in Navin Dhaniram Baraiye v. State of Maharashtra (2018)."
+            ]
+        },
+
+        {
+            title: "Accused May Rebut Presumption On Preponderance Of Probabilities",
+
+            content: [
+                "The Court explained that an accused may rebut the statutory presumption on the standard of preponderance of probabilities.",
+
+                "The accused may do so by exposing contradictions in prosecution witnesses' testimony, discrediting witnesses during cross-examination, identifying gaps in the prosecution case, relying upon conflicting medical or forensic evidence, or establishing a factual or statutory defence.",
+
+                "The Court emphasised that the ultimate determination must be based upon the entire evidentiary record."
+            ]
+        },
+
+        {
+            title: "Ultimate Burden Remains On Prosecution",
+
+            content: [
+                "The Supreme Court distinguished the burden placed upon the accused under a reverse-burden provision from the prosecution's fundamental obligation to establish guilt.",
+
+                "The prosecution continues to bear the original and ultimate burden of proving guilt beyond reasonable doubt.",
+
+                "The Court relied upon the principles stated in Noor Aga v. State of Punjab (2008) and V.D. Jhingan v. State of Uttar Pradesh (1966).",
+
+                "Accordingly, the burden resting upon the accused is not equivalent to the prosecution's burden. Once the accused successfully raises a probable defence or otherwise undermines the prosecution case, the prosecution must still establish guilt beyond reasonable doubt."
+            ]
+        },
+
+        {
+            title: "Presumption Cannot Override Evidence Favouring Accused",
+
+            content: [
+                "The Court referred to decisions including Gangadhar alias Gangaram v. State of Madhya Pradesh (2020) and Trilok Chand Jain v. State of Delhi (1975) while explaining the need for careful examination of foundational facts.",
+
+                "It also relied upon Naresh Kumar alias Nitu v. State of Himachal Pradesh (2017) to reiterate that statutory presumptions cannot dilute the accused's right to a fair trial under Article 21 of the Constitution.",
+
+                "The Court further referred to the principle in Kali Ram v. State of Himachal Pradesh (1973) concerning an acquittal where material on record reasonably supports a version consistent with the accused's innocence."
+            ]
+        },
+
+        {
+            title: "Courts Cannot Mechanically Apply POCSO Presumptions",
+
+            content: [
+                "The Supreme Court cautioned against treating the presumptions under the POCSO Act as a substitute for judicial scrutiny of the prosecution evidence.",
+
+                "Courts must examine whether the prosecution has established the facts necessary to activate the statutory presumption and must assess the entire evidentiary record before reaching a conclusion.",
+
+                "The Court observed that a presumption applied at an earlier stage of the proceedings can effectively disappear at the conclusion of trial if the accused successfully rebuts the prosecution case.",
+
+                "The statutory presumption therefore does not operate to exclude evidence favourable to the accused."
+            ]
+        },
+
+        {
+            title: "Conviction Set Aside; Accused Acquitted",
+
+            content: [
+                "Applying these principles, the Supreme Court concluded that the prosecution had failed to establish guilt beyond reasonable doubt.",
+
+                "The material contradictions, lack of corroboration from medical and forensic evidence, and the defence material concerning the prior water dispute collectively undermined the prosecution case.",
+
+                "The Court accordingly allowed both appeals, set aside the Delhi High Court judgment and overturned the conviction and sentences under Section 363 IPC and Section 6 of the POCSO Act.",
+
+                "The appellant was acquitted of both offences and directed to be released immediately if he was in custody, unless his detention was required in connection with another offence."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "The statutory presumption cannot operate to exclude evidence favourable to the accused.",
+        author: "Supreme Court of India"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "Foundational Facts Required",
+            description:
+                "Sections 29 and 30 of the POCSO Act operate only after the prosecution establishes the foundational facts necessary for the presumptions to arise."
+        },
+
+        {
+            title: "Presumptions Are Rebuttable",
+            description:
+                "The statutory presumptions do not make the prosecution allegations automatically true and may be rebutted by the accused."
+        },
+
+        {
+            title: "Prosecution Retains Ultimate Burden",
+            description:
+                "The prosecution continues to bear the ultimate burden of proving guilt beyond reasonable doubt."
+        },
+
+        {
+            title: "Entire Evidence Must Be Examined",
+            description:
+                "Courts must consider witness testimony, contradictions, medical evidence, forensic material and defence evidence together."
+        },
+
+        {
+            title: "Presumption Cannot Replace Proof",
+            description:
+                "A reverse-burden provision cannot be treated as a substitute for establishing the prosecution case through reliable evidence."
+        },
+
+        {
+            title: "Conviction Set Aside",
+            description:
+                "The Supreme Court allowed the appeals, set aside the Delhi High Court judgment and acquitted the appellant."
+        }
+    ],
+
+    legalSignificance:
+        "The judgment explains the relationship between the reverse-burden provisions of the POCSO Act and the prosecution's fundamental burden of proof. Sections 29 and 30 create rebuttable presumptions, but their operation depends upon the prosecution first establishing the foundational facts of the alleged offence. The decision also reiterates that courts must evaluate the complete evidentiary record and cannot allow a statutory presumption to displace evidence that creates reasonable doubt or supports the defence.",
+
+    caseDetails: {
+        caseName:
+            "Deepak in JC v. State Govt. of NCT Delhi",
+
+        court: "Supreme Court of India",
+
+        bench:
+            "Justice Prashant Kumar Mishra & Justice N.V. Anjaria",
+
+        decisionDate: "18 September 2026",
+
+        citation: "2026 INSC 1008"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Supreme Court judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
+  },
 
 
 ];
