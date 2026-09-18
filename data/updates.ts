@@ -1262,7 +1262,187 @@ export const updates: Update[] = [
         disclaimer:
             "This article provides an editorial summary of the Copyright Office's decision and is intended solely for informational and educational purposes. Readers should consult the official decision and the Copyright Act, 1957 for authoritative guidance."
     },
-                    
+    {
+        slug: "update-12",
+
+        title:
+            "Election Commission Freezes AITC Name And ‘Flowers & Grass’ Symbol Amid Factional Dispute",
+
+        category: "Election Commission of India",
+
+        publishedAt: "2026-09-18T14:10:00+05:30",
+
+        readTime: "7 min read",
+
+        excerpt:
+            "The Election Commission of India has passed an interim order restraining rival factions claiming control over the All India Trinamool Congress from using the party's name and reserved ‘Flowers & Grass’ symbol during the ongoing bye-elections.",
+
+        image: "/images/update12.png",
+
+        sections: [
+            {
+                title: "Election Commission Passes Interim Order",
+
+                content: [
+                    "The Election Commission of India (ECI) has passed an interim order restraining both rival factions claiming control over the All India Trinamool Congress (AITC) from using the party's name and its reserved ‘Flowers & Grass’ election symbol in the ongoing bye-elections.",
+
+                    "The Commission noted that there was insufficient time to conclude the proceedings under Paragraph 15 of the Election Symbols (Reservation and Allotment) Order, 1968.",
+
+                    "However, considering the ongoing bye-elections and the immediate need to regulate the use of the disputed party identity and symbol, the Commission considered an interim arrangement necessary."
+                ]
+            },
+
+            {
+                title: "Both Factions Barred From Using Original Party Identity",
+
+                content: [
+                    "A three-member Commission comprising Chief Election Commissioner Gyanesh Kumar and Election Commissioners Vivek Joshi and Sukhbir Singh Sandhu passed the order.",
+
+                    "The Commission directed that neither the faction led by Arup Roy nor the faction led by Mamata Banerjee would be permitted to use the name ‘All India Trinamool Congress’ simplicitor during the interim arrangement.",
+
+                    "The reserved ‘Flowers & Grass’ election symbol was also frozen for use by both groups.",
+
+                    "Instead, the two factions may choose separate names and symbols from the list of free symbols notified by the Election Commission for the current bye-elections."
+                ]
+            },
+
+            {
+                title: "Three Name Options To Be Submitted",
+
+                content: [
+                    "The Election Commission has directed each faction to submit three preferred names, in order of priority, by which it wishes to be identified for purposes of the interim arrangement.",
+
+                    "The Commission may approve one of the names submitted by each group.",
+
+                    "The factions may, if they choose, indicate their association with the parent organisation in the group name, subject to the Commission's approval.",
+
+                    "Separate election symbols are also to be allotted to the two groups from the ECI's notified list of free symbols."
+                ]
+            },
+
+            {
+                title: "Leadership Dispute Triggered Proceedings",
+
+                content: [
+                    "The proceedings before the Commission arise from competing claims concerning the leadership and functioning of the recognised political party.",
+
+                    "According to the proceedings, Mamata Banerjee informed the Election Commission on June 23, 2026 that a meeting of the AITC National Working Committee had been held on June 20 to announce office-bearers.",
+
+                    "Ritabrata Banerjee subsequently approached the Commission with a competing claim concerning the validity of the actions of the National Working Committee.",
+
+                    "It was contended that the mandate of the National Working Committee had expired on February 11, 2025 and that subsequent actions taken by the body were therefore invalid.",
+
+                    "The proceedings also referred to a Special Session held on June 22, 2026, at which Arup Roy was selected as NWC Chairperson."
+                ]
+            },
+
+            {
+                title: "Competing Claims Before The Commission",
+
+                content: [
+                    "Ritabrata Banerjee also placed before the Commission a news report concerning an alleged restructuring of the AITC.",
+
+                    "The report, titled ‘Mamata Banerjee overhauls Trinamool Congress’, stated that Banerjee had convened a meeting with members of the party's National Working Committee at Kalighat and had decided to reorganise several party positions.",
+
+                    "These competing developments formed part of the material placed before the Election Commission while it considered the dispute under Paragraph 15 of the Election Symbols (Reservation & Allotment) Order, 1968."
+                ]
+            },
+
+            {
+                title: "Paragraph 15 Proceedings Yet To Be Concluded",
+
+                content: [
+                    "The Election Commission clarified that the interim order does not amount to a final determination of the underlying dispute concerning which group represents the political party.",
+
+                    "The Commission instead addressed the immediate practical issue created by the ongoing bye-elections and the competing claims over the party's recognised identity and reserved symbol.",
+
+                    "It observed that the time available was insufficient to complete the proceedings under Paragraph 15 while recognising the urgency surrounding the use of the disputed name and symbol during the elections.",
+
+                    "The Commission therefore adopted an interim arrangement pending further proceedings in the dispute."
+                ]
+            },
+
+            {
+                title: "Interim Arrangement For Current Bye-Elections",
+
+                content: [
+                    "Under the interim arrangement, neither faction may use ‘All India Trinamool Congress’ simplicitor for the purposes of the ongoing bye-elections.",
+
+                    "Neither faction may use the reserved ‘Flowers & Grass’ election symbol.",
+
+                    "Each faction may submit three alternative names in order of preference, from which the Commission may approve one name for the group.",
+
+                    "Each group may also select a separate election symbol from the free symbols notified by the Election Commission for the current bye-elections.",
+
+                    "The factions may retain a reference to their parent organisation in their respective group names if they choose and the Commission permits the proposed name."
+                ]
+            }
+        ],
+
+        quote: {
+            text:
+                "The time available is insufficient to conclude the proceedings under Paragraph 15, necessitating an immediate interim arrangement in view of the ongoing bye-elections.",
+            author: "Election Commission of India"
+        },
+
+        highlightsTitle: "Key Takeaways",
+
+        highlights: [
+            {
+                title: "AITC Name Frozen",
+                description:
+                    "Neither rival faction may use ‘All India Trinamool Congress’ simplicitor during the interim arrangement for the ongoing bye-elections."
+            },
+
+            {
+                title: "Reserved Symbol Frozen",
+                description:
+                    "The ‘Flowers & Grass’ symbol has been frozen for use by both factions pending further proceedings."
+            },
+
+            {
+                title: "Three Names Per Faction",
+                description:
+                    "Each faction must submit three preferred alternative names in order of priority to the Election Commission."
+            },
+
+            {
+                title: "Separate Free Symbols",
+                description:
+                    "The two groups may be allotted different symbols selected from the ECI's notified list of free symbols."
+            },
+
+            {
+                title: "No Final Determination",
+                description:
+                    "The interim arrangement does not finally decide which faction represents the recognised political party."
+            }
+        ],
+
+        legalSignificance:
+            "The interim order addresses the immediate electoral consequences of a dispute over the identity and leadership of a recognised political party. By temporarily restricting use of the disputed party name and reserved symbol and providing alternative names and symbols, the Election Commission has created an interim mechanism for the ongoing bye-elections while proceedings under Paragraph 15 of the Election Symbols (Reservation and Allotment) Order, 1968 remain pending.",
+
+        caseDetails: {
+            caseName:
+                "In re: Dispute Case No. 01 of 2026 – Dispute in All India Trinamool Congress",
+
+            court: "Election Commission of India",
+
+            bench:
+                "Chief Election Commissioner Gyanesh Kumar, Election Commissioner Vivek Joshi & Election Commissioner Sukhbir Singh Sandhu",
+
+            decisionDate: "18 September 2026",
+
+            caseNumber: "Dispute Case No. 01 of 2026",
+
+            citation:
+                "Proceeding under Paragraph 15 of the Election Symbols (Reservation & Allotment) Order, 1968"
+        },
+
+        disclaimer:
+            "This article provides an editorial summary of the Election Commission of India's interim order and is intended solely for informational and educational purposes. It does not constitute legal or electoral advice. Readers should consult the official order and applicable election laws and regulations for authoritative information."
+    },
+                        
                 
 
     
