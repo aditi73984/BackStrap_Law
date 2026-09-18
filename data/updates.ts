@@ -1125,8 +1125,6 @@ export const updates: Update[] = [
 
         image: "/images/update11.png",
 
-        featured: true,
-
         sections: [
             {
                 title: "Background",
@@ -1278,6 +1276,8 @@ export const updates: Update[] = [
             "The Election Commission of India has passed an interim order restraining rival factions claiming control over the All India Trinamool Congress from using the party's name and reserved ‘Flowers & Grass’ symbol during the ongoing bye-elections.",
 
         image: "/images/update12.png",
+
+        featured: true,
 
         sections: [
             {
