@@ -2342,6 +2342,204 @@ export const stories: Story[] = [
     disclaimer:
         "This article provides an editorial summary of the Supreme Court proceedings and is intended solely for informational and educational purposes. The observations made during the hearing and the issues raised by the Court do not constitute a final determination of the questions before it. Readers should consult the official court record and applicable statutory provisions for authoritative legal information."
   },
+  {
+    slug: "story-18",
+
+    title:
+        "Supreme Court Takes Suo Motu Cognizance Of Patna HC Remarks On Attempt To Rape, Issues Notice To Accused",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-09-23T13:45:00+05:30",
+
+    readTime: "8 min read",
+
+    excerpt:
+        "The Supreme Court has taken suo motu cognizance of observations made by the Patna High Court while modifying an accused's conviction for attempted rape to one for outraging the modesty of a woman, and has issued notice to the accused.",
+
+    image: "/images/story18.png",
+
+    sections: [
+        {
+            title: "Supreme Court Takes Suo Motu Cognizance",
+
+            content: [
+                "The Supreme Court has taken suo motu cognizance of observations made by the Patna High Court in a judgment modifying an accused's conviction for attempted rape to one for outraging the modesty of a woman.",
+
+                "A Bench comprising Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana observed that certain remarks in the High Court judgment were ‘offending’.",
+
+                "The Supreme Court, however, made it clear that any interference with those observations would be considered only after the accused is given an opportunity to be heard.",
+
+                "The Court therefore directed that notice be served upon the accused through the local police."
+            ]
+        },
+
+        {
+            title: "Patna High Court Had Modified Conviction",
+
+            content: [
+                "The proceedings before the Supreme Court arise from an order dated July 9, 2026 passed by the Patna High Court in Criminal Appeal (SJ) No. 775 of 2013.",
+
+                "The High Court had set aside the accused's conviction under Section 376 read with Section 511 of the Indian Penal Code and instead found the evidence sufficient to establish an offence under Section 354 IPC.",
+
+                "The High Court concluded that the prosecution had established conduct amounting to outraging the modesty of a woman but had not sufficiently established an attempt to commit rape."
+            ]
+        },
+
+        {
+            title: "Supreme Court Flags High Court Observations",
+
+            content: [
+                "During the Supreme Court hearing, Chief Justice Surya Kant observed that there were certain ‘offending observations’ in the Patna High Court judgment.",
+
+                "The Bench nevertheless stated that it could consider setting aside those observations only after hearing the accused.",
+
+                "The Advocate General for Bihar, S.D. Sanjay, appeared for the State.",
+
+                "The Supreme Court has therefore initiated a separate proceeding concerning the observations while preserving the accused's opportunity to respond."
+            ]
+        },
+
+        {
+            title: "Prosecution Alleged Confinement And Sexual Assault",
+
+            content: [
+                "The prosecution case arose from an incident alleged to have taken place at a photographic studio.",
+
+                "According to the prosecution, the victim had accompanied her father to the accused's studio to have her photograph taken.",
+
+                "After taking the photograph, the accused allegedly asked the victim's father to enter the courtyard to view the photograph on a computer.",
+
+                "The prosecution alleged that after the father left, the accused bolted the studio door from inside, undressed himself and attempted to remove the victim's lower clothing with the intention of sexually assaulting her.",
+
+                "The victim's screams allegedly alerted her father, who returned to the studio, forced the door open and confronted the accused. The accused allegedly pushed him aside and fled as people from the locality gathered."
+            ]
+        },
+
+        {
+            title: "Trial Court Had Convicted Accused",
+
+            content: [
+                "Following investigation, the police filed a chargesheet and the trial court convicted the accused for attempted rape and wrongful confinement.",
+
+                "The conviction under Section 376 read with Section 511 IPC was subsequently challenged before the Patna High Court.",
+
+                "The High Court examined whether the evidence established the necessary ingredients of an attempt to commit rape or instead established the lesser offence under Section 354 IPC."
+            ]
+        },
+
+        {
+            title: "Patna HC Distinguished Attempt To Rape From Outraging Modesty",
+
+            content: [
+                "The Patna High Court found that the prosecution had established the ingredients of Section 354 IPC.",
+
+                "Justice Purnendu Singh observed that the accused had used criminal force by confining the victim inside the studio, closing the door, attempting to remove her salwar and pressing her chest.",
+
+                "The High Court held that these acts demonstrated an intention, or at least knowledge, that the conduct was likely to outrage the woman's modesty.",
+
+                "However, the Court distinguished the offence under Section 354 IPC from an attempt to commit rape under Section 376 read with Section 511 IPC.",
+
+                "The High Court reasoned that the prosecution had not established a physical or overt act demonstrating a sufficiently clear progression towards penetration."
+            ]
+        },
+
+        {
+            title: "Victim's Testimony Also Considered",
+
+            content: [
+                "The High Court noted that the testimony of a victim of sexual assault can, in an appropriate case, constitute the basis for conviction without independent corroboration.",
+
+                "It nevertheless stated that where the prosecution relies upon the victim as a ‘sterling witness’, her testimony must satisfy a high degree of consistency and should not suffer from material deficiencies affecting its reliability.",
+
+                "On the evidence before it, the High Court concluded that the accused's conduct was sufficient to establish criminal force and an offence under Section 354 IPC, but not the more serious charge of attempted rape."
+            ]
+        },
+
+        {
+            title: "Custody And Consequential Relief",
+
+            content: [
+                "The High Court noted that the accused had already spent approximately three and a half months in judicial custody.",
+
+                "After modifying the conviction, the High Court granted the consequential relief arising from its finding that the prosecution had established an offence under Section 354 IPC rather than attempted rape."
+            ]
+        },
+
+        {
+            title: "Supreme Court To Examine High Court Observations",
+
+            content: [
+                "The Supreme Court has now initiated proceedings concerning the July 9, 2026 judgment.",
+
+                "The Bench indicated that although it had concerns regarding certain observations in the High Court judgment, it would consider setting them aside only after giving the accused an opportunity of being heard.",
+
+                "The matter will therefore be taken up again after service of notice on the accused."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "There are some offending observations in the judgment passed by the High Court. But we'll be able to set aside only after hearing this accused.",
+        author: "Chief Justice of India Surya Kant"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "Suo Motu Proceedings Initiated",
+            description:
+                "The Supreme Court has initiated proceedings concerning observations made in the Patna High Court's July 9, 2026 judgment."
+        },
+
+        {
+            title: "Notice Issued To Accused",
+            description:
+                "The Court directed that notice be served upon the accused before considering any interference with the High Court's observations."
+        },
+
+        {
+            title: "High Court Modified Conviction",
+            description:
+                "The Patna High Court had modified the conviction from attempted rape under Section 376 read with Section 511 IPC to an offence under Section 354 IPC."
+        },
+
+        {
+            title: "Attempt And Outraging Modesty Distinguished",
+            description:
+                "The High Court held that the prosecution established criminal force and conduct amounting to outraging modesty but did not establish the necessary progression towards penetration."
+        },
+
+        {
+            title: "Matter Remains Pending",
+            description:
+                "The Supreme Court has not yet finally determined whether the challenged observations should be set aside."
+        }
+    ],
+
+    legalSignificance:
+        "The proceedings place the judicial observations made in a sexual-offence judgment under separate scrutiny by the Supreme Court. The Court has expressly preserved the accused's opportunity to be heard before considering any interference with the Patna High Court's remarks. The underlying proceedings also involve the distinction between an attempt to commit rape and the offence of outraging the modesty of a woman under the IPC.",
+
+    caseDetails: {
+        caseName:
+            "In Re: Order Dated 09.07.2026 Passed By The High Court Of Judicature At Patna In Criminal Appeal (SJ) No. 775/2013 And Ancillary Issues",
+
+        court: "Supreme Court of India",
+
+        bench:
+            "Chief Justice Surya Kant, Justice Joymalya Bagchi & Justice V. Mohana",
+
+        decisionDate: "23 September 2026",
+
+        caseNumber:
+            "Criminal Appeal (SJ) No. 775 of 2013 — Patna High Court proceeding"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Supreme Court proceedings and the underlying Patna High Court judgment and is intended solely for informational and educational purposes. The Supreme Court proceedings remain pending and the observations discussed do not constitute a final determination by the Supreme Court."
+  },  
 
 
 ];
