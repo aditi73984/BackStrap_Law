@@ -1568,8 +1568,6 @@ export const stories: Story[] = [
 
     image: "/images/story14.png",
 
-    featured: true,
-
     sections: [
         {
             title: "Background of the Case",
@@ -2155,6 +2153,8 @@ export const stories: Story[] = [
         "The Supreme Court has issued notice in a challenge concerning the Bar Council of India's statutory role in regulating legal education, its involvement in law colleges, and the transfer of assets belonging to the statutory body to a separate trust.",
 
     image: "/images/story17.png",
+
+    featured: true,
 
     sections: [
         {
