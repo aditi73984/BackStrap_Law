@@ -2139,6 +2139,209 @@ export const stories: Story[] = [
     disclaimer:
         "This article provides an editorial summary of the Supreme Court judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
   },
+  {
+    slug: "story-17",
+
+    title:
+        "Supreme Court Examines BCI’s Role In Legal Education, Seeks Response On Law Colleges And Transfer Of Assets To Trust",
+
+    category: "Supreme Court",
+
+    publishedAt: "2026-09-23T11:58:00+05:30",
+
+    readTime: "9 min read",
+
+    excerpt:
+        "The Supreme Court has issued notice in a challenge concerning the Bar Council of India's statutory role in regulating legal education, its involvement in law colleges, and the transfer of assets belonging to the statutory body to a separate trust.",
+
+    image: "/images/story17.png",
+
+    sections: [
+        {
+            title: "Supreme Court Examines BCI's Statutory Role",
+
+            content: [
+                "The Supreme Court has issued notice in a challenge concerning the statutory role of the Bar Council of India in regulating legal education, its involvement in running law colleges, and the transfer of assets belonging to the statutory body to a separate trust.",
+
+                "A Bench comprising Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana is examining whether the BCI's statutory powers under the Advocates Act, 1961 extend beyond setting standards and regulatory oversight to direct operational control of law universities and colleges.",
+
+                "The Court has sought the response of the Bar Council of India and directed that the matter be considered further."
+            ]
+        },
+
+        {
+            title: "Chief Justice Questions BCI's Role In Running Law Institutions",
+
+            content: [
+                "During the hearing, the Bench questioned the basis on which the BCI could exercise direct control over law universities and institutions.",
+
+                "The Court indicated that it would first examine whether the BCI possesses statutory authority to regulate and control law universities and whether the issue requires consideration by a larger Bench.",
+
+                "The question before the Court concerns the distinction between the BCI's role as a statutory regulator and the direct administration or operation of educational institutions."
+            ]
+        },
+
+        {
+            title: "Challenge To BCI-Controlled Law Colleges",
+
+            content: [
+                "The petitioner has challenged legislation concerning law colleges established in Goa and Andhra Pradesh, contending that the statutory framework gives the BCI extensive control over institutions that it is otherwise expected to regulate.",
+
+                "According to the submissions recorded in the proceedings, the relevant enactments provide for the BCI to nominate 27 out of 35 members of the Executive Council of the concerned institutions.",
+
+                "The petitioner argued that this arrangement places the regulator in a position of direct control over institutions whose legal education standards it is expected to oversee.",
+
+                "The challenge raises questions concerning the constitutional and statutory validity of the institutional governance framework."
+            ]
+        },
+
+        {
+            title: "Scope Of Section 7 Of Advocates Act Considered",
+
+            content: [
+                "The Bench considered the statutory framework under Section 7(1)(h) of the Advocates Act, 1961, which concerns the BCI's functions relating to legal education and recognition of law degrees and institutions.",
+
+                "The Court questioned whether the statutory scheme permits the BCI to move beyond laying down standards and exercising regulatory oversight into direct administration and operation of law schools.",
+
+                "The distinction between establishing regulatory standards and exercising operational control over educational institutions was central to the questions raised during the hearing."
+            ]
+        },
+
+        {
+            title: "Transfer Of Approximately ₹39 Crore To Trust Questioned",
+
+            content: [
+                "Another issue before the Court concerns the transfer of assets of the BCI to a separate trust.",
+
+                "During the hearing, the petitioner referred to a resolution concerning the BCI's earlier trust, established in 1974, and the transfer of approximately ₹39 crore to a new trust.",
+
+                "The submissions also referred to a CBI inquiry concerning the transfer and correspondence in which information was sought from the BCI regarding the basis of the transaction and utilisation of the funds.",
+
+                "The proceedings further raised questions concerning the constitution and management of the subsequent trust."
+            ]
+        },
+
+        {
+            title: "Court Questions Transfer Of Statutory Assets",
+
+            content: [
+                "Justice Joymalya Bagchi raised a separate issue concerning the legal status of assets belonging to the BCI as a statutory body.",
+
+                "The Bench questioned whether assets of a continuing statutory entity could be transferred to another juristic entity, particularly one governed by trustees whose positions could otherwise continue independently of the statutory body.",
+
+                "The Court indicated that the questions concerning the challenged legislation and the transfer of assets would require separate examination."
+            ]
+        },
+
+        {
+            title: "BCI Addresses Issue Of Lifetime Trusteeship",
+
+            content: [
+                "During the hearing, counsel appearing for the BCI addressed the concern concerning lifetime trusteeship.",
+
+                "It was submitted that a subsequent BCI resolution had removed the concept of lifetime trusteeship.",
+
+                "According to the submission, trusteeship is now intended to remain co-terminous with the concerned person's holding of an ex-officio position within the BCI rather than continuing indefinitely in an individual capacity."
+            ]
+        },
+
+        {
+            title: "Regulatory And Operational Functions In Question",
+
+            content: [
+                "The petitioner argued that the challenged enactments give the BCI substantial control over the executive councils of the institutions despite the trust being identified as the entity responsible for running the colleges.",
+
+                "The submission was that the arrangement creates a structural overlap between regulatory and operational functions.",
+
+                "The Court indicated that this issue would have to be examined alongside the broader question of whether the BCI possesses statutory authority to exercise the degree of institutional control alleged."
+            ]
+        },
+
+        {
+            title: "Earlier NALSAR Proceedings Referred To",
+
+            content: [
+                "During the hearing, reference was also made to an earlier dispute concerning BCI directives affecting the 2026 graduating batch of NALSAR University of Law.",
+
+                "The Supreme Court had previously considered the extent of the BCI's statutory powers in relation to law students, including whether the Advocates Act conferred authority to impose disciplinary or punitive measures upon students.",
+
+                "The reference was made in the context of the broader question concerning the limits of the BCI's statutory powers in legal education."
+            ]
+        },
+
+        {
+            title: "Notice Issued To Bar Council Of India",
+
+            content: [
+                "After considering the initial submissions, the Bench issued notice in the interlocutory applications and sought the response of the Bar Council of India.",
+
+                "Notice was accepted on behalf of the BCI, while the presence of the Solicitor General for the Union of India was also recorded.",
+
+                "The matter is to be listed for a more detailed hearing concerning the statutory scope of the BCI's role in legal education, governance of law institutions and the questions surrounding the transfer of statutory assets to a separate trust."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "Whether law school can be regulated? If that is answered, this is resolved. We'd like to examine whether BCI has power to control and regulate university/law college.",
+        author: "Chief Justice Surya Kant"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "BCI's Regulatory Authority Under Examination",
+            description:
+                "The Supreme Court is examining the extent to which the Advocates Act permits the BCI to regulate legal education and law institutions."
+        },
+
+        {
+            title: "Regulation Versus Administration",
+            description:
+                "The proceedings raise a distinction between prescribing educational standards and directly controlling or administering law colleges and universities."
+        },
+
+        {
+            title: "Law College Governance Challenged",
+            description:
+                "The petition questions statutory arrangements under which the BCI is given substantial representation in the executive councils of certain institutions."
+        },
+
+        {
+            title: "Trust Asset Transfer Questioned",
+            description:
+                "The Court is also examining questions concerning the transfer of assets belonging to the statutory body to a separate trust."
+        },
+
+        {
+            title: "Notice Issued",
+            description:
+                "The Supreme Court has sought the BCI's response, with the matter to be considered further."
+        }
+    ],
+
+    legalSignificance:
+        "The proceedings raise a broader question concerning the institutional boundaries of a statutory professional regulator in the field of legal education. The Supreme Court is examining whether the BCI's functions under the Advocates Act, 1961 extend from prescribing standards and recognising institutions to directly administering law colleges and universities. The case also raises separate questions concerning the legal character and transfer of assets belonging to a statutory body.",
+
+    caseDetails: {
+        caseName:
+            "Girish Mittal v. Bar Council of India & Ors.",
+
+        court: "Supreme Court of India",
+
+        bench:
+            "Chief Justice Surya Kant, Justice Joymalya Bagchi & Justice V. Mohana",
+
+        decisionDate: "23 September 2026",
+
+        caseNumber: "W.P.(C) No. 1115/2026"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Supreme Court proceedings and is intended solely for informational and educational purposes. The observations made during the hearing and the issues raised by the Court do not constitute a final determination of the questions before it. Readers should consult the official court record and applicable statutory provisions for authoritative legal information."
+  },
 
 
 ];
