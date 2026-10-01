@@ -2154,8 +2154,6 @@ export const stories: Story[] = [
 
     image: "/images/story17.png",
 
-    featured: true,
-
     sections: [
         {
             title: "Supreme Court Examines BCI's Statutory Role",
@@ -2556,6 +2554,8 @@ export const stories: Story[] = [
         "The Delhi High Court has held that a victim who sets the criminal law in motion through a complaint under Section 376 IPC or Section 69 BNS must be given an opportunity to participate in criminal proceedings, including proceedings concerning regular bail.",
 
     image: "/images/story18.png",
+
+    featured: true,
 
     sections: [
         {
