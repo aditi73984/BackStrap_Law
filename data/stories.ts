@@ -2539,7 +2539,7 @@ export const stories: Story[] = [
         "This article provides an editorial summary of the Supreme Court proceedings and the underlying Patna High Court judgment and is intended solely for informational and educational purposes. The Supreme Court proceedings remain pending and the observations discussed do not constitute a final determination by the Supreme Court."
   }, 
   {
-    slug: "story-18",
+    slug: "story-19",
 
     title:
         "Delhi High Court: Victims In Rape Cases Must Get Opportunity To Participate In Bail Proceedings",
@@ -2553,7 +2553,7 @@ export const stories: Story[] = [
     excerpt:
         "The Delhi High Court has held that a victim who sets the criminal law in motion through a complaint under Section 376 IPC or Section 69 BNS must be given an opportunity to participate in criminal proceedings, including proceedings concerning regular bail.",
 
-    image: "/images/story18.png",
+    image: "/images/story19.png",
 
     featured: true,
 
@@ -2739,7 +2739,7 @@ export const stories: Story[] = [
         "This article provides an editorial summary of the Delhi High Court judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
   }, 
   {
-    slug: "story-19",
+    slug: "story-20",
     title:
         "Karnataka High Court: NEET-UG NRI Quota Is Unreserved, Cannot Be Combined With OBC Reservation",
     category: "Karnataka High Court",
@@ -2747,7 +2747,8 @@ export const stories: Story[] = [
     readTime: "8 min read",
     excerpt:
         "The Karnataka High Court has held that the 15% NRI quota in NEET-UG counselling operates as a separate, unreserved category and cannot be combined with OBC reservation benefits.",
-    image: "/images/story19.png",
+    
+        image: "/images/story20.png",
 
     sections: [
         {
