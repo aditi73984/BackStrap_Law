@@ -155,18 +155,19 @@ export default function Home() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           className="flex items-center justify-center lg:justify-end mt-2"
         >
-          <Image
-  src="/images/logo-small.png"
-  alt="Backstrap Law"
-  width={320}
-  height={320}
-  priority
-  loading="eager"
-  style={{
-    width: "220px",
-    height: "auto",
-  }}
-/>
+        <Image
+          src="/images/logo-small.png"
+          alt="Backstrap Law"
+          width={320}
+          height={320}
+          priority
+          // loading="eager"
+          // style={{
+          //   width: "220px",
+          //   height: "auto",
+          // }}
+          className="w-[220px] h-auto"
+        />
         </motion.div>
 
       </div>
@@ -197,6 +198,7 @@ export default function Home() {
                 src={featuredStory?.image || "/images/placeholder.jpg"}
                 alt={featuredStory?.title || "Featured Story"}
                 fill
+                sizes="(max-width: 1024px) 100vw, 60vw"
                 className="object-cover"
               />
 
@@ -232,6 +234,7 @@ export default function Home() {
                       src={story.image}
                       alt={story.title}
                       fill
+                      sizes="64px"
                       className="object-cover"
                     />
                   </div>
@@ -291,6 +294,7 @@ export default function Home() {
                 src={featuredUpdate?.image || "/images/placeholder.jpg"}
                 alt={featuredUpdate?.title || "Featured Update"}
                 fill
+                sizes="(max-width: 1024px) 100vw, 60vw"
                 className="object-cover"
               />
 
@@ -331,6 +335,7 @@ export default function Home() {
                       src={update.image}
                       alt={update.title}
                       fill
+                      sizes="64px"
                       className="object-cover"
                     />
                   </div>

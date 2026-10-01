@@ -80,6 +80,7 @@ export default async function UpdatePage({ params }: UpdatePageProps) {
             alt={update.title}
             fill
             priority
+            sizes="(max-width: 768px) 100vw, 1024px"
             className="object-cover"
           />
 
