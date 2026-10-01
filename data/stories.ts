@@ -2738,6 +2738,120 @@ export const stories: Story[] = [
     disclaimer:
         "This article provides an editorial summary of the Delhi High Court judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
   }, 
+  {
+    slug: "story-19",
+    title:
+        "Karnataka High Court: NEET-UG NRI Quota Is Unreserved, Cannot Be Combined With OBC Reservation",
+    category: "Karnataka High Court",
+    publishedAt: "2026-09-30T20:00:00+05:30",
+    readTime: "8 min read",
+    excerpt:
+        "The Karnataka High Court has held that the 15% NRI quota in NEET-UG counselling operates as a separate, unreserved category and cannot be combined with OBC reservation benefits.",
+    image: "/images/story19.png",
+
+    sections: [
+        {
+            title: "Candidate Sought To Combine NRI Sponsorship With OBC Status",
+            content: [
+                "The petitioner had participated in counselling for undergraduate medical courses through NEET-UG.",
+                "She claimed OBC non-creamy layer status under the State's 2A category and had also sought consideration under the NRI-sponsored category on the basis of sponsorship by her paternal aunt.",
+                "The petitioner sought a declaration that her OBC status, which she claimed arose from her birth and statutory certification, continued to remain available notwithstanding her application under the NRI-sponsored category.",
+                "She also sought permission to participate in the remaining counselling rounds under the NRI-sponsored category and challenged the application of a Medical Counselling Committee notice to her.",
+                "Her contention was that treating her as a General-category candidate merely because she had opted for the NRI quota deprived her of the OBC reservation to which she was otherwise entitled."
+            ]
+        },
+        {
+            title: "NRI Quota Treated As Unreserved Category",
+            content: [
+                "The High Court rejected the contention that social-category reservations could operate within the NRI quota.",
+                "The Bench observed that the NRI quota is a separate quota and that 15% of the seats are reserved for NRIs.",
+                "The Court noted that the applicable admission brochure specifically provides that NRI candidates can be shown seats under the NRI category as well as General seats, but also stipulates that a candidate can opt for only one type of reservation.",
+                "The Court referred to Question 36 of the NEET-UG (MBBS/BDS/B.Sc. Nursing) Counselling 2026 Information Bulletin and Counselling Scheme, which provides that NRI/OCI/PIO candidates will be shown seats reserved for the NRI category and General Seats of All India Quota and seats of Deemed Universities, while permitting a candidate to opt for only one type of reservation.",
+                "According to the Bench, the express terms of the counselling framework did not permit the petitioner to simultaneously claim the NRI quota and OBC reservation."
+            ]
+        },
+        {
+            title: "Court Declines To Create 'NRI-OBC' Category",
+            content: [
+                "The Court noted that the petition was essentially based on the proposition that reservation for OBC or another social category should also be made available within the NRI quota.",
+                "The Bench rejected that interpretation, observing that the petitioner was seeking to enter an 'NRI-OBC' category that was not contemplated by the notified counselling scheme.",
+                "The Court observed that the submission was noted only to be rejected.",
+                "It further held that the NRI quota was an independent 15% category and that the applicable rules treated it as unreserved.",
+                "Consequently, the Court declined to read an additional OBC reservation into the NRI category."
+            ]
+        },
+        {
+            title: "Petitioner Also Failed To Meet NRI Qualifying Threshold",
+            content: [
+                "The High Court further noted that the petitioner had obtained 48.33% marks and had not crossed the qualifying threshold required for consideration under the NRI quota.",
+                "The Bench held that this deficiency could not be overcome by asking the Court to interpret the counselling scheme as permitting OBC reservation within the NRI quota.",
+                "Thus, the petitioner's case faced two separate difficulties: the counselling scheme did not provide for an NRI-OBC category, and she had not satisfied the applicable qualifying requirement for consideration under the NRI quota."
+            ]
+        },
+        {
+            title: "Writ Petition Dismissed",
+            content: [
+                "The High Court ultimately held that a candidate could not simultaneously claim the benefits of the NRI quota and OBC reservation under the applicable NEET-UG counselling framework.",
+                "Finding no basis to introduce an NRI-OBC category that was absent from the notified scheme, the Bench rejected the writ petition."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "NRI/OCI/PIO candidates will be shown seats reserved for NRI category and General Seats of All India Quota and Seats of Deemed Universities. One Candidate can only opt for one type of reservation.",
+        author: "NEET-UG (MBBS/BDS/B.Sc. Nursing) Counselling 2026 Information Bulletin and Counselling Scheme"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "NRI Quota Is Separate",
+            description:
+                "The Karnataka High Court treated the 15% NRI quota as a separate category under the applicable NEET-UG counselling framework."
+        },
+        {
+            title: "No NRI-OBC Category",
+            description:
+                "The notified counselling scheme did not contemplate combining NRI sponsorship with OBC reservation."
+        },
+        {
+            title: "One Type Of Reservation",
+            description:
+                "Question 36 of the NEET-UG Counselling 2026 scheme states that a candidate can opt for only one type of reservation."
+        },
+        {
+            title: "48.33% Marks",
+            description:
+                "The petitioner had obtained 48.33% marks and, according to the Court, had not crossed the applicable qualifying threshold for consideration under the NRI quota."
+        },
+        {
+            title: "OBC Reservation Not Combined",
+            description:
+                "The Court declined to permit OBC reservation to operate simultaneously with the NRI quota."
+        },
+        {
+            title: "Writ Petition Rejected",
+            description:
+                "The Court rejected the petition and declined to recognise an NRI-OBC category outside the notified counselling scheme."
+        }
+    ],
+
+    legalSignificance:
+        "The judgment addresses the interaction between the NRI quota and socially reserved categories in NEET-UG counselling. The Court's reasoning, as presented in the judgment, turns on the notified counselling framework permitting candidates to opt for only one type of reservation and not providing for an NRI-OBC category.",
+
+    caseDetails: {
+        caseName: "Juhi v. Union of India & Others",
+        court: "Karnataka High Court",
+        bench: "Justice M. Nagaprasanna and Justice Hema Kulkarni",
+        decisionDate: "30 September 2026",
+        citation: "2026:KHC-D:14973-DB"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Karnataka High Court judgment and applicable NEET-UG counselling provisions and is intended solely for informational and educational purposes. Readers should consult the official judgment, counselling bulletin and applicable regulations for authoritative legal guidance."
+  },
 
 
 ];
