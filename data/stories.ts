@@ -2539,7 +2539,205 @@ export const stories: Story[] = [
 
     disclaimer:
         "This article provides an editorial summary of the Supreme Court proceedings and the underlying Patna High Court judgment and is intended solely for informational and educational purposes. The Supreme Court proceedings remain pending and the observations discussed do not constitute a final determination by the Supreme Court."
-  },  
+  }, 
+  {
+    slug: "story-18",
+
+    title:
+        "Delhi High Court: Victims In Rape Cases Must Get Opportunity To Participate In Bail Proceedings",
+
+    category: "Delhi High Court",
+
+    publishedAt: "2026-09-30T20:30:00+05:30",
+
+    readTime: "8 min read",
+
+    excerpt:
+        "The Delhi High Court has held that a victim who sets the criminal law in motion through a complaint under Section 376 IPC or Section 69 BNS must be given an opportunity to participate in criminal proceedings, including proceedings concerning regular bail.",
+
+    image: "/images/story18.png",
+
+    sections: [
+        {
+            title: "Delhi High Court Sets Aside Bail Order",
+
+            content: [
+                "The Delhi High Court has held that a victim who sets the criminal law in motion by filing a complaint under Section 376 of the Indian Penal Code or Section 69 of the Bharatiya Nyaya Sanhita must be given an opportunity to participate at every stage of the criminal proceedings, including when the accused seeks regular bail.",
+
+                "Justice Saurabh Banerjee was hearing a petition under Sections 483(3) and 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023 seeking to set aside an order granting regular bail to the accused.",
+
+                "The Court found that the prosecutrix had not been given notice or an opportunity to participate before the bail application was considered and consequently set aside the Trial Court's bail order."
+            ]
+        },
+
+        {
+            title: "Victim Entitled To Participate In Proceedings",
+
+            content: [
+                "The High Court held that a victim who sets the State machinery in motion by filing a complaint under Section 376 IPC or Section 69 BNS is entitled to an opportunity to participate at all stages of the criminal proceedings.",
+
+                "The Court considered the victim's participation particularly in the context of the accused's application for regular bail.",
+
+                "The finding was based on the statutory framework governing notice and participation of the informant or an authorised representative during bail proceedings."
+            ]
+        },
+
+        {
+            title: "Case Originated From Alleged False Promise Of Marriage",
+
+            content: [
+                "The FIR was registered on the complaint of the prosecutrix while she was lodged in Mandoli Jail in connection with another FIR.",
+
+                "According to the allegations, the accused, who was her neighbour, had established physical relations with her on several occasions on an alleged false promise of marriage.",
+
+                "The prosecutrix further alleged that the accused's fiancée and her family had threatened and assaulted her.",
+
+                "She also alleged that she had been falsely implicated in a case concerning an allegation that she had thrown acid at the accused's fiancée during a physical altercation."
+            ]
+        },
+
+        {
+            title: "Accused Arrested; Trial Court Granted Bail",
+
+            content: [
+                "The statement of the prosecutrix was subsequently recorded, following which the accused was apprehended and arrested.",
+
+                "The Trial Court later granted the accused regular bail.",
+
+                "The prosecutrix challenged the bail order before the Delhi High Court, principally contending that she had not been given an opportunity to participate in the bail proceedings."
+            ]
+        },
+
+        {
+            title: "Statutory Framework For Victim Participation",
+
+            content: [
+                "The High Court examined the statutory framework governing the presence of an informant or an authorised representative during bail proceedings.",
+
+                "The Court referred to Section 439(1A) of the Code of Criminal Procedure, 1973, which governs the presence of the informant or a person authorised by the informant during specified bail proceedings.",
+
+                "The provision makes such participation obligatory in cases involving Sections 376(3), 376AB, 376DA and 376DB IPC.",
+
+                "The Court further noted that the corresponding provision under the BNSS is Section 483(2), which is pari materia with Section 439(1A) CrPC."
+            ]
+        },
+
+        {
+            title: "Delhi High Court Practice Direction Also Considered",
+
+            content: [
+                "The Court referred to Practice Direction No. 67/Rules/DHC dated September 24, 2019.",
+
+                "The Practice Direction prescribes the procedure by which the Investigating Officer is required to inform the informant or a person authorised by her about the filing of a bail application by the accused.",
+
+                "The Court considered this framework while examining whether the prosecutrix had been afforded the required opportunity before the Trial Court considered the accused's bail application."
+            ]
+        },
+
+        {
+            title: "Supreme Court's Jagjeet Singh Judgment Relied Upon",
+
+            content: [
+                "The High Court relied upon the Supreme Court's decision in Jagjeet Singh v. Ashish Mishra (2022), concerning the rights of victims in criminal proceedings.",
+
+                "The Court also referred to its earlier decision in Ms P v. State (NCT of Delhi) & Anr. (2024).",
+
+                "In that matter, the Delhi High Court had cancelled regular bail granted to an accused in a Section 376 IPC case because the prosecutrix had neither been served with a copy of the bail application nor given an opportunity to remain present during its hearing.",
+
+                "Applying the same principle, the Court held that the prosecutrix in the present matter was entitled to participate in the bail proceedings."
+            ]
+        },
+
+        {
+            title: "Three-Day Bail Order Set Aside",
+
+            content: [
+                "The High Court noted that the accused had been granted regular bail within three days despite the prosecutrix not having been given notice or an opportunity to participate.",
+
+                "The Court held that the circumstances warranted interference with the bail order.",
+
+                "It accordingly set aside the order and remanded the bail application to the Trial Court for fresh consideration after giving the prosecutrix the required opportunity of participation."
+            ]
+        },
+
+        {
+            title: "Accused Not To Be Re-Arrested",
+
+            content: [
+                "The High Court clarified that the accused would not be re-arrested merely because the existing bail order had been set aside.",
+
+                "The Court explained that the interference with the impugned order was based on the Trial Court's failure to issue notice to the prosecutrix and provide her an opportunity to participate.",
+
+                "The accused's bail application would therefore have to be freshly adjudicated by the Trial Court in accordance with law."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "Any victim like the prosecutrix herein who set the state machinery in motion by filing a complaint under Section 376 IPC/Section 69 BNS against the accused, is to be given an opportunity of participating at all stage(s) of the criminal proceedings.",
+        author: "Delhi High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+        {
+            title: "Victim Participation In Bail",
+            description:
+                "A prosecutrix who sets the criminal law in motion must be given an opportunity to participate in relevant criminal proceedings, including regular bail proceedings."
+        },
+
+        {
+            title: "Notice Required",
+            description:
+                "The Trial Court's failure to provide the prosecutrix notice and an opportunity to participate resulted in the bail order being set aside."
+        },
+
+        {
+            title: "BNSS Section 483(2)",
+            description:
+                "The High Court noted that Section 483(2) BNSS corresponds to Section 439(1A) CrPC concerning participation of the informant or authorised representative in specified bail proceedings."
+        },
+
+        {
+            title: "Supreme Court Precedent Applied",
+            description:
+                "The Court relied upon Jagjeet Singh v. Ashish Mishra and its earlier decision in Ms P v. State (NCT of Delhi) & Anr."
+        },
+
+        {
+            title: "Fresh Bail Consideration",
+            description:
+                "The bail application was remanded to the Trial Court for fresh consideration after providing the prosecutrix the required opportunity of participation."
+        },
+
+        {
+            title: "No Automatic Re-Arrest",
+            description:
+                "The accused was not to be re-arrested merely because the earlier bail order had been set aside."
+        }
+    ],
+
+    legalSignificance:
+        "The judgment reinforces the procedural right of a victim in specified sexual-offence proceedings to participate when the accused seeks bail. It emphasises that the opportunity to be heard must be provided before the bail application is adjudicated and demonstrates that failure to follow the applicable procedural safeguards can result in the bail order being set aside and the application being reconsidered.",
+
+    caseDetails: {
+        caseName:
+            "Ms G v. State NCT of Delhi and Anr.",
+
+        court: "Delhi High Court",
+
+        bench: "Justice Saurabh Banerjee",
+
+        decisionDate: "30 September 2026",
+
+        citation: "2026:DHC:8405"
+    },
+
+    disclaimer:
+        "This article provides an editorial summary of the Delhi High Court judgment and is intended solely for informational and educational purposes. Readers should consult the official judgment and applicable statutory provisions for authoritative legal guidance."
+  }, 
 
 
 ];
