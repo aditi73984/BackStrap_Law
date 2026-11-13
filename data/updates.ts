@@ -1442,6 +1442,106 @@ export const updates: Update[] = [
         disclaimer:
             "This article provides an editorial summary of the Election Commission of India's interim order and is intended solely for informational and educational purposes. It does not constitute legal or electoral advice. Readers should consult the official order and applicable election laws and regulations for authoritative information."
     },
+
+
+{
+    slug: "update-13",
+    title:
+        "Former Madras High Court Judge Justice C.S. Karnan Passes Away At 71",
+    category: "Judiciary",
+    publishedAt: "2026-11-13T21:00:00+05:30",
+    readTime: "5 min read",
+    excerpt:
+        "Former Madras and Calcutta High Court judge Justice C.S. Karnan passed away in Chennai on November 13, 2026, at the age of 71. His judicial career drew national attention following unprecedented contempt proceedings before the Supreme Court in 2017.",
+    image: "/images/update13.png",
+    featured: true,
+
+    sections: [
+        {
+            title: "Former High Court Judge Passes Away At 71",
+            content: [
+                "Former Madras and Calcutta High Court judge Justice C.S. Karnan passed away in Chennai on Friday, November 13, 2026, at the age of 71.",
+                "He had reportedly been undergoing treatment at a private hospital in Chennai following health complications.",
+                "Justice Karnan's death marks the end of a judicial career that remained in the national spotlight, particularly following the unprecedented contempt proceedings initiated against him by the Supreme Court in 2017."
+            ]
+        },
+        {
+            title: "Judicial Career And Appointments",
+            content: [
+                "Justice Karnan was appointed as an Additional Judge of the Madras High Court in March 2009 and subsequently became a permanent judge.",
+                "In March 2016, he was transferred to the Calcutta High Court. He retired from judicial service in June 2017.",
+                "His tenure across the two High Courts was marked by several controversies that brought questions concerning judicial conduct and institutional accountability into public discussion."
+            ]
+        },
+        {
+            title: "Supreme Court Sentenced Him To Six Months' Imprisonment",
+            content: [
+                "In 2017, the Supreme Court initiated suo motu contempt proceedings against Justice Karnan after he made allegations of corruption against judges of the higher judiciary and issued orders concerning senior members of the judiciary.",
+                "A seven-judge Bench headed by then Chief Justice of India Justice J.S. Khehar found him guilty of contempt of court on May 9, 2017, and sentenced him to six months' imprisonment.",
+                "The case was unprecedented as it resulted in a sitting High Court judge being sentenced to imprisonment for contempt of court.",
+                "Justice Karnan was arrested in Coimbatore in June 2017 and was released in December 2017 after serving his sentence."
+            ]
+        },
+        {
+            title: "An Unprecedented Chapter In Indian Judicial History",
+            content: [
+                "The contempt proceedings against Justice Karnan became one of the most unusual episodes in the history of the Indian judiciary.",
+                "The case brought renewed attention to the constitutional position of High Court judges, the Supreme Court's contempt jurisdiction and questions of judicial accountability.",
+                "His judicial career and the proceedings that culminated in his imprisonment continue to form a significant part of discussions on judicial institutions and their functioning."
+            ]
+        }
+    ],
+
+    quote: {
+        text:
+            "The Supreme Court sentenced Justice C.S. Karnan to six months' imprisonment for contempt of court in May 2017.",
+        author: "Supreme Court of India — Order dated May 9, 2017"
+    },
+
+    highlightsTitle: "Key Highlights",
+    highlights: [
+        {
+            title: "Passed Away At 71",
+            description:
+                "Justice C.S. Karnan passed away in Chennai on November 13, 2026."
+        },
+        {
+            title: "Madras High Court",
+            description:
+                "He was appointed as an Additional Judge of the Madras High Court in March 2009."
+        },
+        {
+            title: "Calcutta High Court",
+            description:
+                "He was transferred to the Calcutta High Court in March 2016 and retired in June 2017."
+        },
+        {
+            title: "Six-Month Sentence",
+            description:
+                "A seven-judge Supreme Court Bench sentenced him to six months' imprisonment for contempt of court in 2017."
+        },
+        {
+            title: "Unprecedented Proceedings",
+            description:
+                "The case marked the first instance of a sitting High Court judge in India being sentenced to imprisonment for contempt."
+        }
+    ],
+
+    legalSignificance:
+        "The 2017 proceedings against Justice C.S. Karnan remain an exceptional episode in India's judicial history. They brought questions of judicial accountability, the Supreme Court's contempt jurisdiction and the institutional responsibilities of constitutional court judges into sharp focus.",
+
+    caseDetails: {
+        caseName: "In Re: Justice C.S. Karnan",
+        court: "Supreme Court of India",
+        bench:
+            "Seven-Judge Bench headed by Chief Justice J.S. Khehar",
+        decisionDate: "9 May 2017"
+    },
+
+    disclaimer:
+        "This news update is an editorial summary of publicly reported events and judicial proceedings and is intended solely for informational and educational purposes."
+    },
+
                         
                 
 
