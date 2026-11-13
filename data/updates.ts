@@ -13,6 +13,8 @@ export interface Update {
 
   image: string;
 
+  cardImage?: string;
+
   featured?: boolean;
 
   sections: {
@@ -1458,6 +1460,8 @@ export const updates: Update[] = [
             "Former Madras and Calcutta High Court judge Justice C.S. Karnan passed away in Chennai on November 13, 2026, at the age of 71. His judicial career drew national attention following unprecedented contempt proceedings before the Supreme Court in 2017.",
         
         image: "/images/update13.png",
+
+        cardImage: "/images/update13.png",
 
         featured: true,
 

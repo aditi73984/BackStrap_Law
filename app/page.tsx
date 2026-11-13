@@ -291,7 +291,7 @@ export default function Home() {
             <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 cursor-pointer">
 
               <Image
-                src={featuredUpdate?.image || "/images/placeholder.jpg"}
+                src={featuredUpdate?.cardImage || featuredUpdate?.image || "/images/placeholder.jpg"}
                 alt={featuredUpdate?.title || "Featured Update"}
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
