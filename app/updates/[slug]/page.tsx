@@ -73,7 +73,7 @@ export default async function UpdatePage({ params }: UpdatePageProps) {
 
       <section className="max-w-5xl mx-auto px-6 py-12">
 
-        <div className="relative h-[500px] overflow-hidden rounded-2xl">
+        <div className="relative w-full aspect-[16/9] overflow-hidden rounded-2xl bg-[#F8F5F0]">
 
           <Image
             src={update.image}
@@ -81,7 +81,7 @@ export default async function UpdatePage({ params }: UpdatePageProps) {
             fill
             priority
             sizes="(max-width: 768px) 100vw, 1024px"
-            className="object-cover"
+            className="object-contain"
           />
 
         </div>
