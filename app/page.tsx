@@ -5,6 +5,7 @@ import Image from "next/image";
 import { updates } from "@/data/updates";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { articles } from "@/data/articles";
 
 export default function Home() {
   
@@ -22,16 +23,32 @@ export default function Home() {
   const featuredUpdate = updates.find((update) => update.featured);
 
   const latestUpdates = [...updates]
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() -
-        new Date(a.publishedAt).getTime()
-    )
-    .filter((update) => update.slug !== featuredUpdate?.slug)
-    .slice(0, 5); 
+  .sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() -
+      new Date(a.publishedAt).getTime()
+  )
+  .filter((update) => update.slug !== featuredUpdate?.slug)
+  .slice(0, 5);
 
-  return (
-    <main>
+
+// Articles
+
+const featuredArticle = articles.find((article) => article.featured);
+
+const latestArticles = [...articles]
+  .sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() -
+      new Date(a.publishedAt).getTime()
+  )
+  .filter((article) => article.slug !== featuredArticle?.slug)
+  .slice(0, 5);
+
+
+return (
+  
+<main>
 
     
     <motion.section
@@ -125,49 +142,48 @@ export default function Home() {
             </button> */}
 
             <Link href="/news-update">
-  <button
-    className="px-6 py-3 bg-black text-white rounded-full
-               hover:bg-[#a5880f] hover:text-black
-               transition-all duration-300"
-  >
-    Explore Resources
-  </button>
-</Link>
+              <button
+                className="px-6 py-3 bg-black text-white rounded-full
+                          hover:bg-[#a5880f] hover:text-black
+                          transition-all duration-300"
+              >
+                Explore Resources
+              </button>
+            </Link>
 
 
-<Link href="/top-stories">
-  <button
-    className="px-6 py-3 border border-[#a5880f] text-[#a5880f] rounded-full
-               hover:bg-[#a5880f] hover:text-black
-               transition-all duration-300"
-  >
-    View Top Stories
-  </button>
-</Link>
+            <Link href="/top-stories">
+              <button
+                className="px-6 py-3 border border-[#a5880f] text-[#a5880f] rounded-full
+                          hover:bg-[#a5880f] hover:text-black
+                          transition-all duration-300"
+              >
+                View Top Stories
+              </button>
+            </Link>
           </motion.div>
 
         </div>
 
-        
         <motion.div
           initial={{ opacity: 0, scale: 0.9, x: 40 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           className="flex items-center justify-center lg:justify-end mt-2"
         >
-        <Image
-          src="/images/logo-small.png"
-          alt="Backstrap Law"
-          width={320}
-          height={320}
-          priority
-          // loading="eager"
-          // style={{
-          //   width: "220px",
-          //   height: "auto",
-          // }}
-          className="w-[220px] h-auto"
-        />
+          <Image
+            src="/images/logo-small.png"
+            alt="Backstrap Law"
+            width={320}
+            height={320}
+            priority
+            // loading="eager"
+            // style={{
+            //   width: "220px",
+            //   height: "auto",
+            // }}
+            className="w-[220px] h-auto"
+          />
         </motion.div>
 
       </div>
@@ -370,6 +386,125 @@ export default function Home() {
         </div>
 
       </section>
+
+
+      {/* Articles Section */}
+
+      <section className="px-4 sm:px-6 lg:px-8 w-full py-20 bg-white text-black">
+
+        <div className="flex justify-between items-center mb-12">
+          <h2 className="text-3xl font-bold text-[#a5880f]">
+            Articles
+          </h2>
+
+          <Link
+            href="/articles"
+            className="text-sm text-[#a5880f] hover:underline"
+          >
+            View more →
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-12">
+
+          {/* Featured Article */}
+
+          {featuredArticle ? (
+            <Link href={`/articles/${featuredArticle.slug}`}>
+              <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 cursor-pointer">
+
+                <Image
+                  src={featuredArticle.image || "/images/placeholder.jpg"}
+                  alt={featuredArticle.title}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  className="object-cover"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+
+                <div className="absolute bottom-0 p-6">
+
+                  <p className="text-sm text-[#a5880f] mb-2">
+                    {featuredArticle.category}
+                  </p>
+
+                  <h3 className="text-xl font-semibold leading-snug text-white">
+                    {featuredArticle.title}
+                  </h3>
+
+                  <p className="text-sm text-gray-300 mt-2">
+                    {featuredArticle.excerpt}
+                  </p>
+
+                </div>
+
+              </div>
+            </Link>
+          ) : (
+            <div className="h-[420px] rounded-2xl bg-[#F8F5F0] flex items-center justify-center text-gray-500">
+              No featured article available yet.
+            </div>
+          )}
+
+          {/* Latest Articles */}
+
+          <div className="flex flex-col gap-6">
+
+            {latestArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/articles/${article.slug}`}
+              >
+                <div className="flex gap-4 items-start p-4 rounded-xl border border-gray-200 hover:border-[#a5880f] hover:shadow-md transition-all cursor-pointer">
+
+                  <div className="relative w-16 h-16 rounded-md overflow-hidden flex-shrink-0">
+                    <Image
+                      src={article.image || "/images/placeholder.jpg"}
+                      alt={article.title}
+                      fill
+                      sizes="64px"
+                      className="object-cover"
+                    />
+                  </div>
+
+                  <div>
+
+                    <p className="text-sm font-medium leading-snug text-black hover:text-[#a5880f] transition">
+                      {article.title}
+                    </p>
+
+                    <p className="text-xs text-gray-500 mt-1">
+                      {new Date(article.publishedAt).toLocaleDateString("en-IN", {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                      {" • "}
+                      {new Date(article.publishedAt).toLocaleTimeString("en-IN", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}
+                    </p>
+
+                  </div>
+
+                </div>
+              </Link>
+            ))}
+
+            {articles.length === 0 && (
+              <p className="text-gray-500">
+                Articles will be published here soon.
+              </p>
+            )}
+
+          </div>
+
+        </div>
+
+      </section>
+
 
 
 

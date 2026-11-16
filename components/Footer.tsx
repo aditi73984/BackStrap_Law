@@ -147,13 +147,13 @@ export default function Footer() {
               </Link>
             </motion.li>
 
-            {/* <motion.li whileHover={{ x: 5 }}>
-              <Link href="/article" className="hover:text-white transition">
+            <motion.li whileHover={{ x: 5 }}>
+              <Link href="/articles" className="hover:text-white transition">
                 Articles
               </Link>
             </motion.li>
 
-            <motion.li whileHover={{ x: 5 }}>
+            {/* <motion.li whileHover={{ x: 5 }}>
               <Link href="/blog" className="hover:text-white transition">
                 Blog
               </Link>
