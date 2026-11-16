@@ -203,6 +203,111 @@ export const articles: Story[] = [
       "This article is an editorial summary of the Bombay High Court's judgment and is intended solely for informational and educational purposes."
   },
 
+  {
+    slug: "story-5",
+
+    title:
+      "Sikkim High Court Calls for Scientific Review of Child Mental Health Policies, Raises Concerns Over Prison Rehabilitation",
+
+    category: "Sikkim High Court",
+
+    publishedAt: "2026-07-14T09:30:00+05:30",
+
+    readTime: "6 min read",
+
+    excerpt:
+      "The Sikkim High Court has urged the State Government to scientifically evaluate child mental health programmes while questioning whether existing prison rehabilitation measures effectively prevent repeat offences.",
+
+    image: "/images/story5.png",
+
+    sections: [
+      {
+        title: "Background",
+
+        content: [
+          "The appeal arose from the conviction of a man under the Protection of Children from Sexual Offences (POCSO) Act in connection with the sexual assault of a 17-year-old schoolgirl who later died by suicide.",
+
+          "While the High Court upheld the convictions for sexual assault, wrongful restraint and abetment of suicide, it set aside the separate punishment imposed under Section 354A IPC, holding that overlapping offences cannot attract multiple punishments."
+        ]
+      },
+
+      {
+        title: "Mental Health Concerns",
+
+        content: [
+          "After examining the victim's suicide note, the Division Bench observed that children's emotional and psychological well-being deserves greater institutional attention. The Court emphasised that mental health policies should not merely exist on paper but should be periodically assessed through scientific evaluation.",
+
+          "The Bench recommended the creation of measurable frameworks capable of identifying shortcomings and evaluating whether existing government programmes are actually improving children's mental health."
+        ]
+      },
+
+      {
+        title: "Prison Rehabilitation",
+
+        content: [
+          "The Court also examined the appellant's previous conviction and observed that despite serving an earlier prison sentence, he subsequently committed a graver offence. This prompted the Bench to question the effectiveness of rehabilitation programmes within the State Central Prison.",
+
+          "The Court stressed that correctional institutions should actively reduce the likelihood of repeat offending through meaningful rehabilitation rather than merely serving punitive functions."
+        ]
+      },
+
+      {
+        title: "Decision",
+
+        content: [
+          "The High Court affirmed the appellant's remaining convictions and directed that the sentences run concurrently. It also upheld compensation awarded to the victim's parents.",
+
+          "Copies of the judgment were directed to be forwarded to the Chief Secretary of Sikkim and senior prison authorities for appropriate policy consideration."
+        ]
+      }
+    ],
+
+    quote: {
+      text:
+        "Children's mental health requires proactive intervention supported by scientific evaluation rather than merely implementing schemes.",
+      author: "Sikkim High Court"
+    },
+
+    highlightsTitle: "Key Takeaways",
+
+    highlights: [
+      {
+        title: "Scientific Policy Review",
+        description:
+          "Mental health programmes should be periodically evaluated using measurable outcomes."
+      },
+      {
+        title: "Children's Well-being",
+        description:
+          "Psychological health deserves equal institutional attention alongside physical safety."
+      },
+      {
+        title: "Prison Reform",
+        description:
+          "Correctional systems must focus on reducing repeat offending through rehabilitation."
+      },
+      {
+        title: "Double Punishment Restricted",
+        description:
+          "Overlapping offences cannot result in multiple punishments where statutory protections apply."
+      }
+    ],
+
+    legalSignificance:
+      "The judgment extends beyond criminal law by emphasising evidence-based policymaking in child mental health and the constitutional importance of meaningful prison rehabilitation.",
+
+    caseDetails: {
+      caseName: "Chewang Sherpa v. State of Sikkim",
+      court: "Sikkim High Court",
+      bench: "Chief Justice A. Muhamed Mustaque & Justice Bhaskar Raj Pradhan",
+      decisionDate: "14 July 2026",
+      caseNumber: "Criminal Appeal No. 19 of 2023"
+    },
+
+    disclaimer:
+      "This article provides an editorial summary of the judgment and is intended solely for informational purposes."
+  },
+
 
 
 
